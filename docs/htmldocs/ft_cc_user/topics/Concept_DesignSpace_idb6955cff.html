@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="ConceptTopic" />
+<meta name="DC.Title" content="Design Space" />
+<meta name="abstract" content="The Command Center optimization techniques are used to explore a Design Space, that is, a conceptual space covering a range of values for the design variables." />
+<meta name="description" content="The Command Center optimization techniques are used to explore a Design Space, that is, a conceptual space covering a range of values for the design variables." />
+<meta name="prodname" content="Simcenter Flotherm Command Center User Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_cc_user" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ Command Center User Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="idb6955cff-e3d4-445c-9dce-3906a2f49390" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Design Space</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Design Space" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="idb6955cff-e3d4-445c-9dce-3906a2f49390">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Design Space</h1>
+<div class="body conbody ConceptBody"><div class="abstract ConceptAbstract"><span class="shortdesc">The Command
+Center optimization techniques are used to explore a Design Space,
+that is, a conceptual space covering a range of values for the design variables.</span>
+</div>
+<p class="p">Traditional DoE techniques used
+in the design of physical experiments generally explore the extremities
+and, occasionally, the center of a design space. Maximizing the
+difference in the input variables in the experiment makes it easier
+to determine the influence on the output variables, given that the
+output variables are subject to random and systematic experimental
+error, requiring the experiments to be repeated many times before
+a statistically valid result is obtained. It also makes it easier
+to determine any variation in the systematic error over the design
+space.</p>
+<p class="p">If two parameters, denoted by P1 and P2 are
+varied, the design space can be visualized as a box.</p>
+<div class="fig fignone" id="idb6955cff-e3d4-445c-9dce-3906a2f49390__id62cf2125-53fc-40b4-a34d-99dace36bf32"><span class="figcap"><span class="fig--title-label">Figure 1. </span>Design Space as a Box</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:100" src="../graphics/ug_OptimizeDesignSpace.gif" /></div><br /></div>
+<p class="p">Although the experimental
+designs above contain only 4 or 5 experimental conditions, perhaps
+40 or 50 will be performed to gain knowledge about the experimental
+error.</p>
+<p class="p">One disadvantage of this approach is that if
+the output variable of interest has very little or no dependence
+on one of the input variables, say P2, then the results collapse
+in one direction.</p>
+<div class="fig fignone" id="idb6955cff-e3d4-445c-9dce-3906a2f49390__id71e2fd7a-bef2-424a-95dd-33142b61b5e3"><span class="figcap"><span class="fig--title-label">Figure 2. </span>Collapsed Design Space</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:100" src="../graphics/ug_OptimizeDesignSpaceCollapse.gif" /></div><br /></div>
+<p class="p">Therefore, the four experiments
+to explore the extremities of the design space above yield only
+two pieces of useful information.</p>
+<p class="p">Numerical experiments do not suffer from random
+experimental error, since repeating exactly the same computer run
+leads to exactly the same result, see “<a class="xref fm:HeadingAndPage" href="Concept_DoeStrategy_idccdb2dc7.html#idccdb2dc7-ca9a-461a-9963-9fcedcd7d266__idc95614e4-c668-4204-a5ff-39fafe4df040">Numerical Issues</a>”. Consequently,
+each experiment need only be performed once. For the same number
+of experiments (40 or 50) a much more elaborate experimental design
+is possible.</p>
+<p class="p">Experimental designs for numerical experiments
+should be both space filling and provide maximal information. Space
+filling means that the experiments should be spread through the design
+space. Maximal information means that the data do not collapse if
+the output variable is insensitive to one of the input variables.</p>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/MGCChap_DesignOptimization_idca1f6def.html" title="The Command Center uses three design optimization techniques (DoE, SO, and RSO) to provide as much information as possible about the influence of input variables on output variables.">Design Optimization</a></div>
+</div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_cc_user"
+                DocTitle = "Simcenter™ Flotherm™ Command Center User Guide"
+                PageTitle = "Design Space"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/Concept_DesignSpace_idb6955cff.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ Command Center User Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

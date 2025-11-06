@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="TaskTopic" />
+<meta name="DC.Title" content="Defining a Linear Function Time-Varying Transient Attribute" />
+<meta name="abstract" content="In this example a transient attribute is defined to vary a heat source between 2 and 5 Watts linearly from 0 and 15 seconds. The required multiplication factor of the transient is then calculated to vary from 0.4 (2/5) to 1 (5/5)." />
+<meta name="description" content="In this example a transient attribute is defined to vary a heat source between 2 and 5 Watts linearly from 0 and 15 seconds. The required multiplication factor of the transient is then calculated to vary from 0.4 (2/5) to 1 (5/5)." />
+<meta name="prodname" content="Simcenter Flotherm" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_at_ref" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ Project Attributes Reference Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="id442d8e42-fb5c-49d3-ad31-5d9a70e0b151" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Defining a Linear Function Time-Varying Transient Attribute</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Defining a Linear Function Time-Varying Transient Attribute" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="id442d8e42-fb5c-49d3-ad31-5d9a70e0b151">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Defining a Linear Function Time-Varying Transient Attribute</h1>
+<div class="body taskbody TaskBody"><div class="abstract TaskAbstract"><span class="shortdesc">In this example
+a transient attribute is defined to vary a heat source between 2
+and 5 Watts linearly from 0 and 15 seconds. The required multiplication factor
+of the transient is then calculated to vary from 0.4 (2/5) to 1
+(5/5).</span>
+</div>
+<div class="tasklabel"><h2 class="sectiontitle tasklabel">Procedure</h2></div><ol class="ol steps"><li class="li step stepexpand" id="id442d8e42-fb5c-49d3-ad31-5d9a70e0b151__id0b64bc5f-6b55-42f4-8221-3c5f7bccf576"><span class="ph cmd">Create a new Thermal attribute
+and set the following in the property sheet:</span><div class="itemgroup info StepInfo"><ul class="ul"><li class="li" id="id442d8e42-fb5c-49d3-ad31-5d9a70e0b151__idf37cc939-1cda-478e-b0db-ffc8563a39f8"><p class="p">Name: for example, “2
+to 5 W Linear” </p>
+</li>
+<li class="li" id="id442d8e42-fb5c-49d3-ad31-5d9a70e0b151__id0051fbbd-6feb-437d-88f1-960348f4f54e"><p class="p">Thermal Model: Conduction </p>
+</li>
+<li class="li" id="id442d8e42-fb5c-49d3-ad31-5d9a70e0b151__id717c240e-62eb-45ef-8017-f39750a10a08"><p class="p">Total Power: 5 W — the
+maximum power that will be applied</p>
+</li>
+</ul>
+</div></li>
+<li class="li step stepexpand" id="id442d8e42-fb5c-49d3-ad31-5d9a70e0b151__id4542abb2-58ad-48e7-b176-df0028a9ad4d"><span class="ph cmd">For the Transient Attribute,
+select <span class="ph uicontrol">Create New</span>.</span><div class="itemgroup info StepInfo"><p class="p">A new Transient attribute is
+opened at the <span class="ph uicontrol">Multiplier vs. Time</span> tab.</p>
+</div></li>
+<li class="li step stepexpand" id="id442d8e42-fb5c-49d3-ad31-5d9a70e0b151__id693b86b7-80e5-479e-ae40-e2ddd5a9bc0f"><span class="ph cmd">Set the following in the property
+sheet:</span><div class="itemgroup info StepInfo"><ul class="ul"><li class="li" id="id442d8e42-fb5c-49d3-ad31-5d9a70e0b151__id7da95892-ef79-4aa5-b8b9-521916ac173e"><p class="p">Name: for example, “Linear
+Gradient 0.4” </p>
+</li>
+<li class="li" id="id442d8e42-fb5c-49d3-ad31-5d9a70e0b151__id69c8bce2-440f-40e8-bd7e-372180113be9"><p class="p">Type: Function</p>
+</li>
+<li class="li" id="id442d8e42-fb5c-49d3-ad31-5d9a70e0b151__idb77b4ce1-a4a1-49e5-b88e-2f99673367a5"><p class="p">Overlap: leave as is.</p>
+</li>
+<li class="li" id="id442d8e42-fb5c-49d3-ad31-5d9a70e0b151__ida18ea1bc-d001-4536-9b05-f6cd8c67541a"><p class="p">Add a Sub-Function to
+the list by clicking the + button and then set the End Time to 15
+s.</p>
+</li>
+</ul>
+</div><ol type="a" class="ol substeps"><li class="li substep" id="id442d8e42-fb5c-49d3-ad31-5d9a70e0b151__idc27af43a-1c6f-409c-961d-9e99d1e20eeb"><span class="ph cmd">For the Sub-Function, set
+the following:</span><div class="itemgroup info SubStepInfo"><ul class="ul"><li class="li" id="id442d8e42-fb5c-49d3-ad31-5d9a70e0b151__ide4f78879-3f93-4c25-acd7-96ecc72e2f7a"><p class="p">Sub-Function Type: Linear </p>
+</li>
+<li class="li" id="id442d8e42-fb5c-49d3-ad31-5d9a70e0b151__id72024b42-f790-4031-aa4e-cda94444cdbb"><p class="p">Baseline Value: 0.4 because
+the required multiplication factor of the transient should then
+vary from 0.4 (2/5) to 1 (5/5).</p>
+</li>
+<li class="li" id="id442d8e42-fb5c-49d3-ad31-5d9a70e0b151__id3feee7e0-2e5d-4533-993d-0aada336e29d"><p class="p">Baseline Time: 0 s </p>
+</li>
+<li class="li" id="id442d8e42-fb5c-49d3-ad31-5d9a70e0b151__id71690d60-ac37-4f81-8e7c-cea0bc65a688"><p class="p">Coefficient:
+0.04 that is, the gradient of the function which, in this example
+= (1 − 0.4)/15 </p>
+</li>
+</ul>
+</div></li>
+</ol>
+</li>
+</ol>
+<div class="section result"><div class="tasklabel"><h2 class="sectiontitle tasklabel">Results</h2></div><ul class="ul"><li class="li" id="id442d8e42-fb5c-49d3-ad31-5d9a70e0b151__idd7e03dab-9708-4e66-afe0-44ed54947a30"><p class="p">The sub-function is shown in <a class="xref fm:Figure" href="#id442d8e42-fb5c-49d3-ad31-5d9a70e0b151__id15835d5b-21e7-452a-86b2-22d60d024488">Figure 1</a>.</p>
+<div class="fig fignone" id="id442d8e42-fb5c-49d3-ad31-5d9a70e0b151__id15835d5b-21e7-452a-86b2-22d60d024488"><span class="figcap"><span class="fig--title-label">Figure 1. </span>Transient Attribute
+Curve</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:100" src="../graphics/ug_AttributesTransFun2.gif" /></div><br /></div>
+<p class="p">When this is applied to a 5 W thermal
+attribute, the transient will vary linearly from 0.4 * 5 (that is,
+2) W at 0 s to 1 * 5 (that is, 5) W at 15 s.</p>
+</li>
+<li class="li" id="id442d8e42-fb5c-49d3-ad31-5d9a70e0b151__id22fcccef-4d3a-479a-b350-c0fde40be73d"><p class="p">The transient attribute property
+sheet is shown in <a class="xref fm:Figure" href="#id442d8e42-fb5c-49d3-ad31-5d9a70e0b151__id16e2f971-5612-4ceb-af95-e325ad5922d3">Figure 2</a>.</p>
+<div class="fig fignone" id="id442d8e42-fb5c-49d3-ad31-5d9a70e0b151__id16e2f971-5612-4ceb-af95-e325ad5922d3"><span class="figcap"><span class="fig--title-label">Figure 2. </span>Example Transient Attribute
+Property Sheet</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:100" src="../graphics/ps_transient_linear_grad_04.gif" /></div><br /></div>
+</li>
+<li class="li" id="id442d8e42-fb5c-49d3-ad31-5d9a70e0b151__idae28abf6-6887-45e3-9efd-bf41b6d3163d"><p class="p">The thermal attribute property
+sheet is shown in <a class="xref fm:Figure" href="#id442d8e42-fb5c-49d3-ad31-5d9a70e0b151__id80b7d363-4126-4406-9460-f3a7a6dd77d3">Figure 3</a>.</p>
+<div class="fig fignone" id="id442d8e42-fb5c-49d3-ad31-5d9a70e0b151__id80b7d363-4126-4406-9460-f3a7a6dd77d3"><span class="figcap"><span class="fig--title-label">Figure 3. </span>Example Thermal Attribute
+Property Sheet</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:100" src="../graphics/ps_thermal_2_to_5_linear.gif" /></div><br /></div>
+</li>
+</ul>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/Contain_TransientAttributeProcedures_id0d9b8d80.html" title="Use these procedures to define how transient multipliers vary with time or temperature.">Transient Attribute Procedures</a></div>
+</div>
+
+<div class="linklist linklist relinfo"><strong>Related Topics</strong><br />
+
+<div><a class="link" href="../topics/Concept_TransientSubFunctions_id04127c77.html" title="The start and end points of all defined transient sub-functions are keypointed in the time grid to provide an accurate description of the overall function.">Transient Sub-Functions</a></div>
+<div><a class="link" href="../topics/TaskTop_DefiningATransientAttributeFunction_ida64ee8f6.html" title="Functions can be simple, single subfunctions or complex combinations of subfunctions.">Defining a Transient Attribute Function</a></div></div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_at_ref"
+                DocTitle = "Simcenter™ Flotherm™ Project Attributes Reference Guide"
+                PageTitle = "Defining a Linear Function Time-Varying Transient Attribute"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/TaskTop_DefiningALinearFunctionTimeVaryingTransientAttribute_id442d8e42.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ Project Attributes Reference Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

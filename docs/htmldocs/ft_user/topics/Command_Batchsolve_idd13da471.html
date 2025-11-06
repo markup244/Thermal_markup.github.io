@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="CommandRefTopic" />
+<meta name="DC.Title" content="batchSolve" />
+<meta name="abstract" content="Solves a Simcenter Flotherm project, described by a FloXML or PDML file, in a batch run." />
+<meta name="description" content="Solves a Simcenter Flotherm project, described by a FloXML or PDML file, in a batch run." />
+<meta name="prodname" content="Simcenter Flotherm User Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_user" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ User Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="idd13da471-a351-4119-bc12-3ddf30e6ea8a" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>batchSolve</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="batchSolve" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body class="usa-arg" id="idd13da471-a351-4119-bc12-3ddf30e6ea8a">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">batchSolve</h1>
+<div class="body refbody CommandRefBody"><div class="abstract CommandRefAbstract"><p class="p ContextMGC">Runs on Linux
+platforms.</p>
+<p class="shortdesc">Solves
+a Simcenter Flotherm project, described by a FloXML or PDML file,
+in a batch run.</p>
+</div>
+<div class="section Usages"><h2 class="title Subheading sectiontitle">Usage</h2><div class="section UsageSet"><p class="lines UsageLine">batchSolve <span class="keyword ParameterName RequiredReplaceable">file</span> [options] </p>
+</div>
+</div>
+<div class="section Arguments"><h2 class="title Subheading sectiontitle">Arguments</h2><div class="section ArgumentSet"><dl class="dl ArgumentList"><dt class="dt ArgumentName dlterm" id="idd13da471-a351-4119-bc12-3ddf30e6ea8a__idede24a7d-4775-4404-80e5-3e0d29903c6e"><span class="keyword ParameterName RequiredReplaceable">file</span> </dt>
+<dd class="dd ArgumentDescription"><p class="p">Name
+of a Project FloXML or PDML file to be solved. </p>
+</dd>
+<dt class="dt ArgumentName dlterm" id="idd13da471-a351-4119-bc12-3ddf30e6ea8a__id2587ce21-7581-4d54-a32f-db8c3651c913">[options]</dt>
+<dd class="dd ArgumentDescription"><p class="p">The same options
+as for the <span class="ph FontProperty shellcommand">flotherm</span> command,
+except for the following:</p>
+<ul class="ul ArgumentOptions"><li class="li ArgOption" id="idd13da471-a351-4119-bc12-3ddf30e6ea8a__id1411150a-5c67-4ce0-b0da-a976ef0e07d8"><p class="p Opt">-b</p>
+<p class="p">This is
+not required because <span class="ph FontProperty shellcommand">batchSolve</span> always
+operates as a batch command.</p>
+</li>
+<li class="li ArgOption" id="idd13da471-a351-4119-bc12-3ddf30e6ea8a__id44377070-3bb7-4245-8409-8ab493022e5b"><p class="p Opt">-c</p>
+<p class="p">Ensure
+that the base case is fully solved before using this option to solve
+all the unsolved Command Center scenarios for the project.</p>
+<p class="p">The FLOVOLUNTEERMAXJOBS
+environmental variable is ignored; only one scenario is solved at
+a time.</p>
+</li>
+<li class="li ArgOption" id="idd13da471-a351-4119-bc12-3ddf30e6ea8a__ide813148a-a360-4167-8e14-1adc89d8516f"><p class="p Opt">-env</p>
+<p class="p">This is a Windows-only option. To set up
+the path and environment variables required to run Simcenter Flotherm
+and its utilities, run <span class="ph FontProperty shellcommand">source setup</span>,
+as described under “<a class="xref fm:HeadingAndPage" href="TaskTop_EnvironmentSetupOnLinuxSystems_id1ea6a321.html#id1ea6a321-5080-46f4-80e0-7e748e0c7496__TaskTop_EnvironmentSetupOnLinuxSystems_id1ea6a321.xml#id1ea6a321-5080-46f4-80e0-7e748e0c7496" title="Use the following procedure if you need to run Mentor Graphics tools which require the Simcenter Flotherm environment setup but Simcenter Flotherm has not been run.">Environment Setup on Linux Systems</a>”.</p>
+</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<div class="section Descriptions"><h2 class="title Subheading sectiontitle">Description</h2><p class="p">A typical installation
+puts <span class="ph FontProperty shellcommand">batchSolve</span> in directory:</p>
+<p class="p BlockIndent"><span class="ph filepath">/opt/MentorMA/flosuite_v<var class="keyword varname">version</var>/flotherm/LINUX/bin</span></p>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/MGCAppe_CommandReference_id45ffc4c4.html" title="This appendix contains reference information for command line commands.">Command Reference</a></div>
+</div>
+
+<div class="linklist linklist relinfo"><strong>Related Topics</strong><br />
+
+<div><a class="link" href="../topics/TaskTop_UsingBatchsolveToSolveInBatchModeOnLinuxSystems_id6d0250da.html" title="Use batchSolve to batch solve a project XML or PDML file on Linux systems.">Using batchSolve to Solve in Batch Mode on Linux Systems</a></div>
+<div><a class="link" href="../topics/Command_Flotherm_id90bc24cb.html" title="Solves a Simcenter Flotherm project, or runs a FloSCRIPT file.">flotherm</a></div>
+<div><a class="link" href="../topics/Concept_FloxmlFiles_id06c47ee5.html" title="FloXML files are XML files that can be imported into Simcenter Flotherm.">FloXML Files</a></div></div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_user"
+                DocTitle = "Simcenter™ Flotherm™ User Guide"
+                PageTitle = "batchSolve"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/Command_Batchsolve_idd13da471.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ User Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

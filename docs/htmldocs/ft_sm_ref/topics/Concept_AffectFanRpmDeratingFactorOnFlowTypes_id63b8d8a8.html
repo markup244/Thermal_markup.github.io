@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="ConceptTopic" />
+<meta name="DC.Title" content="Affect of Fan RPM Derating Factor on Flow Types" />
+<meta name="abstract" content="Fans are often set to run below their maximum capacity, to reduce noise and increase their lifetime, but still achieve thermal cooling requirements." />
+<meta name="description" content="Fans are often set to run below their maximum capacity, to reduce noise and increase their lifetime, but still achieve thermal cooling requirements." />
+<meta name="prodname" content="Simcenter Flotherm SmartParts Reference Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_sm_ref" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ SmartParts Reference Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="id63b8d8a8-5b2e-4ccc-87be-27765542c03c" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Affect of Fan RPM Derating Factor on Flow Types</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Affect of Fan RPM Derating Factor on Flow Types" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="id63b8d8a8-5b2e-4ccc-87be-27765542c03c">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Affect of Fan RPM Derating Factor on Flow
+Types</h1>
+<div class="body conbody ConceptBody"><div class="abstract ConceptAbstract"><span class="shortdesc">Fans are often
+set to run below their maximum capacity, to reduce noise and increase
+their lifetime, but still achieve thermal cooling requirements.</span>
+</div>
+<p class="p">Fans are run at less than maximum
+capacity by reducing the RPM that they operate at. This has the
+effect of derating (reducing) the fan curve and is simulated using the
+Derating Factor. The Derating Factor is applied to the different
+flow types as follows:</p>
+<ul class="ul"><li class="li" id="id63b8d8a8-5b2e-4ccc-87be-27765542c03c__ida0f01a03-d36a-4608-b166-40863f099970"><p class="p">Fixed Volume Flow </p>
+<p class="p BlockIndent"><span class="ph FontProperty equationvariable">Derated Flow Rate</span> = <span class="ph FontProperty equationvariable">Derating Factor</span> <span class="ph FontProperty SymbolFont">×</span> <span class="ph FontProperty equationvariable">Original Flow Rate</span> </p>
+</li>
+<li class="li" id="id63b8d8a8-5b2e-4ccc-87be-27765542c03c__idf5e4a741-ddba-4fc9-8004-ae203beced93"><p class="p">Linear Fan </p>
+<p class="p">The volume flow rate and pressure drop values
+are derived from the original fan curve points as follows:</p>
+<p class="p BlockIndent"><span class="ph FontProperty equationvariable">Derated Open Volume Flow Rate</span> = <span class="ph FontProperty equationvariable">Derating Factor</span> <span class="ph FontProperty SymbolFont">×</span> <span class="ph FontProperty equationvariable">Defined Flow Rate</span> </p>
+<p class="p BlockIndent"><span class="ph FontProperty equationvariable">Derated Pressure at Stagnation</span> = (<span class="ph FontProperty equationvariable">Derating Factor</span>)<span class="ph FontProperty VariableSuperScript">2</span> <span class="ph FontProperty SymbolFont">×</span> <span class="ph FontProperty equationvariable">Defined Pressure at Stagnation</span> </p>
+</li>
+<li class="li" id="id63b8d8a8-5b2e-4ccc-87be-27765542c03c__id7f8067c3-efdb-4b6d-aec2-368ab15d9986"><p class="p">Non-Linear Fan </p>
+<p class="p">The derated volume flow rate and pressure
+drop points are derived from the original fan curve points as follows:</p>
+<p class="p BlockIndent"><span class="ph FontProperty equationvariable">Derated Flow Rate</span> = <span class="ph FontProperty equationvariable">Derating Factor</span> <span class="ph FontProperty SymbolFont">×</span> <span class="ph FontProperty equationvariable">Original Flow Rate</span> </p>
+<p class="p BlockIndent"><span class="ph FontProperty equationvariable">Derated Pressure Drop</span> = (<span class="ph FontProperty equationvariable">Derating Factor</span>)<span class="ph FontProperty VariableSuperScript">2</span> <span class="ph FontProperty SymbolFont">×</span> <span class="ph FontProperty equationvariable">Original Pressure Drop</span> </p>
+<p class="p">When
+the Derating Factor is less than 1, a Derated Curve is displayed
+in the Fan Curve Chart dialog box, For example, <a class="xref fm:Figure" href="#id63b8d8a8-5b2e-4ccc-87be-27765542c03c__idef25deca-f161-47c3-ace4-a896c3842bef">Figure 1</a> shows a Derated Fan Curve when the
+Derating Factor is 0.75. Changes made to the original fan curve
+are reflected automatically in the Derated Fan Curve.</p>
+<div class="fig fignone" id="id63b8d8a8-5b2e-4ccc-87be-27765542c03c__idef25deca-f161-47c3-ace4-a896c3842bef"><span class="figcap"><span class="fig--title-label">Figure 1. </span>Derated Fan Curve </span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:200" src="../graphics/smdg_FanCurveDerated.gif" /></div><br /></div>
+</li>
+<li class="li" id="id63b8d8a8-5b2e-4ccc-87be-27765542c03c__id66724f2d-9559-4c55-8e4e-0f442d8db318"><p class="p">Swirl </p>
+<p class="p">If a Constant Speed swirl model is selected,
+then the swirl speed is derived from the specified value as follows:</p>
+<p class="p BlockIndent"><span class="ph FontProperty equationvariable">Derated Swirl Speed</span> = <span class="ph FontProperty equationvariable">Derating Factor</span> <span class="ph FontProperty SymbolFont">×</span> <span class="ph FontProperty equationvariable">Original Swirl Speed</span> </p>
+</li>
+</ul>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/Contain_FanProperties_id4f93190f.html" title="The properties of Fan SmartParts are described in the following subsections and in the property sheet description.">Fan Properties</a></div>
+</div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_sm_ref"
+                DocTitle = "Simcenter™ Flotherm™ SmartParts Reference Guide"
+                PageTitle = "Affect of Fan RPM Derating Factor on Flow Types"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/Concept_AffectFanRpmDeratingFactorOnFlowTypes_id63b8d8a8.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ SmartParts Reference Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

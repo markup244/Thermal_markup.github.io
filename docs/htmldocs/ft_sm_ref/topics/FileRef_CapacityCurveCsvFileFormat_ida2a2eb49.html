@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="FileRefTopic" />
+<meta name="DC.Title" content="Capacity Curve CSV File Format" />
+<meta name="abstract" content="Use this file to create a Cooler SmartPart capacity curve by file import as an alternative to manually adding data directly into the Capacity Curve dialog box." />
+<meta name="description" content="Use this file to create a Cooler SmartPart capacity curve by file import as an alternative to manually adding data directly into the Capacity Curve dialog box." />
+<meta name="prodname" content="Simcenter Flotherm SmartParts Reference Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_sm_ref" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ SmartParts Reference Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="ida2a2eb49-66c1-4af2-b641-b87a2dbfe455" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Capacity Curve CSV File Format</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Capacity Curve CSV File Format" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="ida2a2eb49-66c1-4af2-b641-b87a2dbfe455">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Capacity
+Curve CSV File Format</h1>
+<div class="body refbody FileRefBody"><div class="abstract FileRefAbstract"><p class="p ContextMGC">A comma-separated
+point-pair curve text data file.</p>
+<p class="shortdesc">Use this file to create a Cooler
+SmartPart capacity curve by file import as an alternative to manually
+adding data directly into the Capacity Curve dialog box.</p>
+</div>
+<div class="section Formats"><h2 class="title Subheading sectiontitle">Format</h2><p class="p">A Capacity Curve CSV File must conform
+to the following formatting and syntax rules:</p>
+<ul class="ul"><li class="li" id="ida2a2eb49-66c1-4af2-b641-b87a2dbfe455__id26cc3880-08ec-4fcf-b2a1-04c1014c422d"><p class="p">The units are those currently
+set by the dialog box.</p>
+</li>
+</ul>
+<ul class="ul"><li class="li" id="ida2a2eb49-66c1-4af2-b641-b87a2dbfe455__id241a7cd3-9764-4b08-9e7f-85fb5d04b11d"><p class="p">The list can be any length.</p>
+</li>
+</ul>
+<ul class="ul"><li class="li" id="ida2a2eb49-66c1-4af2-b641-b87a2dbfe455__id6d05afcd-e515-4f87-8ce6-a9c1d51c0c78"><p class="p">The values are in floating point
+format.</p>
+</li>
+</ul>
+<ul class="ul"><li class="li" id="ida2a2eb49-66c1-4af2-b641-b87a2dbfe455__id1f2ce1e1-4227-4d17-932c-6e1af8aac802"><p class="p">The file format is two columns
+of data separated by a comma.</p>
+<pre class="pre codeblock leveled"><code>&lt;return_air_temperature&gt;,&lt;cooling_capacity&gt; 
+&lt;return_air_temperature&gt;,&lt;cooling_capacity&gt; 
+... </code></pre></li>
+</ul>
+</div>
+<div class="section Arguments"><h2 class="title Subheading sectiontitle">Parameters</h2><div class="section ArgumentSet"><dl class="dl ArgumentList"><dt class="dt ArgumentName dlterm" id="ida2a2eb49-66c1-4af2-b641-b87a2dbfe455__id1009a937-fd70-49b9-8c67-b9b8c9c95210">return_air_temperature</dt>
+<dd class="dd ArgumentDescription"><p class="p">The return
+air temperature.</p>
+</dd>
+<dt class="dt ArgumentName dlterm" id="ida2a2eb49-66c1-4af2-b641-b87a2dbfe455__id930b69d3-7b23-47f0-a4c8-f9c1ac6d4971">cooling_capacity</dt>
+<dd class="dd ArgumentDescription"><p class="p">The cooling
+capacity at the return air temperature.</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="section Examples"><h2 class="title Subheading sectiontitle">Examples</h2><p class="p">The following is an example where
+the return air temperature is in degC and the cooling capacity is
+in Watts.</p>
+<pre class="pre codeblock leveled"><code>20,11000 
+27,13000 
+30,17000 
+32.5,21000 
+35,24000 
+38,28000 
+40.5,31000 </code></pre></div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/Contain_CapacityCurve_ide3798d06.html" title="A capacity curve provides the capability to manually define, or import data from a CSV file, a curve definition defining Cooler Capacity limit (power) versus Return Temperature.">Capacity Curve</a></div>
+</div>
+
+<div class="linklist linklist relinfo"><strong>Related Topics</strong><br />
+
+<div><a class="link" href="../topics/TaskTop_DefiningCoolerCapacityCurve_id79eaeb07.html#id79eaeb07-bdf0-4cd0-b563-bfeabedafd8e__" title="A cooler capacity curve can be defined either by importing a CSV file or adding points interactively. Such data is available from manufacturers.">Defining a Cooler Capacity Curve</a></div>
+<div><a class="link" href="../topics/GUIRefT_CapacityCurveDialogBox_idbb910cce.html#idbb910cce-da9c-4c90-9b41-0b012501b5b3__" title="Use this dialog box to define a cooler capacity curve from a sequence of points.">Capacity Curve Dialog Box</a></div></div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_sm_ref"
+                DocTitle = "Simcenter™ Flotherm™ SmartParts Reference Guide"
+                PageTitle = "Capacity Curve CSV File Format"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/FileRef_CapacityCurveCsvFileFormat_ida2a2eb49.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ SmartParts Reference Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="TaskTopic" />
+<meta name="DC.Title" content="Exporting Cell by Cell Results Data" />
+<meta name="abstract" content="You can export solution results for any calculated field variable for the solution domain or any assembly or object as a csv file. The results at the center of every grid cell are reported." />
+<meta name="description" content="You can export solution results for any calculated field variable for the solution domain or any assembly or object as a csv file. The results at the center of every grid cell are reported." />
+<meta name="prodname" content="Simcenter Flotherm User Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_user" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ User Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="id874adcfd-f919-49b6-94eb-5510b10b2880" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Exporting Cell by Cell Results Data</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Exporting Cell by Cell Results Data" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="id874adcfd-f919-49b6-94eb-5510b10b2880">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Exporting Cell by Cell Results
+Data</h1>
+<div class="body taskbody TaskBody"><div class="abstract TaskAbstract"><p class="shortdesc">You can export solution results for any
+calculated field variable for the solution domain or any assembly
+or object as a csv file. The results at the center of every grid
+cell are reported.</p>
+<p class="p">Similarly, solution results data over a plane for any calculated
+field variable can be exported using Export Plane Plot Scalar Field
+button in the “<a class="xref fm:HeadingAndPage" href="GUIRefT_PlanePlotPropertySheet_idff06c3f6.html#idff06c3f6-9b34-4fa4-b092-9991df64e971__GUIRefT_PlanePlotPropertySheet_idff06c3f6.xml#idff06c3f6-9b34-4fa4-b092-9991df64e971" title="Use this property sheet to activate or deactivate the display of scalar values or vector fields and change its specification.">Plane Plot Property Sheet</a>”.</p>
+</div>
+<div class="tasklabel"><h2 class="sectiontitle tasklabel">Procedure</h2></div><ol class="ol steps"><li class="li step stepexpand" id="id874adcfd-f919-49b6-94eb-5510b10b2880__id6f5da420-193a-4221-ace2-acd2ec2ae085"><span class="ph cmd">Select
+Analyze.</span></li>
+<li class="li step stepexpand" id="id874adcfd-f919-49b6-94eb-5510b10b2880__id8d885878-ea95-424d-b0e4-cfaf75377129"><span class="ph cmd">In the
+Model tab, right-click over the item that you want to export the results
+of and choose <span class="ph uicontrol">Export Cell by Cell Results...</span> </span><div class="itemgroup stepresult"><p class="p">The Export Cell by Cell Results dialog opens.</p>
+</div></li>
+<li class="li step stepexpand" id="id874adcfd-f919-49b6-94eb-5510b10b2880__id1eb672cc-7307-43bf-a395-0e9b64a1ee30"><span class="ph cmd">Use the
+Variable dropdown menu to choose one of the calculated field variables
+available in the solution.</span></li>
+<li class="li step stepexpand" id="id874adcfd-f919-49b6-94eb-5510b10b2880__id5c6b6046-8fef-4ec2-82e9-4589c1465eb9"><span class="ph cmd">Use the
+Grid dropdown menu to choose a grid.</span><div class="itemgroup info StepInfo"><p class="p">You can export the results of two types of solution
+grid:</p>
+<ul class="ul"><li class="li" id="id874adcfd-f919-49b6-94eb-5510b10b2880__id0ace47c4-d9c5-48e9-92c2-1ef0705249dd"><p class="p">Base Grid
+− for the grid created from keypoints, constraints, and system grid.</p>
+</li>
+<li class="li" id="id874adcfd-f919-49b6-94eb-5510b10b2880__ida2332a22-5f81-4306-af23-cc4adbe4f231"><p class="p">&lt;Object&gt;
+− for the localized grids covering the selected object for which
+the cell by cell results are exported.</p>
+</li>
+</ul>
+</div></li>
+<li class="li step stepexpand" id="id874adcfd-f919-49b6-94eb-5510b10b2880__idfb407529-e481-47ee-9664-7336f38cb49d"><span class="ph cmd">Click <span class="ph uicontrol">OK</span>,
+navigate to a folder, optionally enter a filename, and click <span class="ph uicontrol">Save</span>.</span><div class="itemgroup info StepInfo"><p class="p">The default filename is:</p>
+<p class="p BlockIndent"><span class="ph filepath"><var class="keyword varname">object name</var>_<var class="keyword varname">variable name</var>_<var class="keyword varname">grid name</var>.csv</span></p>
+</div></li>
+</ol>
+<div class="section result"><div class="tasklabel"><h2 class="sectiontitle tasklabel">Results</h2></div><ul class="ul"><li class="li" id="id874adcfd-f919-49b6-94eb-5510b10b2880__idfb95e04e-83c9-4614-aeba-50dd914294bb"><p class="p">A .csv
+file is saved with all the grid cells from the selected grid, for the
+selected variable, within the bounding box of the selected object.
+If there are any localized grid settings within the solution domain,
+then averaged values will be displayed for the Base Grid selection.
+These averaged values are those mapped onto the Base Grid from the
+localized grid solution and are enclosed in square brackets.</p>
+<p class="p">For Transient solutions, results for the timestep selected in
+the Transient Time Step dropdown menu are exported.</p>
+</li>
+<li class="li" id="id874adcfd-f919-49b6-94eb-5510b10b2880__id1d59f176-6b11-4b39-a212-c56991a5ab3a"><p class="p">Results data
+exported for 2D objects or Over a Plane Plot</p>
+<p class="p">Plane plot or 2D objects data is aligned in one of three ways:</p>
+<ul class="ul"><li class="li" id="id874adcfd-f919-49b6-94eb-5510b10b2880__idb853a696-091e-49ca-9183-4d9a2b0f00b2"><p class="p">A plane
+or a 2D object aligned in X direction, where Y is horizontal and
+Z is vertical.</p>
+</li>
+<li class="li" id="id874adcfd-f919-49b6-94eb-5510b10b2880__iddc9526a5-bdfa-4d19-b809-39f6a27664a4"><p class="p">A plane or
+a 2D object aligned in Y direction, where X is horizontal and Z
+is vertical.</p>
+</li>
+<li class="li" id="id874adcfd-f919-49b6-94eb-5510b10b2880__id02d02507-6f0b-42fb-b776-2f215bd5e5df"><p class="p">A plane or
+a 2D object aligned in Z direction, where X is horizontal and Y
+is vertical.</p>
+</li>
+</ul>
+<div class="fig fignone" id="id874adcfd-f919-49b6-94eb-5510b10b2880__id385b5d0d-a915-4519-af43-fc850c94c636"><span class="figcap"><span class="fig--title-label">Figure 1. </span>Example
+of a Plane or 2D Object Aligned in the X Direction</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:120" src="../graphics/ug_vis_tables18a.png" /></div><br /></div>
+<p class="p">Two grid directions are used in the exported the results.</p>
+<p class="p"><a class="xref fm:Figure" href="#id874adcfd-f919-49b6-94eb-5510b10b2880__id872e0d03-483f-4233-878d-280c9a51bba5">Figure 2</a> shows the temperature
+in each grid cell in the Z-plane located at Z=0.0197. </p>
+<ul class="ul"><li class="li" id="id874adcfd-f919-49b6-94eb-5510b10b2880__ida85acc25-6f73-4599-9c40-c64366349af9"><p class="p">The cell
+highlighted is labeled by the grid indices IY=5 and IX=4. </p>
+</li>
+<li class="li" id="id874adcfd-f919-49b6-94eb-5510b10b2880__id8e6b715b-6940-4ff4-8bc1-aa10ff3a652c"><p class="p">The coordinates
+of the cell center are X=0.053, Y=0.116, and Z=0.0197. </p>
+</li>
+<li class="li" id="id874adcfd-f919-49b6-94eb-5510b10b2880__id422d6c45-29f2-4d9d-9600-9f75d99b23ae"><p class="p">The temperature
+in this cell is 102°C.</p>
+</li>
+</ul>
+<div class="fig fignone" id="id874adcfd-f919-49b6-94eb-5510b10b2880__id872e0d03-483f-4233-878d-280c9a51bba5"><span class="figcap"><span class="fig--title-label">Figure 2. </span>Example
+csv Results File for a Plane Plot in the X Direction</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:96" src="../graphics/exporting%20_cell_by_cell_2D_csv_example.png" /></div><br /></div>
+<div class="note note"><span class="notetitle">Note:</span> <p class="p">A similar csv file is exported for 2D objects. </p>
+</div>
+</li>
+<li class="li" id="id874adcfd-f919-49b6-94eb-5510b10b2880__idabd423bd-82fe-4d59-983d-445c829a4687"><p class="p">Results data
+exported for a volume object</p>
+<p class="p">When exporting results data for a volume object, all three grid
+directions are included in the csv file. In <a class="xref fm:Figure" href="#id874adcfd-f919-49b6-94eb-5510b10b2880__idda151969-2dbd-4941-b27c-2e7afef45361">Figure 3</a>, the cell highlighted:
+table cell IX=3, IY=5, IZ=2 (location X=0.033, Y=0.116, Z=0.012)
+has a temperature of 24.1°C.</p>
+<div class="fig fignone" id="id874adcfd-f919-49b6-94eb-5510b10b2880__idda151969-2dbd-4941-b27c-2e7afef45361"><span class="figcap"><span class="fig--title-label">Figure 3. </span>Example
+csv Results File for a Volume Object - Cell Results for Temperature</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:96" src="../graphics/exporting%20_cell_by_cell_volume_csv_example.png" /></div><br /></div>
+</li>
+<li class="li" id="id874adcfd-f919-49b6-94eb-5510b10b2880__id0d11f0c6-2adc-4aa7-b3b9-d45211cffa89"><p class="p">Velocity Components
+and Stagger Option </p>
+<p class="p">When <span class="ph FontProperty HeadingLabel">Tables Velocity View Stagger</span> is
+active (the default), the velocities displayed are the discretized
+values of the components <span class="ph FontProperty emphasis">u</span>, <span class="ph FontProperty emphasis">v</span> and <span class="ph FontProperty emphasis">w</span> of
+the velocity vector field located at the faces of the grid cells.
+This arrangement is depicted schematically in the X-Y, X-Z and Y-Z planes
+for a single cell as shown in <a class="xref fm:Figure" href="#id874adcfd-f919-49b6-94eb-5510b10b2880__id7f59ecb4-f523-455f-b4ec-fbbead5b0b95">Figure 4</a>.</p>
+<div class="fig fignone" id="id874adcfd-f919-49b6-94eb-5510b10b2880__id7f59ecb4-f523-455f-b4ec-fbbead5b0b95"><span class="figcap"><span class="fig--title-label">Figure 4. </span>View Stagger</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:120" src="../graphics/ug_vis_tables21a.png" /></div><br /></div>
+<p class="p">When deactivated, the velocity
+is interpolated to the cell center, as for the other variables.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/Contain_AnalyzeModeOperations_id7085fb2d.html" title="Post-processing operations on results data.">Analyze Mode Operations</a></div>
+</div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_user"
+                DocTitle = "Simcenter™ Flotherm™ User Guide"
+                PageTitle = "Exporting Cell by Cell Results Data"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/TaskTop_ExportingCellByCellResultsData_id874adcfd.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ User Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

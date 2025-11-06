@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="MGCChapter" />
+<meta name="DC.Title" content="Design Optimization" />
+<meta name="abstract" content="The Command Center uses three design optimization techniques (DoE, SO, and RSO) to provide as much information as possible about the influence of input variables on output variables." />
+<meta name="description" content="The Command Center uses three design optimization techniques (DoE, SO, and RSO) to provide as much information as possible about the influence of input variables on output variables." />
+<meta name="prodname" content="Simcenter Flotherm Command Center User Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_cc_user" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ Command Center User Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="idca1f6def-05da-4fab-97ed-16bc8e6239b9" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Design Optimization</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Design Optimization" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="idca1f6def-05da-4fab-97ed-16bc8e6239b9">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1"> Design Optimization</h1>
+<div class="body MGCBody"><div class="abstract MGCAbstract"><span class="shortdesc">The
+Command Center uses three design optimization techniques (DoE, SO,
+and RSO) to provide as much information as possible about the influence of
+input variables on output variables.</span>
+</div>
+<p class="p">Experimental
+design methods are widely used in research as well as in industrial
+settings, however, sometimes for very different purposes.</p>
+<p class="p">The primary goal in scientific research
+is usually to show the statistical significance of an effect that
+a particular factor exerts on the dependent variable of interest. </p>
+<p class="p">In industrial settings, the primary
+goal is usually to extract the maximum amount of information regarding
+the factors affecting a product or process from as few (costly) observations
+as possible. </p>
+</div>
+<div class="related-links TopicTOC chaptoc">
+<ul class="ullinks">
+<li class="link ulchildlink"><strong><a href="../topics/Concept_DesignSpace_idb6955cff.html" title="The Command Center optimization techniques are used to explore a Design Space, that is, a conceptual space covering a range of values for the design variables.">Design Space</a></strong></li>
+<li class="link ulchildlink"><strong><a href="../topics/Contain_DesignOfExperimentsDoe_idc279f8b8.html" title="A Design of Experiments (DoE) creates a number of experiments (scenario projects) where the selected input variables are varied within a defined range.">Design of Experiments (DoE)</a></strong></li>
+<li class="link ulchildlink"><strong><a href="../topics/Contain_SequentialOptimizationSo_id53fbbc51.html" title="A Sequential Optimization (SO) uses the results of a DoE as input to create and run further scenarios to find the optimum design. Like a DoE, an SO is performed within a design space defined by input variables and their ranges.">Sequential Optimization (SO)</a></strong></li>
+<li class="link ulchildlink"><strong><a href="../topics/Contain_ResponseSurfaceOptimizationRso_idc183ba28.html" title="RSO is a faster method of optimization than performing an SO from the best design available.">Response Surface Optimization (RSO)</a></strong></li>
+<li class="link ulchildlink"><strong><a href="../topics/Contain_OptimizationViewersAndDialogBoxes_id6dbf96bb.html" title="The following windows and dialog boxes are used during optimization.">Optimization Viewers and Dialog Boxes</a></strong></li>
+</ul>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_cc_user"
+                DocTitle = "Simcenter™ Flotherm™ Command Center User Guide"
+                PageTitle = "Design Optimization"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/MGCChap_DesignOptimization_idca1f6def.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ Command Center User Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

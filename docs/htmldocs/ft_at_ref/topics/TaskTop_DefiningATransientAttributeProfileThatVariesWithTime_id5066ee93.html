@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="TaskTopic" />
+<meta name="DC.Title" content="Defining a Transient Attribute Profile That Varies With Time" />
+<meta name="abstract" content="You can specify data points either by direct entry in a chart table or by importing the point values from CSV files." />
+<meta name="description" content="You can specify data points either by direct entry in a chart table or by importing the point values from CSV files." />
+<meta name="prodname" content="Simcenter Flotherm" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_at_ref" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ Project Attributes Reference Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="id5066ee93-e15b-400a-84cc-30e4136ddda5" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Defining a Transient Attribute Profile That Varies With Time</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Defining a Transient Attribute Profile That Varies With Time" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="id5066ee93-e15b-400a-84cc-30e4136ddda5">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Defining a Transient Attribute Profile That Varies
+With Time</h1>
+<div class="body taskbody TaskBody"><div class="abstract TaskAbstract"><span class="shortdesc">You
+can specify data points either by direct entry in a chart table
+or by importing the point values from CSV files.</span>
+</div>
+<div class="tasklabel"><h2 class="sectiontitle tasklabel">Procedure</h2></div><ol class="ol steps"><li class="li step stepexpand" id="id5066ee93-e15b-400a-84cc-30e4136ddda5__id9d7879b8-2bb7-46cd-a80d-9ba5d4be0343"><span class="ph cmd">In the <span class="ph uicontrol">Multiplier
+vs. Time</span> tab of the Transient Attribute property sheet,
+select a Type of Profile.</span></li>
+<li class="li step stepexpand" id="id5066ee93-e15b-400a-84cc-30e4136ddda5__idcb2cd502-c165-4f1e-a06b-5cd2e0865640"><span class="ph cmd">Click the Transient Time Chart <span class="ph uicontrol">Click
+to Edit</span> button.</span><div class="itemgroup info StepInfo"><p class="p">The Transient Time Chart is
+opened in Edit mode.</p>
+</div></li>
+<li class="li step stepexpand" id="id5066ee93-e15b-400a-84cc-30e4136ddda5__id7c4f6ea9-8dc5-416f-bedb-e31d339f6437"><span class="ph cmd">Select the units for Time.</span></li>
+<li class="li step stepexpand" id="id5066ee93-e15b-400a-84cc-30e4136ddda5__id8cd045b7-9f36-4531-8fea-e92b7a462f1b"><span class="ph cmd">Depending on the how you want
+to enter data, choose one of the following methods.</span><div class="itemgroup info StepInfo">
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="id5066ee93-e15b-400a-84cc-30e4136ddda5__id9281ccae-aa87-4f08-8cdd-3c2ae017e25b" class="table" frame="border" border="1" rules="cols"><colgroup><col style="width:2.088in" /><col style="width:4.087in" /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry cellrowborder default-entry" style="vertical-align:top;" id="d1041e203"><p class="p">If you want to... </p>
+</th>
+<th class="entry cellrowborder default-entry" style="vertical-align:top;" id="d1041e206"><p class="p">Do
+the following:</p>
+</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d1041e203 "><p class="p">Enter data manually.</p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d1041e206 "><ol class="ol"><li class="li" id="id5066ee93-e15b-400a-84cc-30e4136ddda5__idb7d314f1-a116-4c1a-bb58-7ca7fa1c82c0"><p class="p">Add values for Time and Multiplier.</p>
+</li>
+<li class="li" id="id5066ee93-e15b-400a-84cc-30e4136ddda5__id2450dc91-b8fe-4535-9b34-07cd25da9648"><p class="p">If another source is to be defined, click
+the + button to add another row in the table.</p>
+</li>
+<li class="li" id="id5066ee93-e15b-400a-84cc-30e4136ddda5__id0f8b51f1-a203-400a-a4e6-8e8804335733"><p class="p">Enter another set of values.</p>
+</li>
+<li class="li" id="id5066ee93-e15b-400a-84cc-30e4136ddda5__ide969c929-234a-4aaf-b194-63bd6aac219b"><p class="p">Continue adding data in this way.</p>
+<p class="p">The chart is updated as you enter data.
+You can delete rows by clicking the - button.</p>
+</li>
+</ol>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d1041e203 "><p class="p">Enter data by CSV file import.</p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d1041e206 "><ol class="ol"><li class="li" id="id5066ee93-e15b-400a-84cc-30e4136ddda5__id802c0a43-f832-48ed-b775-26ba1425e09e"><p class="p">Click <span class="ph uicontrol">Import CSV File</span>.</p>
+</li>
+<li class="li" id="id5066ee93-e15b-400a-84cc-30e4136ddda5__idc4bfcf5f-7d0d-4435-95ae-4a63ccf5b90d"><p class="p">Navigate to, and select, a valid CSV file and
+click <span class="ph uicontrol">Open</span>.</p>
+</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div></li>
+<li class="li step stepexpand" id="id5066ee93-e15b-400a-84cc-30e4136ddda5__ide083d8aa-08f7-48cc-8790-94adae3fdfa4"><span class="ph cmd">Click <span class="ph uicontrol">OK</span> to
+save the data and close the Transient Time Chart.</span></li>
+<li class="li step stepexpand" id="id5066ee93-e15b-400a-84cc-30e4136ddda5__idef81f869-ca98-4852-80b1-86d35dc67f55"><span class="ph cmd">To repeat
+the profile, see “<a class="xref fm:HeadingAndPage" href="TaskTop_DefiningAPeriodicTransientAttribute_ide43c53fe.html#ide43c53fe-ab40-4c82-bba4-33c27d2dc6c1__TaskTop_DefiningAPeriodicTransientAttribute_ide43c53fe.xml#ide43c53fe-ab40-4c82-bba4-33c27d2dc6c1" title="Time-varying transients, can be set up to be periodic, that is, at the end of the profile or function, the profile/function is repeated.">Defining a Periodic Transient Attribute</a>”.</span></li>
+</ol>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/Contain_TransientAttributeProcedures_id0d9b8d80.html" title="Use these procedures to define how transient multipliers vary with time or temperature.">Transient Attribute Procedures</a></div>
+</div>
+
+<div class="linklist linklist relinfo"><strong>Related Topics</strong><br />
+
+<div><a class="link" href="../topics/GUIRefT_TransientAttributePropertySheet_id5ac5d23b.html" title="Use this property sheet to define a transient variation with time, temperature, or both.">Transient Attribute Property Sheet</a></div>
+<div><a class="link" href="../topics/FileRef_TransientTimeChartCsvFileFormat_id2f431cbf.html" title="Use this file to set up a transient attribute profile which varies with time.">Transient Time Chart CSV File Format</a></div>
+<div><a class="link" href="../topics/TaskTop_DefiningATransientAttribute_id79078ca1.html" title="Transients can vary with time or with the temperature from a monitor point.">Defining a Transient Attribute</a></div>
+<div><a class="link" href="../topics/TaskTop_UsingMultipliers_ide957b5e3.html" title="Although you can combine the attribute value and the multiplier in any number of ways, the simplest method is described.">Using Multipliers</a></div>
+<div><a class="link" href="../topics/GUIRefT_TransientTimeChart_ida4fdc617.html" title="Use this chart to create or confirm the profile of the multiplier variation with time.">Transient Time Chart</a></div></div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_at_ref"
+                DocTitle = "Simcenter™ Flotherm™ Project Attributes Reference Guide"
+                PageTitle = "Defining a Transient Attribute Profile That Varies With Time"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/TaskTop_DefiningATransientAttributeProfileThatVariesWithTime_id5066ee93.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ Project Attributes Reference Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

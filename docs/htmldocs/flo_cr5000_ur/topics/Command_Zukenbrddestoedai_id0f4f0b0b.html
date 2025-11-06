@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="CommandRefTopic" />
+<meta name="DC.Title" content="ZukenBrdDesToEDAI" />
+<meta name="abstract" content="Creates a .floeda file from data read from .pcf, .ftf and .mrf ASCII input files." />
+<meta name="description" content="Creates a .floeda file from data read from .pcf, .ftf and .mrf ASCII input files." />
+<meta name="prodname" content="Zuken CR-5000 Board Designer Interface User Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="none" />
+<meta name="Tier" content="3" />
+<meta name="SubTitle" content="Supports Simcenter™ Flotherm™ EDA Bridge 8.1 or later, Simcenter™ Flotherm™ PCB 5.1 or later, and CR-5000 Board Designer 9.0 or later" />
+<meta name="SourceHandle" content="flo_cr5000_ur" />
+<meta name="SoftwareVersionNum" content="2.42" />
+<meta name="SoftwareRelease" content="2.42" />
+<meta name="RevHist" content="2" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="mgc_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Zuken CR-5000 Board Designer Interface User Guide" />
+<meta name="CSHelp" content="no" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2.42,product.id.P11501,product.id.P11514" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="id0f4f0b0b-a96a-424a-bd4a-98c6117cdac8" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>ZukenBrdDesToEDAI</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="ZukenBrdDesToEDAI" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2.42,product.id.P11501,product.id.P11514" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body class="usa-arg" id="id0f4f0b0b-a96a-424a-bd4a-98c6117cdac8">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">ZukenBrdDesToEDAI</h1>
+<div class="body refbody CommandRefBody"><div class="abstract CommandRefAbstract"><span class="shortdesc">Creates
+a <span class="ph filepath">.floeda</span> file from data read
+from <span class="ph filepath">.pcf</span>, <span class="ph filepath">.ftf</span> and <span class="ph filepath">.mrf </span>ASCII
+input files. </span>
+</div>
+<div class="section Usages"><h2 class="title Subheading sectiontitle">Usage</h2><div class="section UsageSet"><p class="lines UsageLine">ZukenBrdDesToEDAI <span class="keyword ParameterName Required">–job</span> <span class="keyword ParameterName RequiredReplaceable">file_name_stem</span> [<span class="keyword ParameterName Optional">-dir</span> <span class="keyword ParameterName OptionalReplaceable">dir_name</span>] [<span class="keyword ParameterName Optional">-out</span> <span class="keyword ParameterName OptionalReplaceable">file_name</span>] <br />
+[<span class="keyword ParameterName Optional">-olayer</span> <span class="keyword ParameterName OptionalReplaceable">lyr_name</span>] [<span class="keyword ParameterName Optional">-bolayer</span> <span class="keyword ParameterName OptionalReplaceable">lyr_name</span>] [<span class="keyword ParameterName Optional">-bolayer2</span> <span class="keyword ParameterName OptionalReplaceable">lyr_name2</span>] [<span class="keyword ParameterName Optional">-ht</span> <span class="keyword ParameterName OptionalReplaceable">ht_value</span>] <br />
+[<span class="keyword ParameterName Optional">-pwra</span> <span class="keyword ParameterName OptionalReplaceable">pwra_name</span>] [<span class="keyword ParameterName Optional">-pkga</span> <span class="keyword ParameterName OptionalReplaceable">pkga_name</span>] [<span class="keyword ParameterName Optional">-pkgm</span> <span class="keyword ParameterName OptionalReplaceable">pkgm_name</span>] <br />
+[<span class="keyword ParameterName Optional">-cov</span> {<span class="keyword ParameterName Optional">calc</span> | <span class="keyword ParameterName Optional">image | {def </span>[<span class="keyword ParameterName Optional">-scov</span> <span class="keyword ParameterName OptionalReplaceable">sig_cov</span>] [<span class="keyword ParameterName Optional">-pcov</span> <span class="keyword ParameterName OptionalReplaceable">pwr_cov</span>]}}]<br />
+[-nounpl]</p>
+</div>
+</div>
+<div class="section Arguments"><h2 class="title Subheading sectiontitle">Arguments</h2><div class="section ArgumentSet"><dl class="dl ArgumentList"><dt class="dt ArgumentName dlterm" id="id0f4f0b0b-a96a-424a-bd4a-98c6117cdac8__idd9a48222-71ba-4a4f-ad94-42fbfcb418ec"><span class="keyword ParameterName Required">-job</span> <span class="keyword ParameterName RequiredReplaceable">file_name_stem</span></dt>
+<dd class="dd ArgumentDescription"><p class="p">A required switch and string
+pair that specifies the job filename stem name of the input file,
+without the extension. An extension of “.pcf,” “.ftf,” and “.mrf”
+will be appended when the interface starts to read the files.</p>
+</dd>
+<dt class="dt ArgumentName dlterm" id="id0f4f0b0b-a96a-424a-bd4a-98c6117cdac8__id5bd35783-4c14-4654-b994-25738a46f111"><span class="keyword ParameterName Optional">-dir</span> <span class="keyword ParameterName OptionalReplaceable">dir_name</span></dt>
+<dd class="dd ArgumentDescription"><p class="p">An optional switch and string
+pair that specifies the name of the directory where the input files
+are located. This parameter is only needed if you are invoking the
+interface from a different directory.</p>
+</dd>
+<dt class="dt ArgumentName dlterm" id="id0f4f0b0b-a96a-424a-bd4a-98c6117cdac8__id156a6477-4006-4019-af80-09859509dcf9"><span class="keyword ParameterName Optional">-out</span> <span class="keyword ParameterName OptionalReplaceable">file_name</span></dt>
+<dd class="dd ArgumentDescription"><p class="p">An optional
+switch and string pair that specifies the name of the output file
+to be used. A <span class="ph filepath">floeda</span> extension
+should be used, otherwise the file cannot be read by the <span class="ph fmvar:ProductFTPCB">Simcenter Flotherm PCB</span> import FLOEDA
+function. Existing files will be overwritten without warning. The
+default is <span class="ph filepath">zukenbd.floeda</span>.</p>
+</dd>
+<dt class="dt ArgumentName dlterm" id="id0f4f0b0b-a96a-424a-bd4a-98c6117cdac8__id170ea2e9-9ab8-4a38-8e3b-a81883a192ec"><span class="keyword ParameterName Optional">-olayer</span> <span class="keyword ParameterName OptionalReplaceable">lyr_name</span></dt>
+<dd class="dd ArgumentDescription"><p class="p">An optional
+switch and string pair that specifies the symbol layer that is used
+for the package outline of the components in <span class="ph fmvar:ProductFTPCB">Simcenter Flotherm PCB</span> or <span class="ph fmvar:ProductEDABridge">EDA Bridge</span>. The name used must be
+that of a layer used by the footprints that are referenced by the components
+in the design. If this is not specified or there is no data on that
+layer for a component symbol in a particular design, then the bounding
+box of the other graphics in that symbol (or the pins if no other
+graphics) will be used by <span class="ph fmvar:ProductFTPCB">Simcenter Flotherm PCB</span> or <span class="ph fmvar:ProductEDABridge">EDA Bridge</span>. To replicate
+the same board and layout definition that would be described by
+the IDF output available from the CR-5000 Board Designer, use “‑olayer
+COMP_AREA_A” or “‑olayer CompArea-A”.</p>
+</dd>
+<dt class="dt ArgumentName dlterm" id="id0f4f0b0b-a96a-424a-bd4a-98c6117cdac8__ide73a99d1-1bb5-4572-8438-81a322b354ac">-bolayer <span class="keyword ParameterName OptionalReplaceable">lyr_name</span> </dt>
+<dd class="dd ArgumentDescription"><p class="p">Specifies
+the board layer that is used for the board outline in <span class="ph fmvar:ProductFTPCB">Simcenter Flotherm PCB</span> or <span class="ph fmvar:ProductEDABridge">EDA Bridge</span>. The name used must be
+a system layer. If this parameter is not specified, the layer BOARD_FIGURE
+will be used by <span class="ph fmvar:ProductFTPCB">Simcenter Flotherm PCB</span> or <span class="ph fmvar:ProductEDABridge">EDA Bridge</span>. If the
+board outline cutouts are defined on a different layer to the BOARD_FIGURE
+layer, or the layer specified by the ‑bolayer switch, then the ‑bolayer2
+switch should be used to identify this layer.</p>
+<p class="p">Individual board outline figures
+will be joined if they have coincident end points and any figures
+that are completely contained in the main board outline will be
+converted to cutouts.</p>
+</dd>
+<dt class="dt ArgumentName dlterm" id="id0f4f0b0b-a96a-424a-bd4a-98c6117cdac8__id1799a979-6ec8-4e8d-9dc6-9f15d86f6dac">-bolayer <span class="keyword ParameterName OptionalReplaceable">lyr_name2</span></dt>
+<dd class="dd ArgumentDescription"><p class="p">See above.</p>
+</dd>
+<dt class="dt ArgumentName dlterm" id="id0f4f0b0b-a96a-424a-bd4a-98c6117cdac8__idcb7c9965-f852-47c3-a8d6-61890af447e6"><span class="keyword ParameterName Optional">-ht</span> <span class="keyword ParameterName OptionalReplaceable">ht_value</span></dt>
+<dd class="dd ArgumentDescription"><p class="p">An optional
+switch and number pair that specifies the default package height
+to be used for components that do not have a HEIGHT property defined. <span class="keyword ParameterName OptionalReplaceable">ht_value</span> must
+be zero or greater and must be in the same units as was used for
+the ASCII file output (‑p:unit switch) or in microns if no switch was
+used (data is converted from dbunits to microns). Default is 150
+mils (or equivalent in design units). Note the Zuken IDF default
+is 100 microns.</p>
+</dd>
+<dt class="dt ArgumentName dlterm" id="id0f4f0b0b-a96a-424a-bd4a-98c6117cdac8__id1d6d1337-940f-4b22-8300-0b4255c946fe"><span class="keyword ParameterName Optional">-pwra</span> <span class="keyword ParameterName OptionalReplaceable">pwra_name</span></dt>
+<dd class="dd ArgumentDescription"><p class="p">An optional switch and string
+pair that specifies the property sought for components to extract
+their operational power rating. If the thermal analysis setup has
+been used to assign power values to components, then use “‑pwra powerDiss”
+on the command line. The default name is POWER_OPR (operating power)
+and its value is expected to be in milliwatts (mW).</p>
+</dd>
+<dt class="dt ArgumentName dlterm" id="id0f4f0b0b-a96a-424a-bd4a-98c6117cdac8__id898af5d2-022c-447b-b0e1-76d19c577c3e"><span class="keyword ParameterName Optional">-pkga</span> <span class="keyword ParameterName OptionalReplaceable">pkga_name</span></dt>
+<dd class="dd ArgumentDescription"><p class="p">An optional
+switch and string pair that specifies the property sought for components
+with a known set <span class="ph fmvar:ProductFTPCB">Simcenter Flotherm PCB</span> package.
+The default name is FLOPCB_PKG.</p>
+</dd>
+<dt class="dt ArgumentName dlterm" id="id0f4f0b0b-a96a-424a-bd4a-98c6117cdac8__id64e5c1c7-4b01-4620-85f2-51d878303b80"><span class="keyword ParameterName Optional">-pkgm</span> <span class="keyword ParameterName OptionalReplaceable">pkgm_name</span></dt>
+<dd class="dd ArgumentDescription"><p class="p">An optional
+switch and string pair that specifies the property sought for components
+with a known set <span class="ph fmvar:ProductFTPCB">Simcenter Flotherm PCB</span> package
+material. The default name is FLOPCB_PKG_MATL.</p>
+</dd>
+<dt class="dt ArgumentName dlterm" id="id0f4f0b0b-a96a-424a-bd4a-98c6117cdac8__id86f850a9-0bda-468b-8fc3-429924c962cb"><span class="keyword ParameterName Optional">-cov</span> {<span class="keyword ParameterName Optional">calc</span> | <span class="keyword ParameterName Optional">image | {def </span>[<span class="keyword ParameterName Optional">-scov</span> <span class="keyword ParameterName OptionalReplaceable">sig_cov</span>] [<span class="keyword ParameterName Optional">-pcov</span> <span class="keyword ParameterName OptionalReplaceable">pwr_cov</span>]}}</dt>
+<dd class="dd ArgumentDescription"><p class="p">An optional switch and literal
+pair that specifies the copper coverage calculation method based
+on whether the board is routed or unrouted. Copper coverage is the
+percentage copper on a conductive layer. The valid method literals
+are:</p>
+<ul class="ul ArgumentOptions"><li class="li ArgOption" id="id0f4f0b0b-a96a-424a-bd4a-98c6117cdac8__id562359cd-9f12-4d94-8562-c5c1a0edae4d"><p class="p Opt"><span class="keyword ParameterName Optional">calc</span> —
+For a routed board, the copper coverage is calculated from the area
+of the tracks, areas and pin/via pads currently routed on each conductive
+layer. No allowance is made for tracks overlapping pads. If the
+board is unrouted use the def option.</p>
+</li>
+<li class="li ArgOption" id="id0f4f0b0b-a96a-424a-bd4a-98c6117cdac8__idc417878c-342c-4d92-97a7-f1ad5680d69e"><p class="p Opt"><span class="keyword ParameterName Optional">image</span> —
+For an unrouted board, specifies that the conductive layers will
+use a picture of the board layer as the basis for a more accurate
+coverage pattern. This option can only be used with <span class="ph fmvar:ProductFTPCB">Simcenter Flotherm PCB</span> version 5.2 or later.</p>
+</li>
+<li class="li ArgOption" id="id0f4f0b0b-a96a-424a-bd4a-98c6117cdac8__id52689121-1315-4176-b380-6a52547fb861"><p class="p Opt"><span class="keyword ParameterName Optional">def</span> —
+For an unrouted board, specifies that the conductive layers will
+be set to a value of 20% and power layers (conductive layers with
+a positive-negative mixed layer type) will be set to 90%, unless
+the optional switch and number pairs are specified:</p>
+<ul class="ul ArgumentOptions"><li class="li ArgOption" id="id0f4f0b0b-a96a-424a-bd4a-98c6117cdac8__idcde696da-68e9-42dd-a9fd-eb1a00b469d8"><p class="p Opt"><span class="keyword ParameterName Optional">–scov</span> <span class="keyword ParameterName OptionalReplaceable">sig_cov</span> —
+an optional switch and number pair that specifies that the conductive
+layers will be set to the value of <span class="keyword ParameterName OptionalReplaceable">sig_cov</span>.
+Values must be between 0 and 100 inclusive. </p>
+</li>
+<li class="li ArgOption" id="id0f4f0b0b-a96a-424a-bd4a-98c6117cdac8__id47aaf957-59d3-474a-8940-6a32d2e16f06"><p class="p Opt"><span class="keyword ParameterName Optional">–pcov</span> <span class="keyword ParameterName OptionalReplaceable">pwr_cov</span> —
+an optional switch and number pair that specifies that the power
+layers will be set to the value of <span class="keyword ParameterName OptionalReplaceable">pwr_cov</span>.
+Values must be between 0 and 100 inclusive. </p>
+</li>
+</ul>
+</li>
+</ul>
+<p class="p">The values
+used for each layer can also be overridden in <span class="ph fmvar:ProductFTPCB">Simcenter Flotherm PCB</span> or <span class="ph fmvar:ProductEDABridge">EDA Bridge</span>, if required.</p>
+</dd>
+<dt class="dt ArgumentName dlterm" id="id0f4f0b0b-a96a-424a-bd4a-98c6117cdac8__id1d1c721f-3920-49e6-b369-aaf12dd52662">-nounpl</dt>
+<dd class="dd ArgumentDescription"><p class="p">An optional switch that omits
+all unplaced, or out-of-board, components from the output file.</p>
+<p class="p">Do not use
+this option if unplaced components are intended to be placed in <span class="ph fmvar:ProductFTPCB">Simcenter Flotherm PCB</span> or <span class="ph fmvar:ProductEDABridge">EDA Bridge</span>.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/Contain_Commands_id8c1f9d4e.html" title="This section contains a description of the CR-5000 Board Designer interface command.">Commands</a></div>
+</div>
+
+<div class="linklist linklist relinfo"><strong>Related Topics</strong><br />
+
+<div><a class="link" href="../topics/TaskTop_GeneratingFloedaFile_id320574c2.html#id320574c2-151e-4de1-a37b-d7039cf06632__" title="Run the interface command with previously-generated ASCII input files.">Generating a FLOEDA File</a></div></div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "flo_cr5000_ur"
+                DocTitle = "Zuken CR-5000 Board Designer Interface User Guide"
+                PageTitle = "ZukenBrdDesToEDAI"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/Command_Zukenbrddestoedai_id0f4f0b0b.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Zuken CR-5000 Board Designer Interface User Guide, 2.42<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

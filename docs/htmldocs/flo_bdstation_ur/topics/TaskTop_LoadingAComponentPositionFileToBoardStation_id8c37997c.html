@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="TaskTopic" />
+<meta name="DC.Title" content="Loading a Component Position File to Board Station" />
+<meta name="abstract" content="How to load a .floplc file, exported from Simcenter Flotherm PCB or EDA Bridge." />
+<meta name="description" content="How to load a .floplc file, exported from Simcenter Flotherm PCB or EDA Bridge." />
+<meta name="prodname" content="Board Station Interface User Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="none" />
+<meta name="Tier" content="3" />
+<meta name="SubTitle" content="Supports Simcenter™ Flotherm™ EDA Bridge 8.1 or later, Simcenter™ Flotherm™ PCB 5.1 or later, and Board Station PCB 2005BST and 2006BSXE or later" />
+<meta name="SourceHandle" content="flo_bdstation_ur" />
+<meta name="SoftwareVersionNum" content="2.20" />
+<meta name="SoftwareRelease" content="2.20" />
+<meta name="RevHist" content="3" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="mgc_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Board Station® Interface User Guide" />
+<meta name="CSHelp" content="no" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2.20,product.id.P11501,product.id.P11514" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="id8c37997c-8add-4d1c-95b7-737f58afa5c9" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Loading a Component Position File to Board Station</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Loading a Component Position File to Board Station" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2.20,product.id.P11501,product.id.P11514" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="id8c37997c-8add-4d1c-95b7-737f58afa5c9">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Loading a
+Component Position File to Board Station</h1>
+<div class="body taskbody TaskBody"><div class="abstract TaskAbstract"><span class="shortdesc">How to load a <span class="ph filepath">.floplc</span> file,
+exported from <span class="ph fmvar:ProductFTPCB">Simcenter Flotherm PCB</span> or <span class="ph fmvar:ProductEDABridge">EDA Bridge</span>.</span>
+</div>
+<div class="tasklabel"><h2 class="sectiontitle tasklabel">Procedure</h2></div><ol class="ol steps"><li class="li step stepexpand" id="id8c37997c-8add-4d1c-95b7-737f58afa5c9__id724a11d8-60b7-46f5-a26a-f5a7116c7cdb"><span class="ph cmd">Open Board Station and load your design.</span></li>
+<li class="li step stepexpand" id="id8c37997c-8add-4d1c-95b7-737f58afa5c9__id7e8e1e8f-8a31-47f7-b791-e522a0d63911"><span class="ph cmd">Choose <span class="ph menucascade"><span class="ph uicontrol">FloTHERM Interface</span><abbr title="and then"> &gt; </abbr><span class="ph uicontrol">Import Placement Changes</span></span>.</span><div class="itemgroup info StepInfo"><p class="p">Each
+changed component position can be approved individually or all changes
+can be approved in one click. </p>
+</div></li>
+<li class="li step stepexpand" id="id8c37997c-8add-4d1c-95b7-737f58afa5c9__ida8be1e0e-18c4-4bcc-93ab-47f8937a8271"><span class="ph cmd">To import the placement changes:</span><ol type="a" class="ol substeps"><li class="li substep" id="id8c37997c-8add-4d1c-95b7-737f58afa5c9__ida08aa526-9fa7-4dba-8649-c69d50b2a7d6"><span class="ph cmd">Select the <span class="ph filepath">.floplc</span> file using
+the file browser. The file is then processed and if any differences
+in position, rotation or side of any component is detected, a Yes/No
+dialog box will be displayed asking “Individually approve each placement
+change?”</span></li>
+<li class="li substep" id="id8c37997c-8add-4d1c-95b7-737f58afa5c9__ide341923a-4cb7-425f-941f-6dfcfbba99c2"><span class="ph cmd">Respond to the prompt:</span><div class="itemgroup info SubStepInfo"><ul class="ul"><li class="li" id="id8c37997c-8add-4d1c-95b7-737f58afa5c9__id068c5bad-e31a-4f59-90e5-b30a2218fadc"><p class="p">Click <span class="ph uicontrol">No</span> to
+allow all component changes to be carried out in a single step. </p>
+</li>
+<li class="li" id="id8c37997c-8add-4d1c-95b7-737f58afa5c9__id4d45729d-826a-4efd-affc-a5b06fd6ea5b"><p class="p">Click <span class="ph uicontrol">Yes</span> to selectively approve each component
+change using a Yes/No/Cancel dialog box. The dialog box will supply
+the operation information:</p>
+<p class="p">Move <span class="ph FontProperty equationvariable">comp_ref</span> (x=<span class="ph FontProperty equationvariable">X</span> y=<span class="ph FontProperty equationvariable">Y</span> rot=<span class="ph FontProperty equationvariable">r</span> side=<span class="ph FontProperty equationvariable">top/bottom</span>)
+to (x=<span class="ph FontProperty equationvariable">X’</span> y=<span class="ph FontProperty equationvariable">Y’</span> rot=<span class="ph FontProperty equationvariable">r’</span> side= <span class="ph FontProperty equationvariable">top/bottom</span>)</p>
+<p class="p">where the fields in italics
+will be replaced with the current values and the new possible values
+for the component <span class="ph FontProperty equationvariable">comp_ref</span>. </p>
+<ul class="ul"><li class="li" id="id8c37997c-8add-4d1c-95b7-737f58afa5c9__id7f203a27-39ff-4e34-ab90-20d12e20815d"><p class="p">Click <span class="ph uicontrol">Yes</span> to apply the changes to the component.</p>
+</li>
+<li class="li" id="id8c37997c-8add-4d1c-95b7-737f58afa5c9__id57adecbc-b480-4ecb-bc5d-3ee08a18b12a"><p class="p">Click <span class="ph uicontrol">No</span> to skip just this change.</p>
+</li>
+<li class="li" id="id8c37997c-8add-4d1c-95b7-737f58afa5c9__id244d3d91-b4ce-48c1-8964-6887872919c2"><p class="p">Click <span class="ph uicontrol">Cancel</span> to skip all further changes. </p>
+</li>
+</ul>
+<p class="p">The file also contains property
+updates as a result of any changes to the power, height, and thermal
+properties made in <span class="ph fmvar:ProductFTPCB">Simcenter Flotherm PCB</span> or <span class="ph fmvar:ProductEDABridge">EDA Bridge</span>. These changes
+are backannotated into the Board Station file and will be used for
+future <span class="ph filepath">.floeda</span> files produced
+from this design to reduce the need to change the values every time. Where
+these changes are to an existing property or overriding a value
+on the symbol or part, then a warning message is output to the message window.</p>
+</li>
+</ul>
+</div></li>
+</ol>
+<div class="itemgroup info StepInfo"><p class="p">At the end of processing
+the file, a message dialog box will be displayed showing how many
+components were moved (if any) and if any properties have been updated.</p>
+</div></li>
+<li class="li step stepexpand" id="id8c37997c-8add-4d1c-95b7-737f58afa5c9__idd8f87603-566c-4cfc-843a-2b7d63544483"><span class="ph cmd">Acknowledge any messages by clicking <span class="ph uicontrol">OK</span>. </span></li>
+</ol>
+<div class="section result"><div class="tasklabel"><h2 class="sectiontitle tasklabel">Results</h2></div><p class="p">If any component has been
+moved then a placement check will be run and any errors resulting
+from the new thermal placement will be reported. Placement error
+checking is turned off during the reading of the FLOPLC file. This
+problem may be because the component interfering with a drill hole
+or the end position resulting in the component being outside or crossing
+the board outline.</p>
+<div class="note note" id="id8c37997c-8add-4d1c-95b7-737f58afa5c9__iddbb9591d-af42-4c33-a27b-f423fce1dab5"><span class="notetitle">Note:</span> <p class="p">Moved components
+that were routed may need their connecting tracks re-routed.</p>
+<p class="p">If the new placement from <span class="ph fmvar:ProductFTPCB">Simcenter Flotherm PCB</span> is
+not on the placement grid, then the component will be placed on
+the grid. If the <span class="ph fmvar:ProductFTPCB">Simcenter Flotherm PCB</span> file
+is then read again, it will show up as needing to be moved again.</p>
+</div>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/Contain_UsingBoardStationInterface_id4975cb19.html" title="This section describes the operational menu options and customizing dialog boxes.">Using the Board Station Interface</a></div>
+</div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "flo_bdstation_ur"
+                DocTitle = "Board Station® Interface User Guide"
+                PageTitle = "Loading a Component Position File to Board Station"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/TaskTop_LoadingAComponentPositionFileToBoardStation_id8c37997c.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Board Station® Interface User Guide, 2.20<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

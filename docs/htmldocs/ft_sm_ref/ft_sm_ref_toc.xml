@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?><toc topic="html/ft_sm_ref/topics/title1.html"
+     label="Simcenter Flotherm SmartParts Reference Guide none">
+   <topic label="List of Figures" href="html/ft_sm_ref/figures.html"/>
+   <topic label="List of Tables" href="html/ft_sm_ref/man_lot1.html"/>
+   <topic label="SmartParts and Primitives"
+          href="html/ft_sm_ref/topics/MGCChap_SmartPartsAndPrimitives_id069db8fe.html">
+      <topic label="What are SmartParts and Primitives?"
+             href="html/ft_sm_ref/topics/Concept_WhatAreSmartpartsPrimitives_iddd24b0b7.html"/>
+      <topic label="Coordinate Systems"
+             href="html/ft_sm_ref/topics/Concept_CoordinateSystems_idf974ca54.html"/>
+      <topic label="Thick (3D) and Thin (2D) Walls, Holes and Sloping Blocks"
+             href="html/ft_sm_ref/topics/Concept_Thick3dThin2dWallsHolesSlopingBlocks_id98f0c3bd.html"/>
+      <topic label="General Procedures Applicable to SmartParts and Primitives"
+             href="html/ft_sm_ref/topics/Contain_GeneralProceduresApplicableSmartpartsPrimitives_idf104f5b2.html">
+         <topic label="Collapsing 3D Cuboids to 2D Planes"
+                href="html/ft_sm_ref/topics/TaskTop_Collapsing3dCuboids2dPlanes_id3414d37e.html"/>
+         <topic label="Decomposing SmartParts"
+                href="html/ft_sm_ref/topics/TaskTop_DecomposingSmartparts_id73b83abe.html"/>
+         <topic label="Consistency Checking"
+                href="html/ft_sm_ref/topics/Concept_ConsistencyChecking_id5439effa.html"/>
+      </topic>
+      <topic label="Generic Property Sheets and Dialogs"
+             href="html/ft_sm_ref/topics/Contain_GenericPropertySheetsDialogs_ida49e50da.html">
+         <topic label="Generic Property Sheet Location Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_GenericPropertySheetLocationTab_id989546cb.html"/>
+         <topic label="Generic Property Sheet Attachments Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_GenericPropertySheetAttachmentsTab_id5f41d41d.html"/>
+         <topic label="Generic Property Sheet Groups Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_GenericPropertySheetGroupsTab_id85a45de6.html"/>
+         <topic label="Create Group Dialog Box"
+                href="html/ft_sm_ref/topics/GUIRefT_CreateGroupDialogBox_idd6a86aff.html"/>
+         <topic label="Generic Property Sheet Notes Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_GenericPropertySheetNotesTab_id29f8a3ca.html"/>
+      </topic>
+   </topic>
+   <topic label="Assemblies"
+          href="html/ft_sm_ref/topics/MGCChap_Assemblies_id9bf0b601.html">
+      <topic label="Modeling Assemblies"
+             href="html/ft_sm_ref/topics/Concept_ModelingAssemblies_id84f62569.html"/>
+      <topic label="Assembly Procedures"
+             href="html/ft_sm_ref/topics/Contain_AssemblyProcedures_id70c9a5c7.html">
+         <topic label="Adding Assemblies"
+                href="html/ft_sm_ref/topics/TaskTop_AddingAssemblies_id2bb156b3.html"/>
+      </topic>
+      <topic label="Adding Child Geometry"
+             href="html/ft_sm_ref/topics/TaskTop_AddingChildGeometryAssemblies_id6b87a303.html"/>
+      <topic label="Assembly Property"
+             href="html/ft_sm_ref/topics/GUIRefT_AssemblyPropertySheet_ida7f53ee3.html"/>
+   </topic>
+   <topic label="Blocks with Holes"
+          href="html/ft_sm_ref/topics/MGCChap_BlocksHoles_id200c89bb.html">
+      <topic label="Block with Hole Properties"
+             href="html/ft_sm_ref/topics/Concept_BlockHoleProperties_id2187f02a.html"/>
+      <topic label="Creating a Block With Holes SmartPart"
+             href="html/ft_sm_ref/topics/TaskTop_CreatingBlockHolesSmartpart_id6960e31c.html"/>
+      <topic label="Block with Holes Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_BlockHolesPropertySheet_id0762d058.html">
+         <topic label="Block with Holes Property Sheet Construction Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_BlockHolesPropertySheetConstructionTab_iddd7f0107.html"/>
+      </topic>
+   </topic>
+   <topic label="Compact Components"
+          href="html/ft_sm_ref/topics/MGCChap_CompactComponents_ide4c938ec.html">
+      <topic label="Modeling Compact Components"
+             href="html/ft_sm_ref/topics/Concept_ModelingCompactComponents_id6351bb88.html"/>
+      <topic label="Model Types"
+             href="html/ft_sm_ref/topics/Contain_ModelTypes_idffafe714.html">
+         <topic label="2-Resistor Model"
+                href="html/ft_sm_ref/topics/Concept_2ResistorModel_id03504862.html"/>
+         <topic label="General Model"
+                href="html/ft_sm_ref/topics/Concept_GeneralModel_id127e970e.html"/>
+      </topic>
+      <topic label="Examples of Compact Components"
+             href="html/ft_sm_ref/topics/Concept_ExamplesCompactComponents_idd6c4ebe6.html"/>
+      <topic label="Compact Component Geometry"
+             href="html/ft_sm_ref/topics/Concept_CompactComponentGeometry_id065eb53b.html"/>
+      <topic label="Network Connectivity"
+             href="html/ft_sm_ref/topics/Concept_NetworkConnectivity_idfaf64597.html"/>
+      <topic label="Displaying Compact Component Results"
+             href="html/ft_sm_ref/topics/TaskTop_DisplayingCompactComponentResults_idab680844.html"/>
+      <topic label="Compact Component Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_CompactComponentPropertySheet_id5a2817b6.html">
+         <topic label="Compact Component Property Sheet Model Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_CompactComponentPropertySheetModelTab_id0625c562.html"/>
+         <topic label="Compact Component Property Sheet Geometry Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_CompactComponentPropertySheetGeometryTab_idce9cbe50.html"/>
+         <topic label="Compact Component Property Sheet Balls/Pins Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_CompactComponentPropertySheetBallspinsTab_id19284bba.html"/>
+         <topic label="Compact Component Property Sheet Leads Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_CompactComponentPropertySheetLeadsTab_id41df35d4.html"/>
+         <topic label="Compact Component Property Sheet Network Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_CompactComponentPropertySheetNetworkTab_id7eaa4c9f.html"/>
+      </topic>
+   </topic>
+   <topic label="Controllers"
+          href="html/ft_sm_ref/topics/MGCChap_Controllers_id0135c9d3.html">
+      <topic label="Modeling Controllers"
+             href="html/ft_sm_ref/topics/Concept_ModelingControllers_id23f80e5f.html"/>
+      <topic label="Controller Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_ControllerPropertySheet_id0b95bc7f.html">
+         <topic label="Controller Property Sheet Construction Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_ControllerPropertySheetConstructionTab_id189851c2.html"/>
+      </topic>
+   </topic>
+   <topic label="Coolers" href="html/ft_sm_ref/topics/MGCChap_Coolers_id70be0f79.html">
+      <topic label="Modeling Coolers"
+             href="html/ft_sm_ref/topics/Concept_ModelingCoolers_id5655287d.html"/>
+      <topic label="Creating New Coolers"
+             href="html/ft_sm_ref/topics/TaskTop_CreatingNewCoolers_iddfae98bb.html"/>
+      <topic label="Cooler Groups"
+             href="html/ft_sm_ref/topics/Contain_CoolerGroups_id5030c425.html">
+         <topic label="Attaching Cooler Group Names to Coolers and Racks"
+                href="html/ft_sm_ref/topics/TaskTop_AttachingCoolerGroupNamesCoolersRacks_id73c91881.html"/>
+         <topic label="Checking Cooler Groups in Data Tree Summary Information"
+                href="html/ft_sm_ref/topics/TaskTop_CheckingCoolerGroupsInDataTreeSummaryInformation_id19fc4172.html"/>
+      </topic>
+      <topic label="Capacity Curve"
+             href="html/ft_sm_ref/topics/Contain_CapacityCurve_ide3798d06.html">
+         <topic label="Running at Less Than Maximum Flow Rate"
+                href="html/ft_sm_ref/topics/Concept_RunningAtLessThanMaximumFlowRate_idb1e94ab6.html"/>
+         <topic label="Defining a Cooler Capacity Curve"
+                href="html/ft_sm_ref/topics/TaskTop_DefiningCoolerCapacityCurve_id79eaeb07.html"/>
+         <topic label="Capacity Curve CSV File Format"
+                href="html/ft_sm_ref/topics/FileRef_CapacityCurveCsvFileFormat_ida2a2eb49.html"/>
+         <topic label="Capacity Curve Dialog Box"
+                href="html/ft_sm_ref/topics/GUIRefT_CapacityCurveDialogBox_idbb910cce.html"/>
+      </topic>
+      <topic label="Cooler Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_CoolerPropertySheet_id5be62e0e.html">
+         <topic label="Cooler Property Sheet Construction Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_CoolerPropertySheetConstructionTab_id020a2181.html"/>
+      </topic>
+   </topic>
+   <topic label="Cuboids, Prisms, Tets and Inverted Tets"
+          href="html/ft_sm_ref/topics/MGCChap_CuboidsPrismsTetsInvertedTets_id16aacbaa.html">
+      <topic label="Primitive Usage"
+             href="html/ft_sm_ref/topics/Concept_PrimitiveUsage_id6714aa0c.html"/>
+      <topic label="Primitive Attributes"
+             href="html/ft_sm_ref/topics/Concept_PrimitiveAttributes_id56a4ba9e.html"/>
+      <topic label="Primitives and Solar Radiation"
+             href="html/ft_sm_ref/topics/Concept_PrimitivesSolarRadiation_id3cd60154.html"/>
+      <topic label="Primitive Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_PrimitivePropertySheet_id9501d463.html"/>
+   </topic>
+   <topic label="Cutouts" href="html/ft_sm_ref/topics/MGCChap_Cutouts_idea4b99a4.html">
+      <topic label="Cutout Usage"
+             href="html/ft_sm_ref/topics/Concept_CutoutUsage_id5afbb9ba.html"/>
+      <topic label="Cutout Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_CutoutPropertySheet_id6823c023.html">
+         <topic label="Cutout Property Sheet Boundaries Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_CutoutPropertySheetBoundariesTab_id87439ea8.html"/>
+      </topic>
+   </topic>
+   <topic label="Cylinders"
+          href="html/ft_sm_ref/topics/MGCChap_Cylinders_id212d0c96.html">
+      <topic label="Cylinder Properties"
+             href="html/ft_sm_ref/topics/Concept_CylinderProperties_idde32918e.html"/>
+      <topic label="Cylinder Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_CylinderPropertySheet_id35f3491f.html">
+         <topic label="Cylinder Property Sheet Construction Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_CylinderPropertySheetConstructionTab_id19bb4929.html"/>
+      </topic>
+   </topic>
+   <topic label="Dies" href="html/ft_sm_ref/topics/MGCChap_Dies_idfab1c8af.html">
+      <topic label="Applications of Die SmartParts"
+             href="html/ft_sm_ref/topics/Concept_ApplicationsDieSmartparts_id078c5bb9.html"/>
+      <topic label="Creating Dies"
+             href="html/ft_sm_ref/topics/TaskTop_CreatingDies_id586415f3.html"/>
+      <topic label="Die Properties"
+             href="html/ft_sm_ref/topics/Concept_DieProperties_id4f12c9a5.html"/>
+      <topic label="Modeling Dies"
+             href="html/ft_sm_ref/topics/Contain_ModelingDies_ide16b94ee.html">
+         <topic label="Modeling Non-Uniform Dissipation Using Discrete Sources"
+                href="html/ft_sm_ref/topics/TaskTop_ModelingNonUniformDissipationUsingDiscreteSources_id069f88c3.html"/>
+         <topic label="Modeling Non-Uniform Dissipation using Total Coverage Sources"
+                href="html/ft_sm_ref/topics/TaskTop_ModelingNonUniformDissipationUsingTotalCoverageSources_ide52587f8.html"/>
+      </topic>
+      <topic label="Dies in Application Windows"
+             href="html/ft_sm_ref/topics/Concept_DiesInApplicationWindows_id98a8d469.html"/>
+      <topic label="Discrete Source Definition CSV File Format"
+             href="html/ft_sm_ref/topics/FileRef_DiscreteSourceDefinitionCsvFileFormat_id319de220.html"/>
+      <topic label="Total Coverage Source Definition CSV File Format"
+             href="html/ft_sm_ref/topics/FileRef_TotalCoverageSourceDefinitionCsvFileFormat_id1eabaf1a.html"/>
+      <topic label="Die Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_DiePropertySheet_idcd0b6772.html">
+         <topic label="Die Property Sheet Construction Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_DiePropertySheetConstructionTab_id825ebdd0.html"/>
+      </topic>
+      <topic label="Non-Uniform Discrete Source Definition Dialog Box"
+             href="html/ft_sm_ref/topics/GUIRefT_NonUniformDiscreteSourceDefinitionDialogBox_id4764d2a6.html"/>
+      <topic label="Non-Uniform Total Coverage Source Definition Dialog Box"
+             href="html/ft_sm_ref/topics/GUIRefT_NonUniformTotalCoverageSourceDefinitionDialogBox_idabe40282.html"/>
+   </topic>
+   <topic label="Enclosures"
+          href="html/ft_sm_ref/topics/MGCChap_Enclosures_ide91c7ae6.html">
+      <topic label="Enclosure Construction"
+             href="html/ft_sm_ref/topics/Concept_EnclosureConstruction_ida047d13e.html"/>
+      <topic label="Enclosure Walls with Holes"
+             href="html/ft_sm_ref/topics/Concept_EnclosureWallsHoles_id4b451e40.html"/>
+      <topic label="Enclosure Modeling"
+             href="html/ft_sm_ref/topics/Concept_EnclosureModeling_id58d6eca7.html"/>
+      <topic label="Enclosure Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_EnclosurePropertySheet_idb6e8388c.html">
+         <topic label="Enclosure Property Sheet Construction Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_EnclosurePropertySheetConstructionTab_iddf723a2a.html"/>
+      </topic>
+      <topic label="Enclosure Wall Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_EnclosureWallPropertySheet_id91035cda.html">
+         <topic label="Enclosure Wall Property Sheet Location Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_EnclosureWallPropertySheetLocationTab_id70aa3b1d.html"/>
+         <topic label="Enclosure Wall Property Sheet Construction Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_EnclosureWallPropertySheetConstructionTab_id4e32b6dd.html"/>
+      </topic>
+   </topic>
+   <topic label="Extracts" href="html/ft_sm_ref/topics/MGCChap_Extracts_id06beca01.html">
+      <topic label="Modeling Extracts"
+             href="html/ft_sm_ref/topics/Concept_ModelingExtracts_ida95f93cf.html"/>
+      <topic label="Extract Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_ExtractPropertySheet_id12c35549.html">
+         <topic label="Extract Property Sheet Construction Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_ExtractPropertySheetConstructionTab_id8cfe1c07.html"/>
+      </topic>
+   </topic>
+   <topic label="Fans" href="html/ft_sm_ref/topics/MGCChap_Fans_id25c30cc1.html">
+      <topic label="Applications of Fan SmartParts"
+             href="html/ft_sm_ref/topics/Concept_ApplicationsFanSmartparts_idd0fdaa14.html"/>
+      <topic label="Fan Properties"
+             href="html/ft_sm_ref/topics/Contain_FanProperties_id4f93190f.html">
+         <topic label="Fan Flow" href="html/ft_sm_ref/topics/Concept_FanFlow_id7ff14871.html"/>
+         <topic label="Angled Flow"
+                href="html/ft_sm_ref/topics/Concept_AngledFlow_id00aa62fb.html"/>
+         <topic label="Dissipated Fan Power"
+                href="html/ft_sm_ref/topics/Concept_DissipatedFanPower_idd2332f38.html"/>
+         <topic label="Axial Fan Models"
+                href="html/ft_sm_ref/topics/Concept_AxialFanModels_idc06aadb0.html"/>
+         <topic label="Rectangular Fan Models"
+                href="html/ft_sm_ref/topics/Concept_RectangularFanModels_id0143a51d.html"/>
+         <topic label="Fan Flow Types"
+                href="html/ft_sm_ref/topics/Concept_FanFlowTypes_id77bf4249.html"/>
+         <topic label="Flow Specification"
+                href="html/ft_sm_ref/topics/Contain_FlowSpecification_ided0760ca.html">
+            <topic label="Fixed Volume Flow"
+                   href="html/ft_sm_ref/topics/Concept_FixedVolumeFlow_id0232a457.html"/>
+            <topic label="Linear Fan Flow"
+                   href="html/ft_sm_ref/topics/Concept_LinearFanFlow_idc2b8d0e2.html"/>
+         </topic>
+         <topic label="Affect of Fan RPM Derating Factor on Flow Types"
+                href="html/ft_sm_ref/topics/Concept_AffectFanRpmDeratingFactorOnFlowTypes_id63b8d8a8.html"/>
+      </topic>
+      <topic label="Fan Attributes"
+             href="html/ft_sm_ref/topics/Concept_FanAttributes_id88f59bef.html"/>
+      <topic label="Fan Procedures"
+             href="html/ft_sm_ref/topics/Contain_FanProcedures_id11a50184.html">
+         <topic label="Defining a Fan Characteristic Curve"
+                href="html/ft_sm_ref/topics/TaskTop_DefiningFanCharacteristicCurve_id56c9fd07.html"/>
+         <topic label="Defining a 2D Angled Flow"
+                href="html/ft_sm_ref/topics/TaskTop_Defining2dAngledFlow_id24aac9e2.html"/>
+         <topic label="Defining a 3D Angled Flow"
+                href="html/ft_sm_ref/topics/TaskTop_Defining3dAngledFlow_id4bad958d.html"/>
+         <topic label="Changing the Fan Angle of a Rectangular Fan"
+                href="html/ft_sm_ref/topics/TaskTop_ChangingFanAngleRectangularFan_id1b06538c.html"/>
+      </topic>
+      <topic label="Fan Characteristic Curve CSV File Format"
+             href="html/ft_sm_ref/topics/FileRef_FanCharacteristicCurveCsvFileFormat_id028e49d9.html"/>
+      <topic label="Fan Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_FanPropertySheet_id26dbb360.html">
+         <topic label="Fan Property Sheet Construction Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_FanPropertySheetConstructionTab_id23f146cf.html"/>
+      </topic>
+      <topic label="Fan Curve Chart Dialog Box"
+             href="html/ft_sm_ref/topics/GUIRefT_FanCurveChartDialogBox_ide801b772.html"/>
+   </topic>
+   <topic label="Fixed Flows"
+          href="html/ft_sm_ref/topics/MGCChap_FixedFlows_id2cf3070f.html">
+      <topic label="Applications for Fixed Flow SmartParts"
+             href="html/ft_sm_ref/topics/Concept_ApplicationsFixedFlowSmartparts_id9885da00.html"/>
+      <topic label="Fixed Flow Properties"
+             href="html/ft_sm_ref/topics/Contain_FixedFlowProperties_idc794803c.html">
+         <topic label="Free Area Ratio"
+                href="html/ft_sm_ref/topics/Concept_FreeAreaRatio_idc349d15c.html"/>
+         <topic label="Flow Direction"
+                href="html/ft_sm_ref/topics/Concept_FlowDirection_id3e6fafa5.html"/>
+      </topic>
+      <topic label="Creating Fixed Flows"
+             href="html/ft_sm_ref/topics/TaskTop_CreatingFixedFlows_id807190f9.html"/>
+      <topic label="Positioning of Fixed Flows"
+             href="html/ft_sm_ref/topics/Concept_PositioningFixedFlows_id3b8e0606.html"/>
+      <topic label="Fixed Flow Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_FixedFlowPropertySheet_id7fa739f1.html">
+         <topic label="Fixed Flow Property Sheet Construction Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_FixedFlowPropertySheetConstructionTab_ide95a9cda.html"/>
+      </topic>
+   </topic>
+   <topic label="Heat Pipes"
+          href="html/ft_sm_ref/topics/MGCChap_HeatPipes_id2658ebc9.html">
+      <topic label="Heat Pipe Applications"
+             href="html/ft_sm_ref/topics/Concept_HeatPipeApplications_ided1a0156.html"/>
+      <topic label="Heat Pipe Construction"
+             href="html/ft_sm_ref/topics/Concept_HeatPipeConstruction_id19ffb88f.html"/>
+      <topic label="Creating a Heat Pipe"
+             href="html/ft_sm_ref/topics/TaskTop_CreatingHeatPipe_id0644d086.html"/>
+      <topic label="Heat Pipe Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_HeatPipePropertySheet_idb16c7a3b.html">
+         <topic label="Heat Pipe Property Sheet Construction Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_HeatPipePropertySheetConstructionTab_id61ab89ba.html"/>
+      </topic>
+   </topic>
+   <topic label="Heat" href="html/ft_sm_ref/topics/MGCChap_HeatSinks_id716c085e.html">
+      <topic label="Modeling Heat Sinks"
+             href="html/ft_sm_ref/topics/Contain_ModelingHeatSinks_id234926f0.html">
+         <topic label="Design Variations"
+                href="html/ft_sm_ref/topics/Concept_DesignVariations_id4c598248.html"/>
+         <topic label="Compact Modeling"
+                href="html/ft_sm_ref/topics/Concept_CompactModeling_id475e0507.html"/>
+         <topic label="Thermal Resistance of Thermal Bonds"
+                href="html/ft_sm_ref/topics/Concept_ThermalResistanceThermalBonds_id15e1cbf3.html"/>
+         <topic label="Heat Sinks and Gridding"
+                href="html/ft_sm_ref/topics/Concept_HeatSinksGridding_idbdfbfd56.html"/>
+      </topic>
+      <topic label="Creating Heat Sinks"
+             href="html/ft_sm_ref/topics/TaskTop_CreatingHeatSinks_id8c34ce4d.html"/>
+      <topic label="Heat Sink Properties"
+             href="html/ft_sm_ref/topics/Contain_HeatSinkProperties_idd65f7794.html">
+         <topic label="Heat Sink Fabrication"
+                href="html/ft_sm_ref/topics/Concept_HeatSinkFabrication_id27706059.html"/>
+         <topic label="Heat Sink Base Properties"
+                href="html/ft_sm_ref/topics/Concept_HeatSinkBaseProperties_idc7c15158.html"/>
+         <topic label="Heat Sink Fin Properties"
+                href="html/ft_sm_ref/topics/Contain_HeatSinkFinProperties_idd8bee317.html">
+            <topic label="Fin Properties Applicable to Plate and Pin"
+                   href="html/ft_sm_ref/topics/Concept_FinPropertiesApplicablePlatePinFins_id31d02e19.html"/>
+            <topic label="Fin Properties Applicable to Plate Fins"
+                   href="html/ft_sm_ref/topics/Concept_FinPropertiesApplicablePlateFins_id54261066.html"/>
+            <topic label="Fin Properties Applicable to Pin Fins"
+                   href="html/ft_sm_ref/topics/Concept_FinPropertiesApplicablePinFins_id436c38b8.html"/>
+         </topic>
+      </topic>
+      <topic label="Heat Sink Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_HeatSinkPropertySheet_idaa65bb46.html">
+         <topic label="Heat Sink Property Sheet Construction Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_HeatSinkPropertySheetConstructionTab_id5765f2f3.html"/>
+         <topic label="Heat Sink Property Sheet Internal Fins Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_HeatSinkPropertySheetInternalFinsTab_idb297625f.html"/>
+         <topic label="Heat Sink Property Sheet End Fins Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_HeatSinkPropertySheetEndFinsTab_id990ee3c9.html"/>
+         <topic label="Heat Sink Property Sheet Pin Geometry Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_HeatSinkPropertySheetPinGeometryTab_ida4f63f95.html"/>
+         <topic label="Heat Sink Property Sheet Pin Arrangement Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_HeatSinkPropertySheetPinArrangementTab_ida83d0384.html"/>
+      </topic>
+   </topic>
+   <topic label="Holes" href="html/ft_sm_ref/topics/MGCChap_Holes_id28ad9bc9.html">
+      <topic label="Creating Holes"
+             href="html/ft_sm_ref/topics/TaskTop_CreatingHoles_id6ec23a2b.html"/>
+      <topic label="Modeling Holes"
+             href="html/ft_sm_ref/topics/Concept_ModelingHoles_iddbf8210f.html"/>
+      <topic label="Creating Complex Shaped Holes"
+             href="html/ft_sm_ref/topics/TaskTop_CreatingComplexShapedHoles_id8f12baac.html"/>
+      <topic label="Treatment of Vents"
+             href="html/ft_sm_ref/topics/Concept_TreatmentVents_idae459dc3.html"/>
+      <topic label="Hole Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_HolePropertySheet_id9e879e8e.html">
+         <topic label="Hole Property Sheet Construction Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_HolePropertySheetConstructionTab_id8ed1636d.html"/>
+      </topic>
+   </topic>
+   <topic label="Monitor Points"
+          href="html/ft_sm_ref/topics/MGCChap_MonitorPoints_idd60b34fe.html">
+      <topic label="Monitor Point Locations and Default Names"
+             href="html/ft_sm_ref/topics/Concept_MonitorPointLocationsDefaultNames_id94a69084.html"/>
+      <topic label="Monitor Points Usage"
+             href="html/ft_sm_ref/topics/Concept_MonitorPointsUsage_idd625b01b.html"/>
+      <topic label="Creating Monitor Points"
+             href="html/ft_sm_ref/topics/TaskTop_CreatingMonitorPoints_id7e434ec4.html"/>
+      <topic label="Monitor Point Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_MonitorPointPropertySheet_id777d477f.html"/>
+   </topic>
+   <topic label="  Network Assemblies, Network Nodes and Network Cuboids"
+          href="html/ft_sm_ref/topics/MGCChap_NetworkAssembliesNetworkNodesNetworkCuboids_ide171b20d.html">
+      <topic label="Network Assembly Modeling"
+             href="html/ft_sm_ref/topics/Concept_NetworkAssemblyModeling_id046038c0.html"/>
+      <topic label="Network Assembly Structure"
+             href="html/ft_sm_ref/topics/Concept_NetworkAssemblyStructure_idf0f2641a.html"/>
+      <topic label="Network Assembly Procedures"
+             href="html/ft_sm_ref/topics/Contain_NetworkAssemblyProcedures_id6876dc5c.html">
+         <topic label="Creating Network Assemblies"
+                href="html/ft_sm_ref/topics/TaskTop_CreatingNetworkAssemblies_idbdeb79e7.html"/>
+         <topic label="Defining Resistances Between Nodes"
+                href="html/ft_sm_ref/topics/TaskTop_DefiningResistancesBetweenNodes_ide4ade081.html"/>
+         <topic label="Defining Capacitance at Nodes"
+                href="html/ft_sm_ref/topics/TaskTop_DefiningCapacitanceAtNodes_id655d5af5.html"/>
+      </topic>
+      <topic label="Examples of Network Assemblies"
+             href="html/ft_sm_ref/topics/Contain_ExamplesNetworkAssemblies_id8926e20d.html">
+         <topic label="Dynamic 2-Resistor Model"
+                href="html/ft_sm_ref/topics/Concept_Dynamic2ResistorModel_idfe0bfb5a.html"/>
+         <topic label="DELPHI-Style DCTM"
+                href="html/ft_sm_ref/topics/Concept_DelphiStyleDctm_id7150d27e.html"/>
+         <topic label="Transformer"
+                href="html/ft_sm_ref/topics/Concept_Transformer_id8d49ca7d.html"/>
+      </topic>
+      <topic label="Network Assembly Property Sheets"
+             href="html/ft_sm_ref/topics/Contain_NetworkAssemblyPropertySheets_id5a01a173.html">
+         <topic label="Network Assembly Property Sheet"
+                href="html/ft_sm_ref/topics/GUIRefT_NetworkAssemblyPropertySheet_id2ae57fc0.html">
+            <topic label="Network Assembly Property Sheet Resistance Tab"
+                   href="html/ft_sm_ref/topics/GUIRefT_NetworkAssemblyPropertySheetResistanceTab_id654a2010.html"/>
+            <topic label="Network Assembly Property Sheet Capacitance Tab"
+                   href="html/ft_sm_ref/topics/GUIRefT_NetworkAssemblyPropertySheetCapacitanceTab_id60e8800b.html"/>
+         </topic>
+         <topic label="Network Node Property Sheet"
+                href="html/ft_sm_ref/topics/GUIRefT_NetworkNodePropertySheet_id7d91cd84.html"/>
+         <topic label="Network Cuboid Property Sheet"
+                href="html/ft_sm_ref/topics/GUIRefT_NetworkCuboidPropertySheet_id472fb03c.html"/>
+      </topic>
+   </topic>
+   <topic label="PCBs" href="html/ft_sm_ref/topics/MGCChap_Pcbs_id5b640937.html">
+      <topic label="Modeling PCBs"
+             href="html/ft_sm_ref/topics/Contain_ModelingPcbs_id5aa10c69.html">
+         <topic label="Non-Conducting PCBs"
+                href="html/ft_sm_ref/topics/Concept_NonConductingPcbs_ide9ca9898.html"/>
+         <topic label="Conducting PCBs"
+                href="html/ft_sm_ref/topics/Concept_ConductingPcbs_id3f78f37e.html"/>
+      </topic>
+      <topic label="Creating PCBs"
+             href="html/ft_sm_ref/topics/TaskTop_CreatingPcbs_idc4f95459.html"/>
+      <topic label="PCB Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_PcbPropertySheet_id95a390f1.html">
+         <topic label="PCB Property Sheet Construction Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_PcbPropertySheetConstructionTab_id4f1b9e9d.html"/>
+         <topic label="PCB Property Sheet Summary Data Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_PcbPropertySheetSummaryDataTab_id7b820c13.html"/>
+      </topic>
+   </topic>
+   <topic label="PCB Components"
+          href="html/ft_sm_ref/topics/MGCChap_PcbComponents_id30587282.html">
+      <topic label="Modeling PCB Components"
+             href="html/ft_sm_ref/topics/Concept_ModelingPcbComponents_ide14489bb.html"/>
+      <topic label="Creating PCB Components"
+             href="html/ft_sm_ref/topics/TaskTop_CreatingPcbComponents_idf5d10d12.html"/>
+      <topic label="PCB Component Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_PcbComponentPropertySheet_id4bf2c89e.html">
+         <topic label="PCB Component Property Sheet Construction Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_PcbComponentPropertySheetConstructionTab_idcf2928f7.html"/>
+      </topic>
+   </topic>
+   <topic label="Perforated Plates"
+          href="html/ft_sm_ref/topics/MGCChap_PerforatedPlates_id51f9e250.html">
+      <topic label="Resistance Models"
+             href="html/ft_sm_ref/topics/Concept_ResistanceModels_id5fdad71f.html"/>
+      <topic label="Perforated Plate Properties"
+             href="html/ft_sm_ref/topics/Concept_PerforatedPlateProperties_id21855420.html"/>
+      <topic label="Effects of Radiation"
+             href="html/ft_sm_ref/topics/Concept_EffectsRadiation_id107f9ae4.html"/>
+      <topic label="Perforated Plate Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_PerforatedPlatePropertySheet_idb120c2ad.html">
+         <topic label="Perforated Plate Property Sheet Construction"
+                href="html/ft_sm_ref/topics/GUIRefT_PerforatedPlatePropertySheetConstructionTab_id6feee049.html"/>
+      </topic>
+   </topic>
+   <topic label="Power Maps"
+          href="html/ft_sm_ref/topics/MGCChap_PowerMaps_id9dbb75dd.html">
+      <topic label="Working with Power Maps"
+             href="html/ft_sm_ref/topics/Concept_WorkingPowerMaps_id487bea71.html"/>
+      <topic label="Power Map Properties"
+             href="html/ft_sm_ref/topics/Concept_PowerMapProperties_id6758b4d8.html"/>
+      <topic label="Modeling Joule Heating"
+             href="html/ft_sm_ref/topics/Contain_ModelingJouleHeating_id2e776937.html">
+         <topic label="Modeling Joule Heating from Power Map Geometry and Power Data"
+                href="html/ft_sm_ref/topics/TaskTop_ModelingJouleHeatingFromPowerMapGeometryPowerData_idf373639b.html"/>
+         <topic label="Specifying Sources on Power Map Layers"
+                href="html/ft_sm_ref/topics/TaskTop_SpecifyingSourcesOnPowerMapLayers_id83b043ac.html"/>
+      </topic>
+      <topic label="Power Map Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_PowerMapPropertySheet_ida3aa29af.html"/>
+      <topic label="Power Map Layer Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_PowerMapLayerPropertySheet_id35a2ee55.html"/>
+      <topic label="Power Map Vias Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_PowerMapViasPropertySheet_id17a4c499.html"/>
+   </topic>
+   <topic label="Racks" href="html/ft_sm_ref/topics/MGCChap_Racks_ide5f9db40.html">
+      <topic label="Modeling Racks"
+             href="html/ft_sm_ref/topics/Concept_ModelingRacks_ide55c63e7.html"/>
+      <topic label="Creating New Racks"
+             href="html/ft_sm_ref/topics/TaskTop_CreatingNewRacks_id457f8ce0.html"/>
+      <topic label="Rack Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_RackPropertySheet_idb68b3dbe.html">
+         <topic label="Rack Property Sheet Construction Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_RackPropertySheetConstructionTab_id2b2ef31b.html"/>
+      </topic>
+   </topic>
+   <topic label="Recirculation Devices"
+          href="html/ft_sm_ref/topics/MGCChap_RecirculationDevices_id9fda0c49.html">
+      <topic label="Modeling Recirculation Devices"
+             href="html/ft_sm_ref/topics/Concept_ModelingRecirculationDevices_id3fc3d1c6.html"/>
+      <topic label="Example Models using Recirculation Devices"
+             href="html/ft_sm_ref/topics/Contain_ExampleModelsUsingRecirculationDevices_id8e44ac7f.html">
+         <topic label="Heat Exchanger Simple Model"
+                href="html/ft_sm_ref/topics/Concept_HeatExchangerSimpleModel_ida0a0f9e6.html"/>
+         <topic label="Heat Exchanger LMTD Model"
+                href="html/ft_sm_ref/topics/Concept_HeatExchangerLmtdModel_id0d7f44e9.html"/>
+         <topic label="Computer Room Air Conditioning (CRAC) Devices"
+                href="html/ft_sm_ref/topics/Concept_ComputerRoomAirConditioningCracDevices_idc9682e3b.html"/>
+         <topic label="Modeling Blowers"
+                href="html/ft_sm_ref/topics/TaskTop_ModelingBlowers_idc5bb9d5a.html"/>
+      </topic>
+      <topic label="Creating New Recirculation Devices"
+             href="html/ft_sm_ref/topics/TaskTop_CreatingNewRecirculationDevices_idaff5a774.html"/>
+      <topic label="Recirculation Device Properties"
+             href="html/ft_sm_ref/topics/Contain_RecirculationDeviceProperties_idfaf91001.html">
+         <topic label="Flow" href="html/ft_sm_ref/topics/Concept_FlowRate_idb1ffea79.html"/>
+         <topic label="Thermal Properties of Recirculation Devices"
+                href="html/ft_sm_ref/topics/Concept_ThermalPropertiesOfRecirculationDevices_id1a345859.html"/>
+         <topic label="Thermostats for Transient Cases"
+                href="html/ft_sm_ref/topics/Concept_ThermostatsTransientCases_id2652abf4.html"/>
+         <topic label="Fan Relaxation"
+                href="html/ft_sm_ref/topics/Concept_FanRelaxation_id96e6233c.html"/>
+      </topic>
+      <topic label="Recirculation Device Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_RecirculationDevicePropertySheet_id170a7bec.html">
+         <topic label="Recirculation Device Property Sheet Construction"
+                href="html/ft_sm_ref/topics/GUIRefT_RecirculationDevicePropertySheetConstructionTab_id8b9ab211.html"/>
+         <topic label="Recirculation Device Property Sheet Thermostat Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_RecirculationDevicePropertySheetThermostatTab_id7f0da72d.html"/>
+      </topic>
+   </topic>
+   <topic label="Regions" href="html/ft_sm_ref/topics/MGCChap_Regions_ideb7861ad.html">
+      <topic label="Region Usage"
+             href="html/ft_sm_ref/topics/Concept_RegionUsage_id9749bacb.html"/>
+      <topic label="Creating a Region"
+             href="html/ft_sm_ref/topics/TaskTop_CreatingARegion_id15ba88eb.html"/>
+      <topic label="Displaying Results Over a Region"
+             href="html/ft_sm_ref/topics/Concept_DisplayingResultsOverRegion_idbf338ae3.html"/>
+      <topic label="Multi-Fluid Regions"
+             href="html/ft_sm_ref/topics/Concept_MultiFluidRegions_idfe9c9a49.html"/>
+      <topic label="Grid Refinement Using Regions"
+             href="html/ft_sm_ref/topics/Concept_GridRefinementUsingRegions_id93e70f5d.html"/>
+      <topic label="Region Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_RegionPropertySheet_idbc43b797.html"/>
+   </topic>
+   <topic label="Resistances"
+          href="html/ft_sm_ref/topics/MGCChap_Resistances_idbe5a5714.html">
+      <topic label="Resistance Applications"
+             href="html/ft_sm_ref/topics/Concept_ResistanceApplications_id857756b3.html"/>
+      <topic label="Creating a Resistance"
+             href="html/ft_sm_ref/topics/TaskTop_CreatingResistance_id14e46821.html"/>
+      <topic label="Rotating a Collapsed Resistance"
+             href="html/ft_sm_ref/topics/TaskTop_RotatingCollapsedResistance_id7179d344.html"/>
+      <topic label="Resistance Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_ResistancePropertySheet_id96acdb29.html">
+         <topic label="Resistance Property Sheet Rotation Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_ResistancePropertySheetRotationTab_idcf02aa63.html"/>
+      </topic>
+   </topic>
+   <topic label="Sloping Blocks"
+          href="html/ft_sm_ref/topics/MGCChap_SlopingBlocks_id0cda6c75.html">
+      <topic label="Sloping Block Properties"
+             href="html/ft_sm_ref/topics/Concept_SlopingBlockProperties_id13c4e041.html"/>
+      <topic label="Creating Sloping Blocks"
+             href="html/ft_sm_ref/topics/TaskTop_CreatingSlopingBlocks_id7e25b186.html"/>
+      <topic label="Sloping Blocks and Solar Radiation"
+             href="html/ft_sm_ref/topics/Concept_SlopingBlocksSolarRadiation_id574656e0.html"/>
+      <topic label="Sloping Block Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_SlopingBlockPropertySheet_idc6c5c5fa.html">
+         <topic label="Sloping Block Property Sheet Construction Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_SlopingBlockPropertySheetConstructionTab_id38624d40.html"/>
+      </topic>
+   </topic>
+   <topic label="Sources" href="html/ft_sm_ref/topics/MGCChap_Sources_id10df56cb.html">
+      <topic label="Source Usage"
+             href="html/ft_sm_ref/topics/Concept_SourceUsage_id91adc0c9.html"/>
+      <topic label="Source Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_SourcePropertySheet_idea9bc8eb.html"/>
+   </topic>
+   <topic label="Supplies" href="html/ft_sm_ref/topics/MGCChap_Supplies_id0c626bec.html">
+      <topic label="Modeling Supplies"
+             href="html/ft_sm_ref/topics/Concept_ModelingSupplies_id2f907d45.html"/>
+      <topic label="Supply Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_SupplyPropertySheet_iddd0f2541.html">
+         <topic label="Supply Property Sheet Construction Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_SupplyPropertySheetConstructionTab_id44612f52.html"/>
+      </topic>
+   </topic>
+   <topic label="TECs" href="html/ft_sm_ref/topics/MGCChap_Tecs_idc37e0fc4.html">
+      <topic label="TEC Construction"
+             href="html/ft_sm_ref/topics/Concept_TecConstruction_id4b5660e4.html"/>
+      <topic label="Adding a TEC with Hot and Cold Side Monitor Points"
+             href="html/ft_sm_ref/topics/TaskTop_AddingTecHotColdSideMonitorPoints_id3404aea1.html"/>
+      <topic label="Modeling TECs"
+             href="html/ft_sm_ref/topics/Concept_ModelingTecs_idd9fe39c5.html"/>
+      <topic label="Using the Command Center to Determine the Operating Current"
+             href="html/ft_sm_ref/topics/TaskTop_UsingCommandCenterDetermineOperatingCurrent_id3bae6e1f.html"/>
+      <topic label="TEC Sizing"
+             href="html/ft_sm_ref/topics/Concept_TecSizing_id2bbc2555.html"/>
+      <topic label="TECs in Application Windows"
+             href="html/ft_sm_ref/topics/Concept_TECsInApplicationWindows_idfcb42b69.html"/>
+      <topic label="TEC Property Sheet"
+             href="html/ft_sm_ref/topics/GUIRefT_TecPropertySheet_id14ebcd5d.html">
+         <topic label="TEC Property Sheet Construction Tab"
+                href="html/ft_sm_ref/topics/GUIRefT_TecPropertySheetConstructionTab_idbb13c5f8.html"/>
+         <topic label="TEC Property Sheet Hot Sides Tabs"
+                href="html/ft_sm_ref/topics/GUIRefT_TecPropertySheetHotSidesTabs_id34a3f14e.html"/>
+      </topic>
+   </topic>
+   <topic label="EDA SmartParts"
+          href="html/ft_sm_ref/topics/MGCChap_EDASmartParts_id0255dde8.html">
+      <topic label="What are EDA SmartParts?"
+             href="html/ft_sm_ref/topics/Concept_WhatAreEDASmartParts_ida2f10c61.html"/>
+      <topic label="Extending EDA SmartParts"
+             href="html/ft_sm_ref/topics/TaskTop_ExtendingEDASmartParts_id937afbc0.html"/>
+      <topic label="EDA Boards"
+             href="html/ft_sm_ref/topics/Contain_EDABoards_ideac12b1e.html">
+         <topic label="Modeling EDA Boards"
+                href="html/ft_sm_ref/topics/Concept_ModelingEDABoards_idfaf3f324.html"/>
+         <topic label="EDA Board Property Sheet"
+                href="html/ft_sm_ref/topics/GUIRefT_EDABoardPropertySheet_id108ff29b.html">
+            <topic label="EDA Board Property Sheet Construction Tab"
+                   href="html/ft_sm_ref/topics/GUIRefT_EDABoardPropertySheetConstructionTab_id03de0fc4.html"/>
+         </topic>
+      </topic>
+      <topic label="EDA Cans" href="html/ft_sm_ref/topics/Contain_EdaCans_id75e1e614.html">
+         <topic label="Modeling EDA Cans"
+                href="html/ft_sm_ref/topics/Concept_ModelingEDACans_id1d0dcc9a.html"/>
+         <topic label="EDA Can Property Sheet"
+                href="html/ft_sm_ref/topics/GUIRefT_EDACanPropertySheet_id6e1c0053.html">
+            <topic label="EDA Can Property Sheet Construction Tab"
+                   href="html/ft_sm_ref/topics/GUIRefT_EDACanPropertySheetConstructionTab_id044471fc.html"/>
+         </topic>
+      </topic>
+      <topic label="EDA Components"
+             href="html/ft_sm_ref/topics/Contain_EdaComponents_id82ed6723.html">
+         <topic label="Modeling EDA Components"
+                href="html/ft_sm_ref/topics/Concept_ModelingEDAComponents_idfc065182.html"/>
+         <topic label="EDA Component Property Sheet"
+                href="html/ft_sm_ref/topics/GUIRefT_EDAComponentPropertySheet_id10be710f.html">
+            <topic label="EDA Component Property Sheet Construction Tab"
+                   href="html/ft_sm_ref/topics/GUIRefT_EDAComponentPropertySheetConstructionTab_id04147b93.html"/>
+         </topic>
+      </topic>
+      <topic label="EDA Electrical Vias Assemblies"
+             href="html/ft_sm_ref/topics/Contain_EdaElectricalViasAssemblies_idbd168d01.html">
+         <topic label="Modeling EDA Electrical Vias Assemblies"
+                href="html/ft_sm_ref/topics/Concept_ModelingEDAElectricalViasAssemblies_idf6663515.html"/>
+         <topic label="EDA Electrical Vias Assembly Property Sheet"
+                href="html/ft_sm_ref/topics/GUIRefT_EDAElectricalViasAssemblyPropertySheet_id474cdf0a.html"/>
+      </topic>
+      <topic label="EDA Electrical Vias"
+             href="html/ft_sm_ref/topics/Contain_EdaElectricalVias_id2e1465a1.html">
+         <topic label="Modeling EDA Electrical Vias"
+                href="html/ft_sm_ref/topics/Concept_ModelingEDAElectricalVias_id4b544fc1.html"/>
+         <topic label="EDA Electrical Via Property Sheet"
+                href="html/ft_sm_ref/topics/GUIRefT_EDAElectricalViaPropertySheet_id109873e2.html"/>
+      </topic>
+      <topic label="EDA Functional Groups"
+             href="html/ft_sm_ref/topics/Contain_EdaFunctionalGroups_id0a85c50d.html">
+         <topic label="Modeling EDA Functional Groups"
+                href="html/ft_sm_ref/topics/Concept_ModelingEDAFunctionalGroups_id8d8df7e7.html"/>
+         <topic label="EDA Functional Group Property Sheet"
+                href="html/ft_sm_ref/topics/GUIRefT_EDAFunctionalGroupPropertySheet_id10d9c1c4.html">
+            <topic label="EDA Functional Group Property Sheet Construction Tab"
+                   href="html/ft_sm_ref/topics/GUIRefT_EdaFunctionalGroupPropertySheetConstructionTab_id1705b5e8.html"/>
+         </topic>
+      </topic>
+      <topic label="EDA Heatsinks"
+             href="html/ft_sm_ref/topics/Contain_EdaHeatsinks_idb98a8916.html">
+         <topic label="Modeling EDA Heatsinks"
+                href="html/ft_sm_ref/topics/Concept_ModelingEDAHeatsinks_ida0fe96a9.html"/>
+         <topic label="EDA Heatsink Property Sheet"
+                href="html/ft_sm_ref/topics/GUIRefT_EDAHeatsinkPropertySheet_id10c6fe5d.html">
+            <topic label="EDA Heatsink Property Sheet Construction Tab"
+                   href="html/ft_sm_ref/topics/GUIRefT_EDAHeatsinkPropertySheetConstructionTab_id0431b8d2.html"/>
+         </topic>
+      </topic>
+      <topic label="EDA Layer Assemblies"
+             href="html/ft_sm_ref/topics/Contain_EDALayerAssemblies_id796fa083.html">
+         <topic label="Modeling EDA Layer Assemblies"
+                href="html/ft_sm_ref/topics/Concept_ModelingEDALayerAssemblies_idb1c07171.html"/>
+         <topic label="EDA Layer Assembly Property Sheet"
+                href="html/ft_sm_ref/topics/GUIRefT_EDALayerAssemblyPropertySheet_id2c1f2d50.html">
+            <topic label="EDA Layer Assembly Property Sheet Construction Tab"
+                   href="html/ft_sm_ref/topics/GUIRefT_EdaLayerAssemblyPropertySheetConstructionTab_ida7d7ae5d.html"/>
+         </topic>
+      </topic>
+      <topic label="EDA Layers"
+             href="html/ft_sm_ref/topics/Contain_EdaLayers_id2a320d58.html">
+         <topic label="Modeling EDA Layers"
+                href="html/ft_sm_ref/topics/Concept_ModelingEDALayers_id7209afb1.html"/>
+         <topic label="EDA Layer Property Sheet"
+                href="html/ft_sm_ref/topics/GUIRefT_EDALayerPropertySheet_id10abdd69.html">
+            <topic label="EDA Layer Property Sheet Construction Tab"
+                   href="html/ft_sm_ref/topics/GUIRefT_EDALayerPropertySheetConstructionTab_id03f08a17.html"/>
+         </topic>
+      </topic>
+      <topic label="EDA Potting Compound"
+             href="html/ft_sm_ref/topics/Contain_EdaPottingCompound_id73fb647b.html">
+         <topic label="Modeling EDA Potting Compound"
+                href="html/ft_sm_ref/topics/Concept_ModelingEDAPottingCompound_iddcddc8e2.html"/>
+         <topic label="EDA Potting Compound Property Sheet"
+                href="html/ft_sm_ref/topics/GUIRefT_EDAPottingCompoundPropertySheet_ida16fb01f.html">
+            <topic label="EDA Potting Compound Property Sheet Construction Tab"
+                   href="html/ft_sm_ref/topics/GUIRefT_EDAPottingCompoundPropertySheetConstructionTab_id044c4fe8.html"/>
+         </topic>
+      </topic>
+      <topic label="EDA Thermal Vias"
+             href="html/ft_sm_ref/topics/Contain_EdaThermalVias_id461b8645.html">
+         <topic label="Modeling EDA Thermal Vias"
+                href="html/ft_sm_ref/topics/Concept_ModelingEDAThermalVias_id3e931491.html"/>
+         <topic label="EDA Thermal Via Property Sheet"
+                href="html/ft_sm_ref/topics/GUIRefT_EDAThermalViaPropertySheet_id10d0191b.html">
+            <topic label="EDA Thermal Via Property Sheet Construction Tab"
+                   href="html/ft_sm_ref/topics/GUIRefT_EDAThermalViaPropertySheetConstructionTab_id043b31e8.html"/>
+         </topic>
+      </topic>
+   </topic>
+</toc>

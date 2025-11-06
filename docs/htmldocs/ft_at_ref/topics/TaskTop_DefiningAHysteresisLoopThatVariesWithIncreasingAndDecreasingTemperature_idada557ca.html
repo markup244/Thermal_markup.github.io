@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="TaskTopic" />
+<meta name="DC.Title" content="Defining a Hysteresis Loop That Varies With Increasing and Decreasing Temperature" />
+<meta name="abstract" content="Two profiles are created by fitting curves to two supplied sets of data points." />
+<meta name="description" content="Two profiles are created by fitting curves to two supplied sets of data points." />
+<meta name="prodname" content="Simcenter Flotherm" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_at_ref" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ Project Attributes Reference Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="idada557ca-92d6-4c35-869e-9df1b683368d" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Defining a Hysteresis Loop That Varies With Increasing and Decreasing Temperature</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Defining a Hysteresis Loop That Varies With Increasing and Decreasing Temperature" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="idada557ca-92d6-4c35-869e-9df1b683368d">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Defining a Hysteresis Loop That
+Varies With Increasing and Decreasing Temperature</h1>
+<div class="body taskbody TaskBody"><div class="abstract TaskAbstract"><span class="shortdesc">Two profiles
+are created by fitting curves to two supplied sets of data points.</span>
+</div>
+<div class="tasklabel"><h2 class="sectiontitle tasklabel">Procedure</h2></div><ol class="ol steps"><li class="li step stepexpand" id="idada557ca-92d6-4c35-869e-9df1b683368d__idbbff9cec-fb1b-4ff7-b408-79971fa0697d"><span class="ph cmd">In the <span class="ph uicontrol">Multiplier
+vs. Temperature</span> tab of the Transient Attribute property
+sheet, make sure that the Activate check box is checked.</span></li>
+<li class="li step stepexpand" id="idada557ca-92d6-4c35-869e-9df1b683368d__idc297e8a5-e6ba-433c-b51d-1aac86b36314"><span class="ph cmd">Click the Transient Temperature
+Chart <span class="ph uicontrol">Click to Edit</span> button.</span><div class="itemgroup info StepInfo"><p class="p">The Transient Temperature Chart
+is opened.</p>
+</div></li>
+<li class="li step stepexpand" id="idada557ca-92d6-4c35-869e-9df1b683368d__id7c19e50a-82bb-4b38-b205-a34e2ecbf716"><span class="ph cmd">Select the units for Temperature.</span></li>
+<li class="li step stepexpand" id="idada557ca-92d6-4c35-869e-9df1b683368d__id6b249d02-909d-4664-a696-2e99277c016f"><span class="ph cmd">Depending on how you want
+to enter data, choose one of the following methods.</span><div class="itemgroup info StepInfo">
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="idada557ca-92d6-4c35-869e-9df1b683368d__id486189bb-ef08-4df6-a128-4cd506ec950d" class="table" frame="border" border="1" rules="cols"><colgroup><col style="width:2.088in" /><col style="width:4.087in" /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry cellrowborder default-entry" style="vertical-align:top;" id="d23981e203"><p class="p">If you want to... </p>
+</th>
+<th class="entry cellrowborder default-entry" style="vertical-align:top;" id="d23981e206"><p class="p">Do
+the following:</p>
+</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d23981e203 "><p class="p">Enter data manually.</p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d23981e206 "><p class="p">The simplest method is
+to enter one set of values (for example, the increasing curve set)
+as you would for a non-hysteresis curve, then, when you enable hysteresis,
+both curve tables will be populated with the same values.</p>
+<ol class="ol"><li class="li" id="idada557ca-92d6-4c35-869e-9df1b683368d__idc218654d-324b-45e4-842f-c1670f26c2d3"><p class="p">Make sure that the Enable Hysteresis
+check box is unchecked and add values for Temperature and Multiplier
+as described in “<a class="xref fm:HeadingAndPage" href="TaskTop_DefiningATransientAttributeProfileThatVariesWithTemperature_id6e5f904b.html#id6e5f904b-a215-4718-9df5-43715e6dc577__TaskTop_DefiningATransientAttributeProfileThatVariesWithTemperature_id6e5f904b.xml#id6e5f904b-a215-4718-9df5-43715e6dc577" title="You can specify data points either by direct entry in a chart table or by importing the point values from CSV files.">Defining a Transient Attribute Profile That Varies With Temperature</a>”.</p>
+</li>
+<li class="li" id="idada557ca-92d6-4c35-869e-9df1b683368d__ide63cd199-7054-49f9-8971-ca5ce9664e08"><p class="p">Check the Enable Hysteresis check box. Note
+that both the Increasing Curve and Decreasing Curve tables are loaded
+with the values entered.</p>
+</li>
+<li class="li" id="idada557ca-92d6-4c35-869e-9df1b683368d__id08b7be67-4860-4a1d-aea8-2c65fbff48c7"><p class="p">Edit the values in the table(s) as required.</p>
+</li>
+</ol>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d23981e203 "><p class="p">Enter data by CSV file import.</p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d23981e206 "><ol class="ol"><li class="li" id="idada557ca-92d6-4c35-869e-9df1b683368d__id9baf726e-e5c6-4b9c-a687-b3a285c85853"><p class="p">Check the Enable Hysteresis check box.</p>
+</li>
+<li class="li" id="idada557ca-92d6-4c35-869e-9df1b683368d__idce147a30-b720-42b9-aa70-ae0629d1a5c7"><p class="p">Select the relevant table tab: Increasing Curve
+or Decreasing Curve.</p>
+</li>
+<li class="li" id="idada557ca-92d6-4c35-869e-9df1b683368d__idd7203b7a-bf2c-48b8-b150-cd722e34fa03"><p class="p">Click <span class="ph uicontrol">Import CSV File</span>.</p>
+</li>
+<li class="li" id="idada557ca-92d6-4c35-869e-9df1b683368d__id896311ae-b4f6-4d8b-badf-b55d9d46fb8e"><p class="p">Navigate to, and select, a valid CSV file and
+click <span class="ph uicontrol">Open</span>.</p>
+</li>
+<li class="li" id="idada557ca-92d6-4c35-869e-9df1b683368d__id5db74dc7-6bd0-4b91-8cd0-83a2779ea507"><p class="p">Repeat for the other table tab.</p>
+</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div></li>
+<li class="li step stepexpand" id="idada557ca-92d6-4c35-869e-9df1b683368d__id57d86643-82da-4bd6-b8ba-92ba229587a2"><span class="ph cmd">Check that the hysteresis
+loop is correct.</span></li>
+<li class="li step stepexpand" id="idada557ca-92d6-4c35-869e-9df1b683368d__id6112d7f3-26b2-498a-80af-6b3f22366441"><span class="ph cmd">Click <span class="ph uicontrol">OK</span> to
+save the data and close the Transient Temperature Chart.</span></li>
+</ol>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/Contain_TransientAttributeProcedures_id0d9b8d80.html" title="Use these procedures to define how transient multipliers vary with time or temperature.">Transient Attribute Procedures</a></div>
+</div>
+
+<div class="linklist linklist relinfo"><strong>Related Topics</strong><br />
+
+<div><a class="link" href="../topics/Concept_HysteresisLoops_id625baae2.html" title="The use of hysteresis loops enables more realistic temperature control methods, commonly used in electronics, to be simulated.">Hysteresis Loops</a></div>
+<div><a class="link" href="../topics/GUIRefT_TransientTemperatureChart_id2ef6aae1.html" title="Use this chart to set a profile, or two profiles to model hysteresis.">Transient Temperature Chart</a></div>
+<div><a class="link" href="../topics/FileRef_TransientTemperatureChartCsvFileFormat_id383ef0b6.html" title="Use this file to set up a transient attribute profile which varies with temperature.">Transient Temperature Chart CSV File Format</a></div></div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_at_ref"
+                DocTitle = "Simcenter™ Flotherm™ Project Attributes Reference Guide"
+                PageTitle = "Defining a Hysteresis Loop That Varies With Increasing and Decreasing Temperature"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/TaskTop_DefiningAHysteresisLoopThatVariesWithIncreasingAndDecreasingTemperature_idada557ca.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ Project Attributes Reference Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

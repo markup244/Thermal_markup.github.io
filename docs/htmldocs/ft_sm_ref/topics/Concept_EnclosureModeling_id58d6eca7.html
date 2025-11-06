@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="ConceptTopic" />
+<meta name="DC.Title" content="Enclosure Modeling" />
+<meta name="abstract" content="The following sub sections provide advice when modeling enclosures." />
+<meta name="description" content="The following sub sections provide advice when modeling enclosures." />
+<meta name="prodname" content="Simcenter Flotherm SmartParts Reference Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_sm_ref" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ SmartParts Reference Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="id58d6eca7-4ed2-4521-b586-9112cfd2287f" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Enclosure Modeling</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Enclosure Modeling" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="id58d6eca7-4ed2-4521-b586-9112cfd2287f">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Enclosure
+Modeling</h1>
+<div class="body conbody ConceptBody"><div class="abstract ConceptAbstract"><span class="shortdesc">The following
+sub sections provide advice when modeling enclosures.</span>
+</div>
+<div class="section Subsections"><div class="section Subsection" id="id58d6eca7-4ed2-4521-b586-9112cfd2287f__id370f8e5d-8180-4bd1-b03e-10e81c50ddba"><h2 class="title Subheading sectiontitle">Walls of Multiple Materials</h2><p class="p">More than one material can be
+defined for a wall by adding holes and then filling them with different
+materials, see “<a class="xref fm:HeadingAndPage" href="TaskTop_CreatingHoles_id6ec23a2b.html#id6ec23a2b-159b-4265-8b21-f5e747122b1e__TaskTop_CreatingHoles_id6ec23a2b.xml#id6ec23a2b-159b-4265-8b21-f5e747122b1e" title="Holes can only be created as children of Cuboid SmartParts or children of Walls of Enclosure SmartParts.">Creating Holes</a>”.</p>
+</div>
+<div class="section Subsection" id="id58d6eca7-4ed2-4521-b586-9112cfd2287f__idd37eeeec-5d3b-40e5-8a13-d375f081d5e8"><h2 class="title Subheading sectiontitle">Radiation Exchange Between
+Enclosure Walls and Other Objects</h2><p class="p">Radiation exchange between an enclosure and
+other objects can be applied if the walls are Thick.</p>
+<p class="p">If the thick-walled enclosure
+is co-located with the overall boundary or a cutout, then you can
+set a Radiant Temperature in an Ambient Attribute property sheet
+which then enables radiative heat transfer between the enclosure
+walls and a fixed temperature.</p>
+<p class="p">Radiation exchange can be applied on Thin walls
+if they are located either on the domain boundary or on the edge
+of a cutout. </p>
+<p class="p">To define radiation exchange, attach a Radiation
+attribute to the enclosure.</p>
+</div>
+<div class="section Subsection" id="id58d6eca7-4ed2-4521-b586-9112cfd2287f__id3274c606-a24e-40c5-acdf-bf0592a84d4a"><h2 class="title Subheading sectiontitle">Convective Exchange
+of Enclosure Walls on the Domain Boundary</h2><p class="p">If the enclosure walls lie on the domain boundary,
+then convective exchange with the surroundings can be applied for
+both thick and thin walls. </p>
+</div>
+<div class="section Subsection" id="id58d6eca7-4ed2-4521-b586-9112cfd2287f__idf2dd60e7-ef3f-45e1-a8ba-91825f55b5b3"><h2 class="title Subheading sectiontitle">Thermal Attachments After Enclosure
+Decomposition</h2><p class="p">An enclosure can be decomposed into its primitive
+parts.</p>
+<p class="p">Prior to decomposition, any attached thermal
+attribute defines the enclosure as conducting or non-conducting
+at a fixed temperature. If a library attribute is attached which
+has a power output setting, then the power setting is ignored.</p>
+</div>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/MGCChap_Enclosures_ide91c7ae6.html" title="Use Enclosure SmartParts to model containers. The size of a new Enclosure is that of the solution domain.">Enclosures</a></div>
+</div>
+
+<div class="linklist linklist relinfo"><strong>Related Topics</strong><br />
+
+<div><a class="link" href="../topics/GUIRefT_EnclosurePropertySheet_idb6e8388c.html#idb6e8388c-3b05-45d7-9060-c60e1dfc5fe0__" title="Use this property sheet to configure an enclosure.">Enclosure Property Sheet</a></div>
+<div><a class="link" href="../topics/GUIRefT_EnclosureWallPropertySheet_id91035cda.html#id91035cda-5052-4c96-aab5-66fdbfe17212__" title="Use this property sheet to configure an enclosure wall.">Enclosure Wall Property Sheet</a></div>
+<div><a class="link" href="../topics/MGCChap_Holes_id28ad9bc9.html#id28ad9bc9-fc82-4ec6-bbd6-5f926d3d98d6__" title="Use Hole SmartParts to create rectangular-shaped ventilation gaps, more complex-shaped holes can be created using MCAD Bridge. Optionally, a hole can be filled and can have a defined resistance to flow.">Holes</a></div>
+<div><a class="link" href="../topics/Concept_EnclosureConstruction_ida047d13e.html#ida047d13e-013e-4955-99a3-e4fc7018b5ec__" title="An Enclosure SmartPart is made up of up to six 3D or 2D walls.">Enclosure Construction</a></div></div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_sm_ref"
+                DocTitle = "Simcenter™ Flotherm™ SmartParts Reference Guide"
+                PageTitle = "Enclosure Modeling"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/Concept_EnclosureModeling_id58d6eca7.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ SmartParts Reference Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

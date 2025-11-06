@@ -1,0 +1,45 @@
+Board vias processing,EViaDialog,ft_eda_ur
+Layer trace processing,LayerPatchesDialog,ft_eda_ur
+AlignToolBar,AlignToolBar,ft_eda_ur
+Board2DAnnotateOptions,Bd2DAnnOptions,ft_eda_ur
+Board2DColourOptions,Bd2DColOptions,ft_eda_ur
+Board2DViewOptions,Bd2DViewOptions,ft_eda_ur
+ComponentTableView,ComponentTables,ft_eda_ur
+Board2DComponentOptions,CompOptions,ft_eda_ur
+,EditMenu,ft_eda_ur
+,FileMenu,ft_eda_ur
+BoardPaletteView,GeometryPalette,ft_eda_ur
+,HelpMenu,ft_eda_ur
+MenuBar,MenuBar,ft_eda_ur
+StandardToolBar,StdToolBar,ft_eda_ur
+Board3DViewer,ThreeDView,ft_eda_ur
+,ToolsMenu,ft_eda_ur
+GUITree,TreeView,ft_eda_ur
+HorizontalRuler,TwoDRulers,ft_eda_ur
+VerticalRuler,TwoDRulers,ft_eda_ur
+twodview,TwoDView,ft_eda_ur
+View2DView,TwoDView,ft_eda_ur
+,View2DTools,ft_eda_ur
+Component Filter Options,CompFilterDialog,ft_eda_ur
+New Library Dialog,CreateNewLibsDialog,ft_eda_ur
+Library Search Dialog,edaLibSearchDialog,ft_eda_ur
+Pattern Selected Items,edaPatternDialog,ft_eda_ur
+Move Selected Items,MoveSelectedItemsDialog,ft_eda_ur
+Text Edit,EdTxtDialog,ft_eda_ur
+Find Dialog,FindCompFGroupDialog,ft_eda_ur
+Get New Material Data,GetNewMatDialog,ft_eda_ur
+Global Units,GLUnitsDialog,ft_eda_ur
+GUI Preferences,GUIPrefDialog,ft_eda_ur
+Select Library Item Dialog,LibItemSelDialog,ft_eda_ur
+LibraryView,LibraryView,ft_eda_ur
+Select Library Dialog,LibSelDialog,ft_eda_ur
+Library Selector for Component Import Dialog,LibSwapDialog,ft_eda_ur
+Material Selection,MatSelDialog,ft_eda_ur
+propsheet,PropertySheets,ft_eda_ur
+PropSheetView,PropertySheets,ft_eda_ur
+SaveDialog,SaveModelDialog,ft_eda_ur
+Select Column Types,SelColsDialog,ft_eda_ur
+View 3D Controls,View3DDialog,ft_eda_ur
+View Existing Material Data,ViewExistMatDialog,ft_eda_ur
+Contents,EDAWindowLayout,ft_eda_ur
+Import Power List Report,PowerImpRep,ft_eda_ur

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="TaskTopic" />
+<meta name="DC.Title" content="Setting Up and Creating a DoE" />
+<meta name="abstract" content="A DoE creates scenarios whose input variables are restricted within user-specified ranges." />
+<meta name="description" content="A DoE creates scenarios whose input variables are restricted within user-specified ranges." />
+<meta name="prodname" content="Simcenter Flotherm Command Center User Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_cc_user" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ Command Center User Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="id5805c352-a4d6-4170-b359-a1c31eb8901e" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Setting Up and Creating a DoE</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Setting Up and Creating a DoE" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<meta name="has_video" content="true" /><script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="id5805c352-a4d6-4170-b359-a1c31eb8901e">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Setting Up and
+Creating a DoE</h1>
+<div class="body taskbody TaskBody"><div class="abstract TaskAbstract"><span class="shortdesc">A DoE creates
+scenarios whose input variables are restricted within user-specified
+ranges.</span>
+</div>
+<div class="section Restrictions"><h2 class="title Subheading sectiontitle">Restrictions and Limitations</h2><ul class="ul"><li class="li" id="id5805c352-a4d6-4170-b359-a1c31eb8901e__idefd23d07-25ad-4e38-8703-6caad587a3ac"><p class="p">Collision
+Detection is not supported if either of these restrictions is not
+met:</p>
+<ul class="ul"><li class="li" id="id5805c352-a4d6-4170-b359-a1c31eb8901e__idcc1f0ad4-309d-49a3-8015-7dba2ce2d1e4"><p class="p">Dependent
+variable expressions must be solely a function of Design Parameter
+type input variables, otherwise Warning W/20102 is generated.</p>
+</li>
+<li class="li" id="id5805c352-a4d6-4170-b359-a1c31eb8901e__id51d4b49a-e886-4dca-92e7-d9630edff6b7"><p class="p">Dependent variable
+expressions must be linear, otherwise Warning W/20103 is generated.</p>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section VideoProcedures"><h2 class="title Subheading sectiontitle">Video</h2><p class="p">Learn how to create a design of experiments set of scenarios.</p>
+<div class="p Video"><a class="xref fm-xref-container VideoXref" target="_blank" href="../../../videos/ft_12_0_cc_scenarios_doe_vid/index.html" handle="ft_12_0_cc_scenarios_doe_vid" jobid="AF14E900_7F64_1014_941C_C529C5E57021" webid="96b62a3b-d2e4-469d-a92b-d1767e82b448" title="Command Center Scenario Creation - Design Of Experiments" description=" Creating scenarios whose input variables are restricted within user-specified ranges." recorded_version="FloTHERM v12.0" verified_version="FloTHERM v12.0" categories="">        <br /><div class="imagecenter"><img class="image imagecenter fmdpi:96" src="../graphics/video_thumbnails/ft_12_0_cc_scenarios_doe_vid_idAF14E900_medium.png" /></div><br /></a> </div>
+</div>
+<div class="tasklabel"><h2 class="sectiontitle tasklabel">Procedure</h2></div><ol class="ol steps"><li class="li step stepexpand" id="id5805c352-a4d6-4170-b359-a1c31eb8901e__id1f3566a9-2f40-418f-ad6b-e5e59dcadc25"><span class="ph cmd">Choose the input variable
+types and set their ranges using the Design Parameter variable type
+option of the Input Variables panel. </span></li>
+<li class="li step stepexpand" id="id5805c352-a4d6-4170-b359-a1c31eb8901e__id8260cf1f-2417-4bd2-a96b-65461bd1f1bd"><span class="ph cmd">Choose <span class="ph menucascade"><span class="ph uicontrol">Create Scenarios</span><abbr title="and then"> &gt; </abbr><span class="ph uicontrol">Design Of Experiments</span></span> to open
+the Design Of Experiments dialog box.</span></li>
+<li class="li step stepexpand" id="id5805c352-a4d6-4170-b359-a1c31eb8901e__idfc43c18b-80e8-4a72-b568-fb18a12ad55b"><span class="ph cmd">By default,
+DoE projects are named Design <var class="keyword varname">n</var>, where <var class="keyword varname">n</var> is numbered
+from 0, but you can change this default by editing the Design Name field.</span></li>
+<li class="li step stepexpand" id="id5805c352-a4d6-4170-b359-a1c31eb8901e__id1c61b24f-3c79-4884-bc10-b1de43284a27"><span class="ph cmd">Optionally,
+check the Enable Collision Detection check box.</span><div class="itemgroup info StepInfo"><p class="p">This stops objects that are moving positions between
+scenarios from colliding.</p>
+</div></li>
+<li class="li step stepexpand" id="id5805c352-a4d6-4170-b359-a1c31eb8901e__id47345d55-ec43-4009-a4e8-bc2122ae0f87"><span class="ph cmd">Optionally,
+create input constraints.</span></li>
+<li class="li step stepexpand" id="id5805c352-a4d6-4170-b359-a1c31eb8901e__id95654373-f287-421d-9923-fa812b68226e"><span class="ph cmd">Enter the number of experiments
+that you want to generate in the Number Of Experiments To Design
+field.</span></li>
+<li class="li step stepexpand" id="id5805c352-a4d6-4170-b359-a1c31eb8901e__id52b4e80e-f495-4c63-805b-fd929e004c21"><span class="ph cmd">Click <span class="ph uicontrol">OK</span> to
+create a set of automatically generated scenario projects.</span></li>
+</ol>
+<div class="section result"><div class="tasklabel"><h2 class="sectiontitle tasklabel">Results</h2></div><p class="p">It is advisable to check the projects
+that have been created before attempting a solve:</p>
+<ul class="ul"><li class="li" id="id5805c352-a4d6-4170-b359-a1c31eb8901e__idd2faf152-5fa4-4b28-ad67-768bbd923c93"><p class="p">Open the Scenario Viewer and
+select each scenario to view any dimensional changes.</p>
+</li>
+<li class="li" id="id5805c352-a4d6-4170-b359-a1c31eb8901e__idf6abcb60-1680-4829-8f1f-2a395014aa91"><p class="p">Open the Scenario Table and
+check the input variables of the scenarios. </p>
+</li>
+<li class="li" id="id5805c352-a4d6-4170-b359-a1c31eb8901e__idb6042bab-e1a2-4443-b5d2-c59512541316"><p class="p">In addition, you can see how
+input variables vary graphically by choosing <span class="ph menucascade"><span class="ph uicontrol">Chart</span><abbr title="and then"> &gt; </abbr><span class="ph uicontrol">Create</span></span> and selecting input
+variables to be plotted against Scenario Number, for example, see <a class="xref fm:Figure" href="#id5805c352-a4d6-4170-b359-a1c31eb8901e__id1659c3cc-2f94-4782-8125-e1292437a908">Figure 1</a>.</p>
+</li>
+</ul>
+<div class="fig fignone" id="id5805c352-a4d6-4170-b359-a1c31eb8901e__id1659c3cc-2f94-4782-8125-e1292437a908"><span class="figcap"><span class="fig--title-label">Figure 1. </span>Design Input Variables
+vs Scenario Chart</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:120" src="../graphics/ug_OptimizeDesignChart.gif" /></div><br /></div>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/Contain_DesignOfExperimentsDoe_idc279f8b8.html" title="A Design of Experiments (DoE) creates a number of experiments (scenario projects) where the selected input variables are varied within a defined range.">Design of Experiments (DoE)</a></div>
+</div>
+
+<div class="linklist linklist relinfo"><strong>Related Topics</strong><br />
+
+<div><a class="link" href="../topics/GUIRefT_DesignOfExperimentsDialogBox_idabb9c1c4.html" title="Use this dialog box to create a sequence of scenarios using experimental design methods and to define constraints (or limits) on the variable changes.">Design Of Experiments Dialog Box</a></div>
+<div><a class="link" href="../topics/TaskTop_CreatingAnInputConstraint_id50677570.html" title="Input constraints can be added to help guide optimization.">Creating an Input Constraint</a></div>
+<div><a class="link" href="../topics/GUIRefT_ResultsComparisonChart_id8b516d3d.html" title="Use these charts for quick interpretation of the scenario project data. The results and input variables for different scenario projects can be compared on the same chart.">Results Comparison Chart</a></div></div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_cc_user"
+                DocTitle = "Simcenter™ Flotherm™ Command Center User Guide"
+                PageTitle = "Setting Up and Creating a DoE"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/TaskTop_SettingUpAndCreatingADoe_id5805c352.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ Command Center User Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

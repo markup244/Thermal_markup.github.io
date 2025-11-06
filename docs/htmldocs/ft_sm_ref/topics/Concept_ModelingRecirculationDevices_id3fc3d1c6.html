@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="ConceptTopic" />
+<meta name="DC.Title" content="Modeling Recirculation Devices" />
+<meta name="abstract" content="The recirculation device is a convenient way to represent systems such as fan coil units that recirculate air by extracting it from the enclosure, then conditioning and returning it." />
+<meta name="description" content="The recirculation device is a convenient way to represent systems such as fan coil units that recirculate air by extracting it from the enclosure, then conditioning and returning it." />
+<meta name="prodname" content="Simcenter Flotherm SmartParts Reference Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_sm_ref" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ SmartParts Reference Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="id3fc3d1c6-ff4c-4521-acf8-fc8ea2e365f3" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Modeling Recirculation Devices</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Modeling Recirculation Devices" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="id3fc3d1c6-ff4c-4521-acf8-fc8ea2e365f3">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Modeling Recirculation Devices</h1>
+<div class="body conbody ConceptBody"><div class="abstract ConceptAbstract"><span class="shortdesc">The recirculation
+device is a convenient way to represent systems such as fan coil
+units that recirculate air by extracting it from the enclosure,
+then conditioning and returning it.</span>
+</div>
+<p class="p">The recirculation device is modeled
+in three stages:</p>
+<ol class="ol"><li class="li" id="id3fc3d1c6-ff4c-4521-acf8-fc8ea2e365f3__idd3622110-eb86-48b1-8f8c-33b3b5745800"><p class="p">Extract a flow from the solution domain at
+a specified flow rate.</p>
+</li>
+<li class="li" id="id3fc3d1c6-ff4c-4521-acf8-fc8ea2e365f3__idf0dc28d9-c19b-4aab-8a87-145566819949"><p class="p">Subject this extracted flow
+to cooling, or heating.</p>
+</li>
+<li class="li" id="id3fc3d1c6-ff4c-4521-acf8-fc8ea2e365f3__id35af9179-df0d-4fdd-a662-12aa04d0dcd3"><p class="p">Re-supply this cooled, or heated, flow at
+a different location.</p>
+</li>
+</ol>
+<p class="p">The recirculation device is defined by specifying
+the type and thermal properties of the flow through it, and the
+location of the air supply(ies) and extract(s).</p>
+<p class="p">Each supply and extract of a recirculation
+device is represented by a planar surface. For identification, a
+supply is shown in the drawing board in blue, and an extract in
+brown. <a class="xref fm:Figure" href="#id3fc3d1c6-ff4c-4521-acf8-fc8ea2e365f3__ida27b3997-851d-468c-932c-b1f8d0554974">Figure 1</a> shows this coloring in solid rendering.</p>
+<div class="fig fignone" id="id3fc3d1c6-ff4c-4521-acf8-fc8ea2e365f3__ida27b3997-851d-468c-932c-b1f8d0554974"><span class="figcap"><span class="fig--title-label">Figure 1. </span>Recirculation Device SmartPart
+in the Drawing Board</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:120" src="../graphics/sm_RecircInDBoard.gif" /></div><br /></div>
+<p class="p">To ensure that the recirculation
+device is included in the simulation, the supplies and extracts
+of the recirculation device must sit on the edge of cuboids, cutouts,
+or the domain boundary.</p>
+<div class="section Subsections"><div class="section Subsection" id="id3fc3d1c6-ff4c-4521-acf8-fc8ea2e365f3__idbc520c70-8718-4b27-af59-5580c409a088"><h2 class="title Subheading sectiontitle">External Recirculation Devices</h2><p class="p">External recirculation devices
+are completely outside the calculation domain. An example of an
+external cooling circuit is shown in <a class="xref fm:Figure" href="#id3fc3d1c6-ff4c-4521-acf8-fc8ea2e365f3__id3a6acd45-3d87-4370-bd1d-eff8190242be">Figure 2</a>.</p>
+<div class="fig fignone" id="id3fc3d1c6-ff4c-4521-acf8-fc8ea2e365f3__id3a6acd45-3d87-4370-bd1d-eff8190242be"><span class="figcap"><span class="fig--title-label">Figure 2. </span>Example of an External Recirculation Device</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:100" src="../graphics/sm_recirc03a.png" /></div><br /></div>
+<p class="p">To model an external recirculation
+device, the following are the only specifications required:</p>
+<ul class="ul"><li class="li" id="id3fc3d1c6-ff4c-4521-acf8-fc8ea2e365f3__id935c3e2b-d157-40e8-a82b-232ccfb31a59"><p class="p">The degree of heating or cooling.</p>
+</li>
+<li class="li" id="id3fc3d1c6-ff4c-4521-acf8-fc8ea2e365f3__ida67edbd3-4b73-4c66-957e-679ee3b946fd"><p class="p">The supply and extract locations on the
+domain boundaries.</p>
+</li>
+<li class="li" id="id3fc3d1c6-ff4c-4521-acf8-fc8ea2e365f3__idca995812-ff36-4a03-a59d-d2bcd893f4f6"><p class="p">The extract flow rate.</p>
+<div class="note note"><span class="notetitle">Note:</span> <p class="p">When using a recirculation
+device on the edge of the solution domain or a cutout, ensure that
+this is not coincident with an open boundary. Either make the boundary
+a symmetry plane or add a collapsed cuboid on the edge, on which
+to place the recirculation device extract or supply.</p>
+</div>
+</li>
+</ul>
+</div>
+<div class="section Subsection" id="id3fc3d1c6-ff4c-4521-acf8-fc8ea2e365f3__id1f9aec98-8fe6-471e-b36d-a978ce1ff7d5"><h2 class="title Subheading sectiontitle">Internal Recirculation
+Devices</h2><p class="p">Internal recirculation devices,
+have their extracts and supplies fully located within the calculation
+domain, for example, see <a class="xref fm:Figure" href="#id3fc3d1c6-ff4c-4521-acf8-fc8ea2e365f3__id0aa80b20-d4b7-4a2d-8be5-6a4527db3ded">Figure 3</a>.</p>
+<div class="fig fignone" id="id3fc3d1c6-ff4c-4521-acf8-fc8ea2e365f3__id0aa80b20-d4b7-4a2d-8be5-6a4527db3ded"><span class="figcap"><span class="fig--title-label">Figure 3. </span>Example of an Internal Recirculation Device</span><br /><div class="imagecenter"><img class="image imagecenter" src="../graphics/sm_recirc05a.png" /></div><br /></div>
+<p class="p">It
+is important that the air cannot move directly from extract to supply
+in the model so an obstruction has to be used when the extract and
+supply terminals are not on the boundaries of the domain. For example,
+you could add a cuboid block (as shown in <a class="xref fm:Figure" href="#id3fc3d1c6-ff4c-4521-acf8-fc8ea2e365f3__id0aa80b20-d4b7-4a2d-8be5-6a4527db3ded">Figure 3</a>) to represent the portion of the calculation
+domain occupied by the heater/cooler.</p>
+</div>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/MGCChap_RecirculationDevices_id9fda0c49.html" title="Use Recirculation Device SmartParts to model heat exchangers, CRAC units and blowers.">Recirculation Devices</a></div>
+</div>
+
+<div class="linklist linklist relinfo"><strong>Related Topics</strong><br />
+
+<div><a class="link" href="../topics/Contain_ExampleModelsUsingRecirculationDevices_id8e44ac7f.html#id8e44ac7f-9f28-494a-8e41-4978fbadb367__" title="The following subsections give examples of using recirculation devices to model heat exchangers.">Example Models Using Recirculation Devices</a></div>
+<div><a class="link" href="../topics/MGCChap_Extracts_id06beca01.html#id06beca01-008f-40f6-8fd5-6e5026352b32__" title="Extracts are children of Recirculation Device, Rack, and Cooler SmartParts.">Extracts</a></div>
+<div><a class="link" href="../topics/MGCChap_Supplies_id0c626bec.html#id0c626bec-f749-4dcd-ada2-2795b30a4dc6__" title="Supply SmartParts are children of Recirculation Device, Rack, and Cooler SmartParts.">Supplies</a></div>
+<div><a class="link" href="../topics/TaskTop_CreatingNewRecirculationDevices_idaff5a774.html#idaff5a774-7add-4f29-ad97-312f5dcf2eee__" title="When Recirculation Devices are created, they have Extract and Supply SmartParts added as children.">Creating New Recirculation Devices</a></div>
+<div><a class="link" href="../topics/Contain_RecirculationDeviceProperties_idfaf91001.html#idfaf91001-8262-4441-8268-4216fcd875d9__" title="The properties of Recirculation Device SmartParts are described in the following subsections and in the property sheet description.">Recirculation Device Properties</a></div></div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_sm_ref"
+                DocTitle = "Simcenter™ Flotherm™ SmartParts Reference Guide"
+                PageTitle = "Modeling Recirculation Devices"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/Concept_ModelingRecirculationDevices_id3fc3d1c6.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ SmartParts Reference Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

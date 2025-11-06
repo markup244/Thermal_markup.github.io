@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="TaskTopic" />
+<meta name="DC.Title" content="Running an RSO" />
+<meta name="abstract" content="Includes post-run operations. You can run an RSO several times to try and improve on the optimum design." />
+<meta name="description" content="Includes post-run operations. You can run an RSO several times to try and improve on the optimum design." />
+<meta name="prodname" content="Simcenter Flotherm Command Center User Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_cc_user" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ Command Center User Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="idf25b828b-e2f4-4397-81b2-29ee2dd89b47" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Running an RSO</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Running an RSO" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="idf25b828b-e2f4-4397-81b2-29ee2dd89b47">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Running an RSO</h1>
+<div class="body taskbody TaskBody"><div class="abstract TaskAbstract"><span class="shortdesc">Includes
+post-run operations. You can run an RSO several times to try and
+improve on the optimum design.</span>
+</div>
+<div class="section Restrictions"><h2 class="title Subheading sectiontitle">Restrictions and Limitations</h2><ul class="ul"><li class="li" id="idf25b828b-e2f4-4397-81b2-29ee2dd89b47__id37d77a56-2164-4871-8187-fca279444fb8"><p class="p">Ensure
+the DoEs have been optimized without variable constraints. </p>
+</li>
+<li class="li" id="idf25b828b-e2f4-4397-81b2-29ee2dd89b47__id220d962c-a429-4781-b94a-b33af38097ac"><p class="p">When using <span class="ph fmvar:Product">Simcenter Flotherm</span> remotely,
+the Response Surface Viewer has limited support with some graphics
+cards that support improved OpenGL over RDP. As a workaround, you
+are advised to use VNC instead of RDP.</p>
+</li>
+</ul>
+</div>
+<div class="tasklabel"><h2 class="sectiontitle tasklabel">Procedure</h2></div><ol class="ol steps"><li class="li step stepexpand" id="idf25b828b-e2f4-4397-81b2-29ee2dd89b47__id792f4fe9-abc8-4438-86d5-04eca9764928"><span class="ph cmd">Define the input and output
+variables, the cost function and build a set of experiments.</span></li>
+<li class="li step stepexpand" id="idf25b828b-e2f4-4397-81b2-29ee2dd89b47__id7457e396-a68d-45fe-9704-3f3a88d7da85"><span class="ph cmd">Solve all
+the scenarios.</span></li>
+<li class="li step stepexpand" id="idf25b828b-e2f4-4397-81b2-29ee2dd89b47__id8f2cbbe4-384f-400a-8093-da8d12a57ed8"><span class="ph cmd">Click the <span class="ph uicontrol">Optimize</span> icon <img class="image fmdpi:96" src="../graphics/ic_Optimize.gif" /> or choose <span class="ph menucascade"><span class="ph uicontrol">Project</span><abbr title="and then"> &gt; </abbr><span class="ph uicontrol">Optimize</span></span> to
+open the Optimize dialog box.</span></li>
+<li class="li step stepexpand" id="idf25b828b-e2f4-4397-81b2-29ee2dd89b47__idcef4901d-aaf7-4787-9657-5c9ed41222ea"><span class="ph cmd">Set the
+Optimization Type to Response Surface From All and remove any Constraints.</span></li>
+<li class="li step stepexpand" id="idf25b828b-e2f4-4397-81b2-29ee2dd89b47__idd80afb23-9cd5-43e0-83a6-9205e95de094"><span class="ph cmd">Click <span class="ph uicontrol">OK</span>.</span><div class="itemgroup info StepInfo"><p class="p">When the
+optimization has completed, a new design is added to the Scenario
+Table, named RSO Design-<var class="keyword varname">n</var>. The
+Solution Status is RSO Optimum (+/- <var class="keyword varname">%</var>),
+where <var class="keyword varname">%</var> is a measure of difference
+from the recommended optimum.</p>
+<p class="p">The Scenario
+Table is populated with the expected values, italicized, of the
+output parameters and the cost function.</p>
+</div></li>
+<li class="li step stepexpand" id="idf25b828b-e2f4-4397-81b2-29ee2dd89b47__id03921a2d-1c6e-4a36-9e1b-143a906909c2"><span class="ph cmd">To view the results, click the <span class="ph uicontrol">Response Surface Viewer</span> icon <img class="image fmdpi:96" src="../graphics/ic_RSViewer.gif" /> </span></li>
+<li class="li step stepexpand" id="idf25b828b-e2f4-4397-81b2-29ee2dd89b47__id637397a8-9d95-4c63-beb7-8f1c01297764"><span class="ph cmd">You can
+perform any of the following post-run operations:</span><div class="itemgroup info StepInfo">
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="idf25b828b-e2f4-4397-81b2-29ee2dd89b47__idccb6c923-f89b-478f-b268-85309100df0e" class="table" frame="border" border="1" rules="cols"><colgroup><col style="width:1.936in" /><col style="width:3.588in" /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry cellrowborder default-entry" style="vertical-align:top;" id="d18780e248"><p class="p">If you want to...</p>
+</th>
+<th class="entry cellrowborder default-entry" style="vertical-align:top;" id="d18780e251"><p class="p">Do the following:</p>
+</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d18780e248 "><p class="p">Compare RSO results.</p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d18780e251 "><ol class="ol"><li class="li" id="idf25b828b-e2f4-4397-81b2-29ee2dd89b47__id6720c725-e654-48c5-b8d1-b42131ea5e42"><p class="p">Copy
+the RSO-generated design, creating two identical scenarios, one
+of which has response parameter values and cost function predicted
+by the RSO.</p>
+</li>
+<li class="li" id="idf25b828b-e2f4-4397-81b2-29ee2dd89b47__id40564b36-9d98-453f-ba06-1fa06373d529"><p class="p">Solve the other scenario to get calculated values
+for the response parameters and cost function.</p>
+</li>
+<li class="li" id="idf25b828b-e2f4-4397-81b2-29ee2dd89b47__id7577f7a9-c155-4f04-b47d-c406d962326c"><p class="p">Comparing the results from the two scenarios will
+confirm whether the predicted design is close to the true optimum.</p>
+</li>
+</ol>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d18780e248 "><p class="p">Re-run an RSO.</p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d18780e251 "><ol class="ol"><li class="li" id="idf25b828b-e2f4-4397-81b2-29ee2dd89b47__id62f471e8-bc79-4d09-9e5c-41e979dbd411"><p class="p">Delete
+the RSO-generated optimum design.</p>
+</li>
+<li class="li" id="idf25b828b-e2f4-4397-81b2-29ee2dd89b47__idc80b7dbd-8dd5-47f3-a167-d77221fff3f5"><p class="p">Re-run the RSO to see how the optimum design changes
+when the results for the previously predicted optimum designs are
+added to the set of designs being fitted.</p>
+</li>
+</ol>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d18780e248 "><p class="p">Populate the design space.</p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d18780e251 "><ol class="ol"><li class="li" id="idf25b828b-e2f4-4397-81b2-29ee2dd89b47__idb97df2fa-c1c5-4c15-a014-283feb27a2d5"><p class="p">Generate
+further scenarios by re-running the DoE software.</p>
+</li>
+<li class="li" id="idf25b828b-e2f4-4397-81b2-29ee2dd89b47__id423304de-f4ce-4310-bbaa-32aa3a6b6355"><p class="p">Solve all the new scenarios.</p>
+</li>
+<li class="li" id="idf25b828b-e2f4-4397-81b2-29ee2dd89b47__idf3a5494f-a8c8-489c-8eb5-016331bbbe5b"><p class="p">Re-run the RSO.</p>
+</li>
+</ol>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d18780e248 "><p class="p">Zoom in on a region of
+the design space.</p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d18780e251 "><ol class="ol"><li class="li" id="idf25b828b-e2f4-4397-81b2-29ee2dd89b47__id568f940f-1d23-459e-8585-a6ae55fd46f3"><p class="p">Refine
+the input variable range as desired, for example, by reducing the range,
+centered on the predicted optimum design.</p>
+</li>
+<li class="li" id="idf25b828b-e2f4-4397-81b2-29ee2dd89b47__id15688e4f-ef0c-441b-bcfa-1ef38feda41f"><p class="p">Generate further designs by re-running the DoE
+software.</p>
+</li>
+<li class="li" id="idf25b828b-e2f4-4397-81b2-29ee2dd89b47__id4da2c6f6-5fc1-4b74-8c25-8247ffbaa3c6"><p class="p">Re-run the RSO.</p>
+</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div></li>
+</ol>
+<div class="section result"><div class="tasklabel"><h2 class="sectiontitle tasklabel">Results</h2></div><p class="p">If there is more than one input variable, then
+you can define 2.5D and 3D plots in the Response Surface Viewer.</p>
+<p class="p">Use the mouse scroll wheel to zoom in and out
+of plots.</p>
+<p class="p">Left-click and drag to create a zoom area in 2D
+and 2.5D plots; right-click to return to full view.</p>
+<p class="p">Right-click and drag in a 3D plot to rotate the
+plot.</p>
+</div>
+<div class="section Examples"><h2 class="title Subheading sectiontitle">Examples</h2><div class="fig fignone" id="idf25b828b-e2f4-4397-81b2-29ee2dd89b47__idbe6fd485-4bca-4438-acb8-cc4a0e5835ed"><span class="figcap"><span class="fig--title-label">Figure 1. </span>Response Surface Viewer 2D Plot</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:200" src="../graphics/RSO_2D_example.gif" /></div><br /></div>
+<div class="fig fignone" id="idf25b828b-e2f4-4397-81b2-29ee2dd89b47__idcc1ec7f4-f5ad-4ee5-b5ba-e3013abc7c25"><span class="figcap"><span class="fig--title-label">Figure 2. </span>Response Surface Viewer 2.5D Plot</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:200" src="../graphics/RSO_2_5D_example.gif" /></div><br /></div>
+<p class="p">In <a class="xref fm:Figure" href="#idf25b828b-e2f4-4397-81b2-29ee2dd89b47__id2a585d5b-dd1f-4a1d-8ef6-55c4ed1e333d">Figure 3</a>, a point
+on the plot has been clicked to show its estimated value. The calculated
+accuracy of values on the plot is shown in the title bar.</p>
+<div class="fig fignone" id="idf25b828b-e2f4-4397-81b2-29ee2dd89b47__id2a585d5b-dd1f-4a1d-8ef6-55c4ed1e333d"><span class="figcap"><span class="fig--title-label">Figure 3. </span>Response Surface Viewer 3D Plot</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:200" src="../graphics/RSO_3D_example.gif" /></div><br /></div>
+<div class="note tip"><span class="tiptitle">Tip</span> <p class="p">Having selected
+a point on a 3D plot, you can create a new scenario directly from
+the Response Surface Viewer by opening the <span class="ph uicontrol">Variables</span> tab (noting
+that the variables values have changed to those at the selected
+point on the plot) and clicking <span class="ph uicontrol">Create Scenario</span>.</p>
+</div>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/Contain_ResponseSurfaceOptimizationRso_idc183ba28.html" title="RSO is a faster method of optimization than performing an SO from the best design available.">Response Surface Optimization (RSO)</a></div>
+</div>
+
+<div class="linklist linklist relinfo"><strong>Related Topics</strong><br />
+
+<div><a class="link" href="../topics/GUIRefT_OptimizeDialogBox_id7397fafb.html" title="Use this dialog box to set up the sequential optimization controls.">Optimize Dialog Box</a></div>
+<div><a class="link" href="../topics/GUIRefT_ResponseSurfaceViewer_ide72b62ee.html" title="Use this viewer to see how input variables affect output variables and the cost function.">Response Surface Viewer</a></div></div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_cc_user"
+                DocTitle = "Simcenter™ Flotherm™ Command Center User Guide"
+                PageTitle = "Running an RSO"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/TaskTop_RunningAnRsoAndPostRunOperations_idf25b828b.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ Command Center User Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

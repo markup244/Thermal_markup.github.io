@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="ConceptTopic" />
+<meta name="DC.Title" content="Modeling Controllers" />
+<meta name="abstract" content="Use Controller SmartParts to change power when set high and low temperatures are reached." />
+<meta name="description" content="Use Controller SmartParts to change power when set high and low temperatures are reached." />
+<meta name="prodname" content="Simcenter Flotherm SmartParts Reference Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_sm_ref" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ SmartParts Reference Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="id23f80e5f-4020-4bc3-9b1b-5fc002809f1e" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Modeling Controllers</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Modeling Controllers" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="id23f80e5f-4020-4bc3-9b1b-5fc002809f1e">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Modeling Controllers</h1>
+<div class="body conbody ConceptBody"><div class="abstract ConceptAbstract"><span class="shortdesc">Use Controller SmartParts to change
+power when set high and low temperatures are reached.</span>
+</div>
+<div class="fig fignone" id="id23f80e5f-4020-4bc3-9b1b-5fc002809f1e__id94e55feb-6473-42e2-8ebe-7e6ddd7cf4ec"><span class="figcap"><span class="fig--title-label">Figure 1. </span>Controller
+in Data Tree Hierarchy</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:120" src="../graphics/controller_instance_in_data_tree.gif" /></div><br /></div>
+<p class="p">The only objects that can be children of a Controller SmartPart
+are a source and one or more monitor points. </p>
+<p class="p">When there is more than one monitor point
+child of a controller, you have a choice between using any monitor
+point to switch between the frequencies, or using all monitor points to
+switch between the frequencies. See the “THigh Frequency Switching
+Criteria” description in “<a class="xref fm:HeadingAndPage" href="GUIRefT_ControllerPropertySheetConstructionTab_id189851c2.html#id189851c2-ac99-4303-b559-e8e9aee1bb18__GUIRefT_ControllerPropertySheetConstructionTab_id189851c2.xml#id189851c2-ac99-4303-b559-e8e9aee1bb18" title="Use this property sheet tab to attach a Control attribute to the controller and to select the initial power control curve. Also, use this property sheet to find out which power curve is in use if a solve is interrupted or stopped.">Controller Property Sheet Construction Tab</a>”.</p>
+<p class="p">The size of the heat source is defined by a single Source SmartPart,
+that is, a cuboid shape.</p>
+<p class="p">The heat output is defined by a Control attribute: the heat output
+set by a Source attribute attached to the Source SmartPart is ignored.
+A Control attribute defines a set of control (Power vs Temperature)
+curves with high and low temperature thresholds.</p>
+<p class="p">After solving for a transient analysis, Controllers results tables
+show Controller Frequency and Controller Power values.</p>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/MGCChap_Controllers_id0135c9d3.html" title="Use the Controller SmartPart to create a frequency-based power controller.">Controllers</a></div>
+</div>
+
+<div class="linklist linklist relinfo"><strong>Related Topics</strong><br />
+
+<div><a class="link" href="../../ft_at_ref/nsmgchelp.htm" target="_top" onclick="oT('STD_FM11', 'Frequency-Based Power Control', 'ft_at_ref'); return false;">Frequency-Based Power Control [Simcenter Flotherm Project Attributes Reference Guide]</a></div></div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_sm_ref"
+                DocTitle = "Simcenter™ Flotherm™ SmartParts Reference Guide"
+                PageTitle = "Modeling Controllers"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/Concept_ModelingControllers_id23f80e5f.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ SmartParts Reference Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

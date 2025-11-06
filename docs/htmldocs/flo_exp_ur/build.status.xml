@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc.build.status>
+  <validation>5</validation>
+  <checkref>5</checkref>
+  <html>5</html>
+  <pdf>5</pdf>
+  <pdfcksum>62a10f826f9cb341fda6bbade9aa4842</pdfcksum>
+  <iso>NONE</iso>
+  <revhist>4</revhist>
+</doc.build.status>

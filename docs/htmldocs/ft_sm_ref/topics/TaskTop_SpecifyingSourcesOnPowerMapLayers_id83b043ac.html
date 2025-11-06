@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="TaskTopic" />
+<meta name="DC.Title" content="Specifying Sources on Power Map Layers" />
+<meta name="abstract" content="The following procedure uses geometry data from imported files, but power is determined from Potential Sources attached to PCB layers." />
+<meta name="description" content="The following procedure uses geometry data from imported files, but power is determined from Potential Sources attached to PCB layers." />
+<meta name="prodname" content="Simcenter Flotherm SmartParts Reference Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_sm_ref" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ SmartParts Reference Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="id83b043ac-556d-46f2-86c2-22e72507798a" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Specifying Sources on Power Map Layers</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Specifying Sources on Power Map Layers" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="id83b043ac-556d-46f2-86c2-22e72507798a">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Specifying Sources on Power Map Layers</h1>
+<div class="body taskbody TaskBody"><div class="abstract TaskAbstract"><span class="shortdesc">The following
+procedure uses geometry data from imported files, but power is determined
+from Potential Sources attached to PCB layers.</span>
+</div>
+<div class="section Restrictions"><h2 class="title Subheading sectiontitle">Restrictions and Limitations</h2><ul class="ul"><li class="li" id="id83b043ac-556d-46f2-86c2-22e72507798a__id64ed4fa9-4a6e-4fb4-9703-779ec1372f5a"><p class="p">When Sources are applied
+to Power Map geometry, then all internal Power Map power data is
+ignored.</p>
+</li>
+<li class="li" id="id83b043ac-556d-46f2-86c2-22e72507798a__id7d6ac479-5cfd-4fa8-b723-1659523532ee"><p class="p">Restrictions and Limitations
+described under <a class="xref Link" href="../../ft_at_ref/nsmgchelp.htm" target="_top" onclick="oT('STD_FM11', 'Modeling Joule Heating With Potential Source Attributes', 'ft_at_ref'); return false;">Modeling Joule Heating With Potential Source Attributes</a> in the <cite class="cite">Simcenter
+Flotherm Project Attributes Reference Guide</cite>.</p>
+</li>
+</ul>
+</div>
+<div class="tasklabel"><h2 class="sectiontitle tasklabel">Procedure</h2></div><ol class="ol steps"><li class="li step stepexpand" id="id83b043ac-556d-46f2-86c2-22e72507798a__idbb00481b-43c9-4070-891c-4bcff7d66a92"><span class="ph cmd">Add a Power Map as described
+in “<a class="xref fm:HeadingAndPage" href="TaskTop_ModelingJouleHeatingFromPowerMapGeometryPowerData_idf373639b.html#idf373639b-4a8f-43fb-948f-78a783ba8e8c__TaskTop_ModelingJouleHeatingFromPowerMapGeometryPowerData_idf373639b.xml#idf373639b-4a8f-43fb-948f-78a783ba8e8c" title="Geometry and power data from imported HyperLynx files is used to model the effects of Joule heating.">Modeling Joule Heating From Power Map Geometry and Power Data</a>”, but do not solve the model.</span></li>
+<li class="li step stepexpand" id="id83b043ac-556d-46f2-86c2-22e72507798a__id194e5f5d-f1c8-427a-8194-8d57241e56cf"><span class="ph cmd">Switch on Joule Heating at
+the <span class="ph uicontrol">Model Setup</span> tab.</span></li>
+<li class="li step stepexpand" id="id83b043ac-556d-46f2-86c2-22e72507798a__idcb82fb2d-8592-49ec-a9de-a53fa2a1676b"><span class="ph cmd">Add Source SmartParts to the
+Power Map Layers and/or Vias. Typically these will used to set fixed
+voltages and current sources and sinks at the ends of tracks.</span><div class="itemgroup info StepInfo"><div class="note tip"><span class="tiptitle">Tip</span> <p class="p">If you
+select a Power Map Layer or Via before adding a Source SmartPart,
+then the Source dimensions will match the bounding box dimensions of
+the selected object. The Source SmartPart can then be resized.</p>
+</div>
+<div class="fig fignone" id="id83b043ac-556d-46f2-86c2-22e72507798a__idb8eeecf5-f48a-4e43-a05c-6702bc6141b9"><span class="figcap"><span class="fig--title-label">Figure 1. </span>Sources on Power Map Layers</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:100" src="../graphics/sources_on_power_map_layer.gif" /></div><br /></div>
+</div></li>
+<li class="li step stepexpand" id="id83b043ac-556d-46f2-86c2-22e72507798a__id676a649d-3275-47ff-922a-34a517d60f01"><span class="ph cmd">Define Potential Source attributes
+as necessary and attach these to the Source SmartParts. See <a class="xref Link" href="../../ft_at_ref/nsmgchelp.htm" target="_top" onclick="oT('STD_FM11', 'Source Attributes', 'ft_at_ref'); return false;">Source Attributes</a> in the <cite class="cite">Simcenter Flotherm Project Attributes
+Reference Guide</cite>.</span></li>
+<li class="li step stepexpand" id="id83b043ac-556d-46f2-86c2-22e72507798a__id98aa516e-dd56-4466-a334-532b4753bbe9"><span class="ph cmd">Check that the correct Electrical
+Resistivity values are defined. The default Material attribute attached
+to Power Maps is Copper (Pure).</span></li>
+<li class="li step stepexpand" id="id83b043ac-556d-46f2-86c2-22e72507798a__id16616009-9790-4d89-a9cb-8eaad0fba471"><span class="ph cmd">Run a sanity check to ensure
+the Sources are adequately defined and that there is electrical
+connectivity between them.</span></li>
+<li class="li step stepexpand" id="id83b043ac-556d-46f2-86c2-22e72507798a__id8883ba52-a7f7-415f-8b67-901a27e3614a"><span class="ph cmd">Solve the model.</span></li>
+</ol>
+<div class="section result"><div class="tasklabel"><h2 class="sectiontitle tasklabel">Results</h2></div><p class="p">Refer to the Results section of <a class="xref Link" href="../../ft_at_ref/nsmgchelp.htm" target="_top" onclick="oT('STD_FM11', 'Modeling Joule Heating With Potential Source Attributes', 'ft_at_ref'); return false;">Modeling Joule Heating With Potential Source Attributes</a> in the <cite class="cite">Simcenter
+Flotherm Project Attributes Reference Guide</cite>.</p>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/Contain_ModelingJouleHeating_id2e776937.html" title="Power Maps exported from HyperLynx can be used to model Joule heating in PCBs.">Modeling Joule Heating</a></div>
+</div>
+
+<div class="linklist linklist relinfo"><strong>Related Topics</strong><br />
+
+<div><a class="link" href="../topics/Concept_PowerMapProperties_id6758b4d8.html#id6758b4d8-e0c5-423e-bb2a-579527c4d2b4__" title="Use Power Map SmartParts to predict the temperatures of (high) current carrying copper nets in PCBs.">Power Map Properties</a></div>
+<div><a class="link" href="../../ft_user/nsmgchelp.htm" target="_top" onclick="oT('STD_FM11', 'Joule Heating Analysis', 'ft_user'); return false;">Joule Heating Analysis</a></div>
+<div><a class="link" href="../topics/Concept_WorkingPowerMaps_id487bea71.html#id487bea71-abb7-4656-b8ca-e7995b68f447__" title="Power Maps are created from CSV files exported from Mentor Graphics HyperLynx PI (Power Integrity).">Working With Power Maps</a></div>
+<div><a class="link" href="../topics/GUIRefT_PowerMapPropertySheet_ida3aa29af.html#ida3aa29af-b047-41c9-a03f-820e9a1396b9__" title="Use this property sheet to configure a power map.">Power Map Property Sheet</a></div></div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_sm_ref"
+                DocTitle = "Simcenter™ Flotherm™ SmartParts Reference Guide"
+                PageTitle = "Specifying Sources on Power Map Layers"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/TaskTop_SpecifyingSourcesOnPowerMapLayers_id83b043ac.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ SmartParts Reference Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

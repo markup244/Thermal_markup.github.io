@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="ConceptTopic" />
+<meta name="DC.Title" content="Working With Power Maps" />
+<meta name="abstract" content="Power Maps are created from CSV files exported from Mentor Graphics HyperLynx PI (Power Integrity)." />
+<meta name="description" content="Power Maps are created from CSV files exported from Mentor Graphics HyperLynx PI (Power Integrity)." />
+<meta name="prodname" content="Simcenter Flotherm SmartParts Reference Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_sm_ref" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ SmartParts Reference Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="id487bea71-abb7-4656-b8ca-e7995b68f447" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Working With Power Maps</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Working With Power Maps" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="id487bea71-abb7-4656-b8ca-e7995b68f447">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Working With Power Maps</h1>
+<div class="body conbody ConceptBody"><div class="abstract ConceptAbstract"><span class="shortdesc">Power Maps
+are created from CSV files exported from Mentor Graphics HyperLynx<sup>®</sup> PI (Power Integrity).</span>
+</div>
+<p class="p">The HyperLynx CSV files contain
+PCB geometry information and power values. There are two applications
+of these files:</p>
+<ul class="ul"><li class="li" id="id487bea71-abb7-4656-b8ca-e7995b68f447__id2c675268-e309-474d-9b0f-fe9c0f9416a2"><p class="p">Calculation of Joule Heating from the
+geometry and power data within the CSV file.</p>
+</li>
+<li class="li" id="id487bea71-abb7-4656-b8ca-e7995b68f447__id395440ff-d325-49c0-81dd-43b2a052e2b8"><p class="p">Calculation of Joule Heating from the
+geometry data only within the CSV file, the power being defined
+separately by Potential Source attributes on PCB layers.</p>
+</li>
+</ul>
+<p class="p">Power Maps are subject to a number of rules,
+described here, along with advice on how to avoid problems.</p>
+<div class="section Subsections"><div class="section Subsection" id="id487bea71-abb7-4656-b8ca-e7995b68f447__idab65ba00-ad9e-41ee-b324-072fff9c0096"><h2 class="title Subheading sectiontitle">Power Values</h2><ul class="ul"><li class="li" id="id487bea71-abb7-4656-b8ca-e7995b68f447__idfcb1a84c-a36c-4e5b-8063-39c29b8ba0d0"><p class="p">Power Map powers can
+be overwritten by solid geometry (cuboid, prism, and so on) lower
+in the Project Manager data tree. In such cases, no power is applied
+because of the Power Map.</p>
+</li>
+<li class="li" id="id487bea71-abb7-4656-b8ca-e7995b68f447__id3db45864-ac0d-4582-b3f0-d23e3e0b95eb"><p class="p">Cells containing powers from multiple
+Power Maps use the sum of the powers present in that CFD cell.</p>
+</li>
+</ul>
+</div>
+<div class="section Subsection" id="id487bea71-abb7-4656-b8ca-e7995b68f447__id414b50d8-4f9a-495f-b8b0-2f93ff05f526"><h2 class="title Subheading sectiontitle">Materials</h2><ul class="ul"><li class="li" id="id487bea71-abb7-4656-b8ca-e7995b68f447__id414fe717-a22c-445c-95fd-e7dfec10c559"><p class="p">Power Map materials can be overwritten
+where multiple Power Map bounding boxes overlap.</p>
+<p class="p">The material attached
+to the overwriting Power Map is used throughout the overwriting
+volume. As the Power Map material is usually Copper (Pure), it is
+usually the case that Copper (Pure) replaces Copper (Pure).</p>
+</li>
+</ul>
+</div>
+<div class="section Subsection" id="id487bea71-abb7-4656-b8ca-e7995b68f447__idd5e1786d-f8ee-44fc-a522-2445e79795a1"><h2 class="title Subheading sectiontitle">Fully Overwritten Power
+Maps are Not Supported</h2><ul class="ul"><li class="li" id="id487bea71-abb7-4656-b8ca-e7995b68f447__id87fa176f-862a-49df-83d0-34e3860b2ad5"><p class="p">Simcenter Flotherm does not support Power
+Maps that are fully overwritten by other Power Maps, and issues
+a “fully overwritten” Error message. However, partially overwritten
+Power Maps are supported, therefore, rearranging the project hierarchy
+so that the largest Power Maps are higher in the data tree should
+help to avoid such Error messages.</p>
+</li>
+</ul>
+</div>
+<div class="section Subsection" id="id487bea71-abb7-4656-b8ca-e7995b68f447__id70311f18-cae6-4c96-9b8c-472cf5894c39"><h2 class="title Subheading sectiontitle">Surface Temperature
+Plots</h2><ul class="ul"><li class="li" id="id487bea71-abb7-4656-b8ca-e7995b68f447__id4041f18f-b00f-4fdb-8690-13626422c37b"><p class="p">Surface temperature plots for models
+with multiple Power Maps work as expected provided that none of
+the Power Map solid is overwritten by another Power Map bounding
+box.</p>
+</li>
+<li class="li" id="id487bea71-abb7-4656-b8ca-e7995b68f447__id6124b66c-92be-45b1-bba6-f48aaf967078"><p class="p">If any solid portion of a Power Map is
+overlapped by the bounding box of another Power Map, then the surface
+temperature plots are either incomplete or displayed in incorrect
+areas of the model <span class="ph FontProperty emphasis">if such plots are created for individual Power Maps</span>.</p>
+</li>
+<li class="li" id="id487bea71-abb7-4656-b8ca-e7995b68f447__idefe631d3-7006-41b4-9ded-d035465552e0"><p class="p">If any solid portion of a Power Map is
+overlapped by the bounding box of another Power Map, then the correct
+surface temperature plots are created <span class="ph FontProperty emphasis">if all Power Maps in the model are included in the plot</span>.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/MGCChap_PowerMaps_id9dbb75dd.html" title="The Power Map SmartPart uses HyperLynx data to model Joule heating.">Power Maps</a></div>
+</div>
+
+<div class="linklist linklist relinfo"><strong>Related Topics</strong><br />
+
+<div><a class="link" href="../topics/Contain_ModelingJouleHeating_id2e776937.html#id2e776937-6c6c-473f-8e21-3e0fe238f5ed__" title="Power Maps exported from HyperLynx can be used to model Joule heating in PCBs.">Modeling Joule Heating</a></div></div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_sm_ref"
+                DocTitle = "Simcenter™ Flotherm™ SmartParts Reference Guide"
+                PageTitle = "Working With Power Maps"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/Concept_WorkingPowerMaps_id487bea71.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ SmartParts Reference Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

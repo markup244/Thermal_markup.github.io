@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?><toc topic="html/ft_mc_user/topics/title1.html"
+     label="Simcenter Flotherm MCAD Bridge User Guide none">
+   <topic label="List of Figures" href="html/ft_mc_user/figures.html"/>
+   <topic label="List of Tables" href="html/ft_mc_user/man_lot1.html"/>
+   <topic label="  Getting Started"
+          href="html/ft_mc_user/topics/MGCChap_GettingStarted_idc682cd22.html">
+      <topic label="Introduction"
+             href="html/ft_mc_user/topics/Concept_Introduction_id122c77f8.html"/>
+      <topic label="Starting MCAD Bridge"
+             href="html/ft_mc_user/topics/Contain_StartingFlomcadBridge_ideeb59897.html">
+         <topic label="MCAD Bridge License"
+                href="html/ft_mc_user/topics/Concept_FlomcadBridgeLicense_id37cf491a.html"/>
+         <topic label="Starting MCAD Bridge"
+                href="html/ft_mc_user/topics/TaskTop_StartingMCADBridge_ida6706a0e.html"/>
+         <topic label="Starting MCAD Bridge in Stand-Alone Mode"
+                href="html/ft_mc_user/topics/TaskTop_StartingFlomcadBridgeInStandAloneMode_idf2ca34d0.html"/>
+      </topic>
+      <topic label="MCAD Bridge GUI Features and Concepts"
+             href="html/ft_mc_user/topics/Contain_FlomcadBridgeGuiFeaturesConcepts_ida4aeb47c.html">
+         <topic label="MCAD Bridge Window"
+                href="html/ft_mc_user/topics/Concept_FlomcadBridgeWindow_ide0b7d33c.html"/>
+         <topic label="Geometry Rendering and Color Conventions"
+                href="html/ft_mc_user/topics/Concept_GeometryRenderingColorConventions_id24c24260.html"/>
+         <topic label="Geometry Selection and View Manipulation"
+                href="html/ft_mc_user/topics/Concept_GeometrySelectionViewManipulation_idf23bd71c.html"/>
+         <topic label="MCAD Bridge Shortcut Keys"
+                href="html/ft_mc_user/topics/General_FlomcadBridgeShortcutKeys_idc27805ee.html"/>
+      </topic>
+      <topic label="MCAD Bridge Routine Procedures"
+             href="html/ft_mc_user/topics/Contain_FlomcadBridgeRoutineProcedures_id1a944f4c.html">
+         <topic label="Viewing an Assembly"
+                href="html/ft_mc_user/topics/TaskTop_ViewingAssembly_id273d8505.html"/>
+         <topic label="Un-Highlighting Non-Planar Faces"
+                href="html/ft_mc_user/topics/TaskTop_UnHighlightingNonPlanarFaces_id3659baed.html"/>
+         <topic label="Measuring Distances Between Two Vertices"
+                href="html/ft_mc_user/topics/TaskTop_MeasuringDistancesBetweenTwoVertices_id654996e1.html"/>
+         <topic label="Rotating the GDA View Incrementally"
+                href="html/ft_mc_user/topics/TaskTop_RotatingGdaViewIncrementally_id2318d2fe.html"/>
+         <topic label="Rotating Parts and Assemblies to Align With Major Axes"
+                href="html/ft_mc_user/topics/TaskTop_RotatingPartsAssembliesAlignMajorAxes_id89f56737.html"/>
+      </topic>
+      <topic label="MCAD Bridge Property Sheets and Dialog Boxes"
+             href="html/ft_mc_user/topics/Contain_FlomcadBridgePropertySheetsDialogBoxes_id842123e4.html">
+         <topic label="MCAD Bridge Property Sheet"
+                href="html/ft_mc_user/topics/GUIRefT_FlomcadBridgePropertySheet_idbec9e9ab.html"/>
+         <topic label="Measure Dialog Box"
+                href="html/ft_mc_user/topics/GUIRefT_MeasureDialogBox_id42bf3832.html"/>
+         <topic label="Rotate View Dialog Box"
+                href="html/ft_mc_user/topics/GUIRefT_RotateViewDialogBox_id213afd53.html"/>
+      </topic>
+   </topic>
+   <topic label="  Introduction to the Processes"
+          href="html/ft_mc_user/topics/MGCChap_IntroductionProcesses_idc582f3f6.html">
+      <topic label="Overview of the Import Process"
+             href="html/ft_mc_user/topics/TaskTop_OverviewImportProcess_id59a83cc9.html"/>
+      <topic label="Overview of the Export Process"
+             href="html/ft_mc_user/topics/TaskTop_OverviewExportProcess_id8767fddf.html"/>
+      <topic label="Identification of MCAD Assemblies and Parts"
+             href="html/ft_mc_user/topics/Concept_IdentificationMcadAssembliesParts_id20f73756.html"/>
+      <topic label="FloSCRIPT"
+             href="html/ft_mc_user/topics/Concept_Floscript_id2e330d5e.html"/>
+   </topic>
+   <topic label="Import and Export"
+          href="html/ft_mc_user/topics/MGCChap_ImportExport_id7a5c2745.html">
+      <topic label="Import" href="html/ft_mc_user/topics/Contain_Import_id74a728fc.html">
+         <topic label="Overview of Importing MCAD Designs"
+                href="html/ft_mc_user/topics/Concept_OverviewImportingMcadDesigns_id2ab3742d.html"/>
+         <topic label="Supported Import File Formats"
+                href="html/ft_mc_user/topics/Concept_SupportedImportFileFormats_id54e4e536.html"/>
+         <topic label="Supported IGES Entities"
+                href="html/ft_mc_user/topics/Concept_SupportedIgesEntities_idbb063fbe.html"/>
+         <topic label="Importing MCAD Files into FloMCAD Bridge"
+                href="html/ft_mc_user/topics/TaskTop_ImportingMcadFilesIntoFlomcadBridge_ida08ea499.html"/>
+         <topic label="Importing DXF Files into FloMCAD Bridge"
+                href="html/ft_mc_user/topics/TaskTop_ImportingDxfFilesIntoFlomcadBridge_idbfa201d3.html"/>
+      </topic>
+      <topic label="Simplifying MCAD Parts or Bodies"
+             href="html/ft_mc_user/topics/Contain_SimplifyingMcadPartsBodies_id2f189e3e.html">
+         <topic label="Uniting, Intersecting and Subtracting Multiple Bodies"
+                href="html/ft_mc_user/topics/TaskTop_UnitingIntersectingSubtractingMultipleBodies_id529de1f0.html"/>
+         <topic label="Using Global Simplify to Automatically Simplify Features and Faces"
+                href="html/ft_mc_user/topics/TaskTop_UsingGlobalSimplifyAutomaticallySimplifyFeaturesFaces_id82318a85.html"/>
+         <topic label="Using the Healing Tool to Join Entities to Create a Solid Object"
+                href="html/ft_mc_user/topics/TaskTop_UsingHealingToolJoinEntitiesCreateSolidObject_id8a071325.html"/>
+         <topic label="Using Local Simplify to Simplify Selected Features and Faces"
+                href="html/ft_mc_user/topics/Contain_UsingLocalSimplifySimplifySelectedFeaturesFaces_id07938043.html">
+            <topic label="Adding a Bounding Box"
+                   href="html/ft_mc_user/topics/TaskTop_AddingBoundingBox_idbbc9ed79.html"/>
+            <topic label="Subtracting a Bounding Box"
+                   href="html/ft_mc_user/topics/TaskTop_SubtractingBoundingBox_id9263fa20.html"/>
+            <topic label="Removing Selected Features"
+                   href="html/ft_mc_user/topics/TaskTop_RemovingSelectedFeatures_id9810dc63.html"/>
+            <topic label="Flattening Selected Faces"
+                   href="html/ft_mc_user/topics/TaskTop_FlatteningSelectedFaces_id61dcd5e2.html"/>
+            <topic label="Levelling Selected Faces"
+                   href="html/ft_mc_user/topics/TaskTop_LevellingSelectedFaces_id02f2acd4.html"/>
+            <topic label="Suppressing Removal of Non-Planar Faces when Using Global Simplify"
+                   href="html/ft_mc_user/topics/TaskTop_SuppressingRemovalNonPlanarFacesWhenUsingGlobalSimplify_idd71d6d69.html"/>
+         </topic>
+         <topic label="Splitting an MCAD Body"
+                href="html/ft_mc_user/topics/TaskTop_SplittingMcadBody_id163912a5.html"/>
+         <topic label="Extruding MCAD Geometry Faces or Edges"
+                href="html/ft_mc_user/topics/TaskTop_ExtrudingMcadGeometryFacesEdges_id25024ecf.html"/>
+      </topic>
+      <topic label="Converting MCAD Geometry"
+             href="html/ft_mc_user/topics/Contain_ConvertingMCADGeometry_ida1a0575f.html">
+         <topic label="Voxelization"
+                href="html/ft_mc_user/topics/Concept_Voxelization_id4ca47d9b.html"/>
+         <topic label="Simple Simplifying and Converting"
+                href="html/ft_mc_user/topics/TaskTop_SimpleSimplifyingConverting_idd9442c83.html"/>
+         <topic label="Replacing with a Single Object"
+                href="html/ft_mc_user/topics/TaskTop_ReplacingSingleObject_idbebae45b.html"/>
+         <topic label="Dissecting a Body based on Tolerances"
+                href="html/ft_mc_user/topics/TaskTop_DissectingBodyBasedOnTolerances_id663a7825.html"/>
+         <topic label="Voxelizing an MCAD Part"
+                href="html/ft_mc_user/topics/TaskTop_VoxelizingMcadPart_id73a30e72.html"/>
+         <topic label="Changing Names and Checking for Full Conversion"
+                href="html/ft_mc_user/topics/TaskTop_ChangingNamesCheckingFullConversion_id7bb8a17e.html"/>
+      </topic>
+      <topic label="Transferring a Converted MCAD Assembly"
+             href="html/ft_mc_user/topics/TaskTop_TransferringAConvertedMCADAssembly_id9ac69b91.html"/>
+      <topic label="Export" href="html/ft_mc_user/topics/Contain_Export_id03e8b4f4.html">
+         <topic label="Supported Export File Formats"
+                href="html/ft_mc_user/topics/Concept_SupportedExportFileFormats_idca808af3.html"/>
+         <topic label="Exporting Project Geometry"
+                href="html/ft_mc_user/topics/TaskTop_ExportingProjectGeometry_idec54e634.html"/>
+      </topic>
+      <topic label="FloMCAD Bridge Import and Convert Dialog Boxes"
+             href="html/ft_mc_user/topics/Contain_FlomcadBridgeImportConvertDialogBoxes_idcf728776.html">
+         <topic label="FloMCAD Bridge Monitor Dialog Box"
+                href="html/ft_mc_user/topics/GUIRefT_FlomcadBridgeMonitorDialogBox_idcb4961a5.html"/>
+         <topic label="Preferences Dialog Box"
+                href="html/ft_mc_user/topics/GUIRefT_PreferencesDialogBox_id67b3f738.html"/>
+         <topic label="Global Simplify Dialog Box"
+                href="html/ft_mc_user/topics/GUIRefT_GlobalSimplifyDialogBox_id5c18f4f1.html"/>
+         <topic label="Local Simplify Dialog Box"
+                href="html/ft_mc_user/topics/GUIRefT_LocalSimplifyDialogBox_id4935564d.html"/>
+         <topic label="Split Body Dialog Box"
+                href="html/ft_mc_user/topics/GUIRefT_SplitBodyDialogBox_id37d75c3f.html"/>
+         <topic label="Extrude Dialog Box"
+                href="html/ft_mc_user/topics/GUIRefT_ExtrudeDialogBox_id56a33220.html"/>
+         <topic label="Decompose Dialog Box"
+                href="html/ft_mc_user/topics/GUIRefT_DecomposeDialogBox_idf61ba40f.html"/>
+         <topic label="Single Object Dialog Box"
+                href="html/ft_mc_user/topics/GUIRefT_SingleObjectDialogBox_id750d463d.html"/>
+         <topic label="Dissect Body Dialog Box"
+                href="html/ft_mc_user/topics/GUIRefT_DissectBodyDialogBox_idd7d6dab5.html"/>
+         <topic label="Voxelize Dialog Box"
+                href="html/ft_mc_user/topics/GUIRefT_VoxelizeDialogBox_id1f97980b.html"/>
+         <topic label="Input File has no Units Definition Dialog Box"
+                href="html/ft_mc_user/topics/GUIRefT_InputFileHasNoUnitsDefinitionDialogBox_id2e7e810a.html"/>
+         <topic label="Message Window"
+                href="html/ft_mc_user/topics/GUIRefT_MessageWindow_idf489a9de.html"/>
+      </topic>
+   </topic>
+   <topic label="  Creating MCAD Files Using External Software"
+          href="html/ft_mc_user/topics/MGCChap_CreatingMcadFilesUsingExternalSoftware_id8e3fe459.html">
+      <topic label="Recommended Neutral File Format"
+             href="html/ft_mc_user/topics/Concept_RecommendedNeutralFileFormat_ide4fc2217.html"/>
+      <topic label="Exporting STEP Files From Pro/ENGINEER"
+             href="html/ft_mc_user/topics/TaskTop_ExportingStepFilesFromProengineer_id42d78124.html"/>
+      <topic label="Preparing and Exporting IGES Files From Pro/ENGINEER"
+             href="html/ft_mc_user/topics/Contain_PreparingExportingIgesFilesFromProengineer_idb7a4c8a3.html">
+         <topic label="Changing the Accuracy of a Pro/ENGINEER Part"
+                href="html/ft_mc_user/topics/TaskTop_ChangingAccuracyProengineerPart_idabc863ac.html"/>
+         <topic label="Reducing the Geometric Complexity of a Pro/ENGINEER Model"
+                href="html/ft_mc_user/topics/TaskTop_ReducingGeometricComplexityProengineerModel_id15cb394b.html"/>
+         <topic label="Exporting a Part From Pro/ENGINEER"
+                href="html/ft_mc_user/topics/TaskTop_ExportingPartFromProengineer_id67c50da7.html"/>
+         <topic label="Exporting an Assembly From Pro/ENGINEER"
+                href="html/ft_mc_user/topics/TaskTop_ExportingAssemblyFromProengineer_idfa418887.html"/>
+      </topic>
+      <topic label="Preparing and Exporting IGES Files From IDEAS 7 and 5"
+             href="html/ft_mc_user/topics/Contain_PreparingExportingIgesFilesFromIdeas75_id710bad35.html">
+         <topic label="Changing the Accuracy of an IDEAS Model"
+                href="html/ft_mc_user/topics/TaskTop_ChangingAccuracyIdeasModel_id22e045bc.html"/>
+         <topic label="Reducing the Geometric Complexity of an IDEAS Model"
+                href="html/ft_mc_user/topics/TaskTop_ReducingGeometricComplexityIdeasModel_ided54a85d.html"/>
+         <topic label="Configuring the Flavor"
+                href="html/ft_mc_user/topics/TaskTop_ConfiguringTheFlavor_id23254826.html"/>
+         <topic label="Exporting Parts From IDEAS 7"
+                href="html/ft_mc_user/topics/TaskTop_ExportingPartsFromIdeas7_idd89296dd.html"/>
+         <topic label="Exporting Parts From IDEAS 5"
+                href="html/ft_mc_user/topics/TaskTop_ExportingPartsFromIdeas5_id21926d44.html"/>
+      </topic>
+   </topic>
+   <topic label="  Frequently Asked Questions"
+          href="html/ft_mc_user/topics/MGCChap_FrequentlyAskedQuestions_id33db2646.html">
+      <topic label="Color Attributes"
+             href="html/ft_mc_user/topics/Concept_ColorAttributes_id20ddfe1a.html"/>
+   </topic>
+   <topic label="  Command Reference"
+          href="html/ft_mc_user/topics/MGCAppe_CommandReference_id93c7ffe2.html">
+      <topic label="flomcad" href="html/ft_mc_user/topics/Command_Flomcad_id8f9bebb9.html"/>
+   </topic>
+   <topic label="Glossary" href="html/ft_mc_user/topics/MGCGlos_Glossary_idc35ea965.html"/>
+</toc>

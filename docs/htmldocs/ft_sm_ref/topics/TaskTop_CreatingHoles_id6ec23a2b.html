@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="TaskTopic" />
+<meta name="DC.Title" content="Creating Holes" />
+<meta name="abstract" content="Holes can only be created as children of Cuboid SmartParts or children of Walls of Enclosure SmartParts." />
+<meta name="description" content="Holes can only be created as children of Cuboid SmartParts or children of Walls of Enclosure SmartParts." />
+<meta name="DC.subject" content="Holes, creating" />
+<meta name="keywords" content="Holes, creating" />
+<meta name="prodname" content="Simcenter Flotherm SmartParts Reference Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_sm_ref" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ SmartParts Reference Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="id6ec23a2b-159b-4265-8b21-f5e747122b1e" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Creating Holes</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Creating Holes" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="id6ec23a2b-159b-4265-8b21-f5e747122b1e">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Creating Holes</h1>
+<div class="body taskbody TaskBody"><div class="abstract TaskAbstract"><p class="shortdesc">Holes
+can only be created as children of Cuboid SmartParts or children
+of Walls of Enclosure SmartParts.</p>
+<div class="note note"><span class="notetitle">Note:</span> <p class="p">Holes that are 0.01%
+or less than the smallest side of the parent object’s face are ignored
+by the grid, the solver, and the decompose command, and are only
+displayed in wireframe rendering mode.</p>
+</div>
+</div>
+<div class="tasklabel"><h2 class="sectiontitle tasklabel">Procedure</h2></div><ol class="ol steps"><li class="li step" id="id6ec23a2b-159b-4265-8b21-f5e747122b1e__ida459f9d7-cac1-446c-9ce0-8e8a0f577470"><span class="ph cmd">Select a cuboid or enclosure wall in the data
+tree.</span></li>
+<li class="li step" id="id6ec23a2b-159b-4265-8b21-f5e747122b1e__id771979d1-7d72-411f-9c2a-c5f7192b33a7"><span class="ph cmd">In the New Object Palette, choose Project Manager
+Create or Drawing Board Create and double-click the <span class="ph uicontrol">Hole</span> icon.</span></li>
+</ol>
+<div class="section result"><div class="tasklabel"><h2 class="sectiontitle tasklabel">Results</h2></div><p class="p">The origin of the hole, relative to the origin
+of the cuboid or enclosure wall, is defined by the Position fields
+in the <span class="ph uicontrol">Location</span> tab.</p>
+<div class="fig fignone" id="id6ec23a2b-159b-4265-8b21-f5e747122b1e__id92eebd86-7164-4c9c-82cc-85373a026bb7"><span class="figcap"><span class="fig--title-label">Figure 1. </span>Hole Position and Dimensions</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:100" src="../graphics/sm_holes02.png" /></div><br /></div>
+<p class="p">When a hole is added as a child of a cuboid,
+the combination of cuboid and hole is transformed into a Block with
+Holes SmartPart.</p>
+<div class="fig fignone" id="id6ec23a2b-159b-4265-8b21-f5e747122b1e__ida8253021-133f-433c-a289-b8435ee44c15"><span class="figcap"><span class="fig--title-label">Figure 2. </span>Hole in a Cuboid</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:100" src="../graphics/sm_HolesAdded.gif" /></div><br /></div>
+<p class="p">The new hole is one-tenth
+the size of the cuboid X-Y face and located at the origin of the parent
+block. Any number of holes can be added to the new block.</p>
+<p class="p">When a hole is added as
+a child of an enclosure wall, the hole is one-tenth the size of
+the enclosure wall.</p>
+<div class="fig fignone" id="id6ec23a2b-159b-4265-8b21-f5e747122b1e__idb19a5573-8dbe-4533-ac61-5d3232f0c35d"><span class="figcap"><span class="fig--title-label">Figure 3. </span>Hole in a Wall</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:100" src="../graphics/sm_EnclosuresHoleAdded.gif" /></div><br /></div>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/MGCChap_Holes_id28ad9bc9.html" title="Use Hole SmartParts to create rectangular-shaped ventilation gaps, more complex-shaped holes can be created using MCAD Bridge. Optionally, a hole can be filled and can have a defined resistance to flow.">Holes</a></div>
+</div>
+
+<div class="linklist linklist relinfo"><strong>Related Topics</strong><br />
+
+<div><a class="link" href="../topics/Concept_ModelingHoles_iddbf8210f.html#iddbf8210f-91d0-4594-b3b5-4976d0d77e44__" title="How to copy, locate, and resize holes.">Modeling Holes</a></div>
+<div><a class="link" href="../topics/TaskTop_CreatingComplexShapedHoles_id8f12baac.html#id8f12baac-2953-4aea-9cdb-a543b761fc1a__" title="You can create more complex holes by transferring geometry to MCAD Bridge, modifying it there, then transferring it back.">Creating Complex Shaped Holes</a></div>
+<div><a class="link" href="../topics/Concept_TreatmentVents_idae459dc3.html#idae459dc3-e399-4486-b0e3-0ce019cb53fc__" title="Vents can be modeled by specifying the flow boundaries over holes created in enclosures or blocks.">Treatment of Vents</a></div>
+<div><a class="link" href="../topics/GUIRefT_HolePropertySheet_id9e879e8e.html#id9e879e8e-5830-4086-b74c-d81d1262ff99__" title="Use this property sheet to configure a hole.">Hole Property Sheet</a></div></div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_sm_ref"
+                DocTitle = "Simcenter™ Flotherm™ SmartParts Reference Guide"
+                PageTitle = "Creating Holes"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/TaskTop_CreatingHoles_id6ec23a2b.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ SmartParts Reference Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?><toc label="Cadence Allegro Package Designer Interface User Guide none"
+     topic="html/flo_apd_ur/topics/title1.html">
+   <topic label="Revision History"
+          href="html/flo_apd_ur/topics/Classic_RevisionHistory_idfcf5ae43.html"/>
+   <topic label="Allegro Package Designer Interface"
+          href="html/flo_apd_ur/topics/MGCChap_AllegroPackageDesignerInterface_idaa5ff126.html">
+      <topic label="Overview of the Allegro Package Designer Interface"
+             href="html/flo_apd_ur/topics/Concept_OverviewOfTheAllegroPackageDesignerInterface_idd5b14e37.html"/>
+      <topic label="Installing the APD Interface"
+             href="html/flo_apd_ur/topics/TaskTop_InstallingApdInterface_idbfe968e1.html"/>
+      <topic label="Using the APD Interface"
+             href="html/flo_apd_ur/topics/Contain_UsingApdInterface_id7cc2f21b.html">
+         <topic label="Loading a Design into a New Simcenter Flotherm PCB Project"
+                href="html/flo_apd_ur/topics/TaskTop_LoadingADesignIntoANewSimcenterFlothermPcbProject_idd5321d9b.html"/>
+         <topic label="Loading a Design into an Existing Simcenter Flotherm PCB Project"
+                href="html/flo_apd_ur/topics/TaskTop_LoadingADesignIntoAnExistingSimcenterFlothermPcbProject_idd16d322b.html"/>
+         <topic label="Exporting a FLOEDA File"
+                href="html/flo_apd_ur/topics/TaskTop_ExportingAFloedaFile_id3880b3b6.html"/>
+         <topic label="Loading a Component Position File to Allegro Package Designer"
+                href="html/flo_apd_ur/topics/TaskTop_LoadingAComponentPositionFileToAllegroPackageDesigner_id8c37997c.html"/>
+         <topic label="Simcenter Flotherm Interface Settings Dialog Box"
+                href="html/flo_apd_ur/topics/GUIRefT_SimcenterFlothermInterfaceSettingsDialogBox_iddc32a90d.html"/>
+         <topic label="Adding and Changing Interface Settings by Command Line"
+                href="html/flo_apd_ur/topics/TaskTop_AddingChangingInterfaceSettingsByCommandLine_id940d14e3.html"/>
+         <topic label="Component Height Properties"
+                href="html/flo_apd_ur/topics/General_ComponentHeightProperties_idc37f9bed.html"/>
+      </topic>
+      <topic label="Troubleshooting"
+             href="html/flo_apd_ur/topics/General_Troubleshooting_id9d261f77.html"/>
+   </topic>
+</toc>

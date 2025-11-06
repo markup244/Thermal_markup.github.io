@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="TaskTopic" />
+<meta name="DC.Title" content="Creating a Zoom-In Project" />
+<meta name="abstract" content="Create a zoom-in project when you want to zoom-in and refine the geometry and modeling complexity over a particular region without incurring the computational overhead of solving the complete project." />
+<meta name="description" content="Create a zoom-in project when you want to zoom-in and refine the geometry and modeling complexity over a particular region without incurring the computational overhead of solving the complete project." />
+<meta name="prodname" content="Simcenter Flotherm User Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_user" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ User Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="idcf2584ed-2ac9-425f-bf19-d4aef0715657" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Creating a Zoom-In Project</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Creating a Zoom-In Project" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="idcf2584ed-2ac9-425f-bf19-d4aef0715657">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Creating a
+Zoom-In Project</h1>
+<div class="body taskbody TaskBody"><div class="abstract TaskAbstract"><span class="shortdesc">Create a zoom-in
+project when you want to zoom-in and refine the geometry and modeling
+complexity over a particular region without incurring the computational
+overhead of solving the complete project.</span>
+</div>
+<div class="section Restrictions"><h2 class="title Subheading sectiontitle">Restrictions and Limitations</h2><ul class="ul"><li class="li" id="idcf2584ed-2ac9-425f-bf19-d4aef0715657__id812ae7a3-d565-4704-9efe-82e0568b06be"><p class="p">To obtain a valid region
+from which the zoom-in project is created, the region should be
+sized, where possible, such that the majority of its boundary provides
+either a fluid-to-fluid, or a solid-to-fluid interface. This minimizes
+the number of components which invalidate the zoom-in approach.
+Errors can be removed by either removing the offending part or increasing
+the size of the region.</p>
+</li>
+<li class="li" id="idcf2584ed-2ac9-425f-bf19-d4aef0715657__id1375f56e-60bc-457e-87f6-24a75e968b1f"><p class="p">2D projects
+and Transient projects are not suitable for creating zoom-in projects.</p>
+</li>
+<li class="li" id="idcf2584ed-2ac9-425f-bf19-d4aef0715657__idf7be79a7-9ab0-4fe4-9d6e-7b1607070793"><p class="p">The project has to be in
+a recently state, that is, no post-solution modifications have been
+made to the project. The following conditions are not suitable to
+create an environment:</p>
+<ul class="ul"><li class="li" id="idcf2584ed-2ac9-425f-bf19-d4aef0715657__id06c0924b-6fd8-49c5-bcc8-7940575115ac"><p class="p">The grid has changed so
+project is not consistent with the solution data (backup directory
+exists).</p>
+</li>
+<li class="li" id="idcf2584ed-2ac9-425f-bf19-d4aef0715657__id7541e8f0-dea4-49ed-9bf0-a2b097e99d05"><p class="p">A residual history does
+not exist, so that the project is inconsistent with the solution. </p>
+</li>
+<li class="li" id="idcf2584ed-2ac9-425f-bf19-d4aef0715657__id7363af9b-e4f6-44aa-84dd-330e5da754eb"><p class="p">The project has not been
+translated, so that project is inconsistent with solution (tag file
+does not exist).</p>
+</li>
+</ul>
+</li>
+<li class="li" id="idcf2584ed-2ac9-425f-bf19-d4aef0715657__id1aff1eaa-dfb1-466c-ad03-4abaec024469"><p class="p">The project
+must have been solved for Temperature, Pressure, Velocities, and
+Heat Flux. Heat Flux calculation is none-standard and is requested
+by a check box in the <span class="ph uicontrol">Model Setup</span> tab.</p>
+</li>
+<li class="li" id="idcf2584ed-2ac9-425f-bf19-d4aef0715657__id71c5fdf8-b377-4e12-a220-e48c2f979aff"><p class="p">The following configurations
+of a region are not allowed:</p>
+<ul class="ul"><li class="li" id="idcf2584ed-2ac9-425f-bf19-d4aef0715657__id39e9254d-cfcb-464b-8249-de24c2d51d1d"><p class="p">Plane
+(collapsed) regions.</p>
+</li>
+<li class="li" id="idcf2584ed-2ac9-425f-bf19-d4aef0715657__idbd3855e6-9142-4baf-a135-fa2b9bdba898"><p class="p">Regions on the edge of
+a grid space. A region at a localized grid boundary or at the solution
+domain boundary cannot be used to create environment.</p>
+</li>
+</ul>
+</li>
+<li class="li" id="idcf2584ed-2ac9-425f-bf19-d4aef0715657__id5a906852-f356-48df-9af4-f36b59d7059e"><p class="p">Only a limited number of
+object types are allowed to exist in the region, see <a class="xref fm:Table" href="#idcf2584ed-2ac9-425f-bf19-d4aef0715657__id0a83fe91-6548-40ea-ad7b-6a7def03f030">Table 1</a>. This is to ensure that
+the automated grid definition and solution control capabilities
+are never compromised.</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="idcf2584ed-2ac9-425f-bf19-d4aef0715657__id0a83fe91-6548-40ea-ad7b-6a7def03f030" class="table" frame="border" border="1" rules="cols"><caption><span class="tablecap"><span class="table--title-label">Table 1. </span>Allowed Geometry Criteria</span></caption><colgroup><col style="width:3.105in" /><col style="width:0.778in" /><col style="width:0.771in" /><col style="width:0.786in" /><col style="width:0.735in" /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry cell-norowborder default-entry" rowspan="3" style="vertical-align:top;" id="d8686e231"><p class="p"><span class="ph FontProperty P10">Part</span></p>
+</th>
+<th class="entry cell-norowborder default-entry" colspan="4" style="vertical-align:top;" id="d8686e235"><p class="p"><span class="ph FontProperty P10">Orientation with Respect to Region</span></p>
+</th>
+</tr>
+<tr class="row"><th class="entry cell-norowborder default-entry" rowspan="2" style="vertical-align:top;" id="d8686e240"><p class="p"><span class="ph FontProperty P10">Contained</span></p>
+</th>
+<th class="entry cell-norowborder default-entry" colspan="2" style="vertical-align:top;" id="d8686e244"><p class="p"><span class="ph FontProperty P10">Abutting</span></p>
+</th>
+<th class="entry cell-norowborder default-entry" rowspan="2" style="vertical-align:top;" id="d8686e248"><p class="p"><span class="ph FontProperty P10">Spanning</span></p>
+</th>
+</tr>
+<tr class="row"><th class="entry cellrowborder default-entry" style="vertical-align:top;" id="d8686e253"><p class="p"><span class="ph FontProperty P10">Internally</span></p>
+</th>
+<th class="entry cellrowborder default-entry" style="vertical-align:top;" id="d8686e257"><p class="p"><span class="ph FontProperty P10">Externally</span></p>
+</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e231 "><p class="p"><span class="ph FontProperty P10">Cuboids/Cylinders/Prisms/Tets/Inverted Tets/Sloping Block</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e240 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e253 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e257 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e248 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e231 "><ul class="ul"><li class="li" id="idcf2584ed-2ac9-425f-bf19-d4aef0715657__ida44ae4a6-741b-4cdd-94b5-ab36f647bbd1"><p class="p"><span class="ph FontProperty P10">Fixed Heat</span></p>
+</li>
+</ul>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e240 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e253 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e257 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e248 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e231 "><ul class="ul"><li class="li" id="idcf2584ed-2ac9-425f-bf19-d4aef0715657__idd9f23028-8821-4279-9a4a-ffa743c0f959"><p class="p"><span class="ph FontProperty P10">Joule</span></p>
+</li>
+</ul>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e240 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e253 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e257 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e248 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e231 "><p class="p"><span class="ph FontProperty P10">Enclosure</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e240 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e253 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e257 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e248 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" colspan="5" style="vertical-align:top;" headers="d8686e231 d8686e235 d8686e240 d8686e244 d8686e248 d8686e253 d8686e257 "><p class="p"><span class="ph FontProperty P10">PCB</span></p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e231 "><ul class="ul"><li class="li" id="idcf2584ed-2ac9-425f-bf19-d4aef0715657__ida38d5b0c-4143-479e-ab23-2e995a0f4aeb"><p class="p"><span class="ph FontProperty P10">Child component with non-zero power that has Apply Over Board modeling level</span></p>
+</li>
+</ul>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e240 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e253 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e257 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e248 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e231 "><ul class="ul"><li class="li" id="idcf2584ed-2ac9-425f-bf19-d4aef0715657__id255dd9af-fe14-4fd4-89c8-f98c575e5ac7"><p class="p"><span class="ph FontProperty P10">Child component with non-zero power that is bisected by the region</span></p>
+</li>
+</ul>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e240 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e253 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e257 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e248 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e231 "><ul class="ul"><li class="li" id="idcf2584ed-2ac9-425f-bf19-d4aef0715657__idaa02ae3a-6a66-4ff3-aba3-7e5f15de6893"><p class="p"><span class="ph FontProperty P10">Child component with non-zero power that is externally abutting the region</span></p>
+</li>
+</ul>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e240 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e253 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e257 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e248 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e231 "><p class="p"><span class="ph FontProperty P10">ΤΕC</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e240 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e253 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e257 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e248 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e231 "><p class="p"><span class="ph FontProperty P10">Die</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e240 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e253 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e257 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e248 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e231 "><p class="p"><span class="ph FontProperty P10">Compact Component</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e240 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e253 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e257 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e248 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e231 "><p class="p"><span class="ph FontProperty P10">Network Assembly</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e240 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e253 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e257 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e248 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e231 "><p class="p"><span class="ph FontProperty P10">Heat Pipe</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e240 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e253 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e257 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e248 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e231 "><p class="p"><span class="ph FontProperty P10">PCB Component</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e240 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e253 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e257 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e248 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e231 "><p class="p"><span class="ph FontProperty P10">Heat Sink</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e240 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e253 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e257 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e248 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e231 "><p class="p"><span class="ph FontProperty P10">Fan</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e240 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e253 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e257 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e248 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e231 "><p class="p"><span class="ph FontProperty P10">Recirculation Device</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e240 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e253 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e257 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e248 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e231 "><p class="p"><span class="ph FontProperty P10">Rack</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e240 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e253 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e257 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e248 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e231 "><p class="p"><span class="ph FontProperty P10">Cooler</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e240 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e253 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e257 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e248 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e231 "><p class="p"><span class="ph FontProperty P10">Fixed Flow</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e240 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e253 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e257 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e248 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" colspan="5" style="vertical-align:top;" headers="d8686e231 d8686e235 d8686e240 d8686e244 d8686e248 d8686e253 d8686e257 "><p class="p"><span class="ph FontProperty P10">Resistance</span></p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e231 "><ul class="ul"><li class="li" id="idcf2584ed-2ac9-425f-bf19-d4aef0715657__id10d1d88a-d782-4e2b-8c5b-8367711a4ae6"><p class="p"><span class="ph FontProperty P10">Volume Resistance</span></p>
+</li>
+</ul>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e240 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e253 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e257 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e248 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e231 "><ul class="ul"><li class="li" id="idcf2584ed-2ac9-425f-bf19-d4aef0715657__id1330167d-35a6-47ec-a6c4-e9d75d80b255"><p class="p"><span class="ph FontProperty P10">Collapsed or Planar Resistances</span></p>
+</li>
+</ul>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e240 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e253 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e257 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e248 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e231 "><p class="p"><span class="ph FontProperty P10">Perforated Plate</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e240 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e253 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e257 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e248 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e231 "><p class="p"><span class="ph FontProperty P10">Localized Grid</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e240 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e253 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e257 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e248 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e231 "><p class="p"><span class="ph FontProperty P10">Source</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e240 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e253 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e257 "><p class="p"><span class="ph FontProperty P10">Yes</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e248 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e231 "><p class="p"><span class="ph FontProperty P10">Cutouts</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e240 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e253 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e244 d8686e257 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d8686e235 d8686e248 "><p class="p"><span class="ph FontProperty P10">Νο</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+<div class="tasklabel"><h2 class="sectiontitle tasklabel">Procedure</h2></div><ol class="ol steps"><li class="li step stepexpand" id="idcf2584ed-2ac9-425f-bf19-d4aef0715657__id42ca9b10-b92d-433b-b57a-73574a173cb6"><span class="ph cmd">Set up
+and solve your project with a volume region over the place of interest.</span><div class="itemgroup info StepInfo"><p class="p">The volume region must
+satisfy all the zoom-in project requirement criteria.</p>
+</div></li>
+<li class="li step stepexpand" id="idcf2584ed-2ac9-425f-bf19-d4aef0715657__idd7097a45-548d-4bd0-8c97-695c6470b419"><span class="ph cmd">Right-click the volume region
+and choose <span class="ph uicontrol">Create Zoom-In</span> to
+open the Zoom-In Creation dialog box.</span><div class="itemgroup info StepInfo"><p class="p">The dialog box provides
+a default name for the project, which you can change, provided it
+is unique.</p>
+<p class="p">The dialog
+box also displays the number of cells on the region boundary, for example.</p>
+<div class="fig fignone" id="idcf2584ed-2ac9-425f-bf19-d4aef0715657__id7c0acf8d-5038-4123-9754-484d6111012a"><br /><div class="imagecenter"><img class="image imagecenter fmdpi:120" src="../graphics/dialog_zoom_in_creation.gif" /></div><br /></div>
+</div></li>
+<li class="li step stepexpand" id="idcf2584ed-2ac9-425f-bf19-d4aef0715657__iddb052ec4-f140-4504-8567-db3f77fecc6a"><span class="ph cmd">Optionally,
+give the zoom-in project an alternative name, then click <span class="ph uicontrol">OK</span> to continue.</span><div class="itemgroup info StepInfo"><p class="p">A progress bar is displayed
+before the zoom-in project is saved.</p>
+</div></li>
+</ol>
+<div class="section result"><div class="tasklabel"><h2 class="sectiontitle tasklabel">Results</h2></div><p class="p">A new project is created, with the name specified
+in the Zoom-In Creation dialog box. The notes for the new project
+are appended with data relating to the original solution domain.</p>
+<div class="fig fignone" id="idcf2584ed-2ac9-425f-bf19-d4aef0715657__idd0001957-7ee9-4f04-b8a0-746987f70afc"><span class="figcap"><span class="fig--title-label">Figure 1. </span>Example of Parent
+Solution Data Appended to Zoom-In Project Notes</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:120" src="../graphics/ug_GeometryZoomInNotes.gif" /></div><br /></div>
+<p class="p">The boundary conditions at each cell
+face on the surface of the selected region is represented in a zoom-in
+project by a collection of cutout objects (each the same size of
+the region cell faces) externally abutting the zoom-in solution
+domain. These cutouts are not visible in the drawing board (<a class="xref fm:Figure" href="#idcf2584ed-2ac9-425f-bf19-d4aef0715657__id2cc82326-aa61-46aa-982f-0310df73de68">Figure 2</a>), but are listed in the
+data tree under assemblies labeled according to boundary face (<a class="xref fm:Figure" href="#idcf2584ed-2ac9-425f-bf19-d4aef0715657__id79e4002a-31be-43bc-b48a-bfca894f05f9">Figure 3</a>).</p>
+<div class="fig fignone" id="idcf2584ed-2ac9-425f-bf19-d4aef0715657__id2cc82326-aa61-46aa-982f-0310df73de68"><span class="figcap"><span class="fig--title-label">Figure 2. </span>Representation of Boundary Conditions</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:120" src="../graphics/ug_GeometryZoomInCutouts.gif" /></div><br /></div>
+<div class="fig fignone" id="idcf2584ed-2ac9-425f-bf19-d4aef0715657__id79e4002a-31be-43bc-b48a-bfca894f05f9"><span class="figcap"><span class="fig--title-label">Figure 3. </span>Cutouts on Data Tree</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:120" src="../graphics/ug_GeometryZoomInCutoutsInDataTree.gif" /></div><br /></div>
+<p class="p">Radically changing the geometrical
+shape of objects within the zoom-in region will increase the coupling
+(the measure of the amount a zoom-in region changes the results
+in the original solution domain) and careful attention should be
+paid to the <span class="ph FontProperty emphasis">coupling metric</span>,
+see “<a class="xref fm:HeadingAndPage" href="TaskTop_DeterminingTheCouplingMetric_id200a4a0c.html#id200a4a0c-a470-44ab-83dd-b904c1ce5dca__TaskTop_DeterminingTheCouplingMetric_id200a4a0c.xml#id200a4a0c-a470-44ab-83dd-b904c1ce5dca" title="The coupling metric, or the measure of the amount a zoom-in region changes the results, can be obtained using the project notes.">Determining the Coupling Metric</a>”.</p>
+<p class="p">Changing the number
+and locality of source/sink objects (for example, heat sources, sources
+of mass flow) should not invalidate the zoom-in approach provided
+the total heat or flow source/sink of the region remains constant.</p>
+<p class="p">To warn of the risk of potentially
+creating very large models, a message is issued if the number of
+cell faces on the six region sides exceeds 10,000. If this value
+is exceeded, the zoom-in project will be created, but processing
+may be slow. To suppress the warning message, you can set a higher
+value in the FLOMAXZOOMINCELLS environment variable.</p>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/Contain_ZoomInProjects_id03cf8ea6.html" title="Zoom-in projects are projects created from volume regions, and can be used to concentrate the computer analysis on a particular area of interest. Zoom-in projects can be useful if changes over the region will have little effect on the global flow fields of the original solution domain.">Zoom-In Projects</a></div>
+</div>
+
+<div class="linklist linklist relinfo"><strong>Related Topics</strong><br />
+
+<div><a class="link" href="../topics/GUIRefT_ZoomInCreationDialogBox_id48b86375.html" title="Use this dialog box to create and name a zoom-in project. The dialog box also displays the number of cells on the region boundary.">Zoom-In Creation Dialog Box</a></div>
+<div><a class="link" href="../topics/Contain_ZoomInProjects_id03cf8ea6.html" title="Zoom-in projects are projects created from volume regions, and can be used to concentrate the computer analysis on a particular area of interest. Zoom-in projects can be useful if changes over the region will have little effect on the global flow fields of the original solution domain.">Zoom-In Projects</a></div></div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_user"
+                DocTitle = "Simcenter™ Flotherm™ User Guide"
+                PageTitle = "Creating a Zoom-In Project"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/TaskTop_CreatingAZoomInProject_idcf2584ed.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ User Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

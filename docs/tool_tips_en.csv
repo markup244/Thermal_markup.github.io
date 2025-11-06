@@ -1,0 +1,131 @@
+LENGTH,Length
+POWER,Power
+TEMPERATURE,Temperature
+POWERA,Power per unit area
+VELOCITY,Air speed
+DELTAT,Temperature difference
+
+Small Process Icons,Provides additional summary information as a tooltip if True or on the Process Bar if False
+Show Functional Layout Mode,"Enables a functional description of the board to be defined and viewed if True, hides this ability if False"
+Maximum Number Of Recent Files,"The number of files recently saved or loaded, displayed in the [File] menu for quick loading"
+Number Of Ticks in Legend,The number of values used on the results legend. Increase to enable a more detailed determination of temperature from color
+Legend Font Increment,The relative size of the legend font
+Use unrestricted Reference Designator naming,If True, reference designators are not forced to follow naming convention (min. 2 chars and unique).
+
+Max. Manhattan Length,The maximum allowable separation between object centers taking an 'up and across' type path with a single 90 degree turn
+Max Height,The maximum allowable component height for components within this keepout region. If zero then no components are allowed
+
+Combine Parameters By,The following filter parameters are combined using OR or AND
+Side Less Than,Filtered or Deleted if a component's side length is less than this value - ignored if zero
+Height Less Than,Filtered or Deleted if a component's height side length is less than this value - ignored if zero
+Power Less Than,Filtered or Deleted if a component's power dissipation  is less than this value - ignored if zero
+Power Density Less Than,Filtered or Deleted if a component's power dissipation per unit area is less than this value - ignored if zero
+Name Contains,Filtered or Deleted if the component's Reference Designator contaions this string, e.g U. Do not use U*
+
+Component Type,Simple - Little or no package information is known apart from physical size.|2R if the thermal resistance between junction and board and junction and case are known
+Component Material,If the component type is Simple then this material will give an approximate indication of the predominant construction material.
+Filtered,If True then the component's power will be smeared over the entire board surface. This is appropriate for small components and results in quicker thermal solution times.
+Deactivated,If True then the component is removed from view and takes no part in the solution.
+Board Side,With respect to the View From direction in the 2D view
+Tc_max,Maximum rated case temperature
+Tj_max,Maximum rated junction temperature
+Junction To Case Resistance,The thermal resistance between the junction and the case top of the package
+Junction To Top Resistance,The thermal resistance between the junction and the case top of the package
+Junction To Board Resistance,The thermal resistance between the junction and board
+Package Name,"Name of package family, e.g. TO220, TSOP, TQFP etc."
+Reference Designator,"Unique name of an instance of a package on the board, e.g. U5"
+Rotation,Counter-clockwise rotation (as viewed from the top) about the center of the object
+
+Standoff,Distance between the motherboard and the mezzanine daughterboard
+
+Function Name,Name of a group of functional group represented by any number of components
+
+Type,Plate Fin - Extruded heatsink type | Pin Fin - Individual cylindrical pins
+Centre Gap,"Gap in middle of fins, e.g. for clip attachment"
+Specify Interface Resistance,By Material - Thermal interface material selected from a library | By Value - Directly specified in terms of a thermal resistance value
+
+Total Power,Total power of the functional group that is maintained taking into account any individually powered components in the group
+
+Environment,Simple Card Slot - A basic definition of an individual slot in a sub-rack | Standard Still Air - A generic still air environment | Standard Forced Air - A generic wind tunnel type environment | Conduction Cooled - To represent the affect of fixing the board and/or components to a chassis at a fixed temperature | Reflow Oven - A generic reflow oven environment
+Inlet Temperature,The temperature air coming into the slot
+Ambient Temperature,The background air temperature
+Conveyor Speed,The speed of the ovens conveyor
+Air Speed,The speed of the air emitted by the fans
+Heating Zone Length,The combined length of all the heating zones
+Cooling Zone Length,The combined length of all the cooling zones
+Flow Specification,"Velocity - In terms of an air speed, e.g. lfm | Flow Rate - In terms of a volume flow rate, e.g. cfm"
+Slot Pitch,The overall distance between neighbouring cards 
+Gravity Direction,The direction of gravity with respect to the top side of the PCB
+Air Temperature,The average temperature inside the enclosure/system
+Nearest Solid Temperature,The average temperature of the nearest solid object(s) that will be used to calculate radiation exchange
+
+MaterialLibButton,Import a material from the library
+NotesEditButton,Edit notes associated with this object
+
+Thermal Trend Prediction,A quick solution that is accurate enough|only to resolve differences between layouts
+Accurate Thermal Prediction,A solution that is slower than 'Trend' but provides|junction and case temperature predictions to a greater accuracy|(though no greater than the accuracy of the input data)
+
+MenuBar,This is the Menu bar for the main FloTHERM PCB window
+StandardToolBar,This is the Standard ToolBar
+AlignToolBar,This is the Alignment ToolBar
+GUITree,This is the tree view of the board and its constituents.
+layouttreeview,This is the tree view of the functional layout and its constituents.
+BoardPaletteView,This is the palettte for creating new geometry
+LayoutPaletteView,This is the palettte for creating new items in the functional layout
+ComponentTableView,This is a table of all the components in the model
+ConnectorTableView,This is a table of all the connectors in the model
+Layout2DView,This is a view of the functional layout
+View2DView,This is a view of the board
+Env2DView,This is a view of the board in the environment
+Results2DView,This is a view of the results of the thermal analysis of the board
+LibraryView,Libraries of SmartParts. Double click a SmartPart in this tree to load it
+EnvLibraryView,Libraries of FloTHERM Environments. Double click an environment in this tree to use it
+ResultsTableView,This is a table of the results
+SolutionProgressView,Shows the monitor values of converged components
+PropSheetView,Property sheet allowing data for selected object(s) to be edited
+EnvSheetView,Property sheet allowing data for Environment to be edited
+LayoutPropSheetView,Property sheet allowing data for selected object(s) to be edited
+CompareTable,This table compares the data from the selected Projects
+ResultsComparisonMDI,ResultsComparisonMDI
+
+Environment2DViewOptions,Viewing options for the view of the environment
+Layout2DViewOptions,Viewing options for the view of the functional layout
+Layout2DAnnotateOptions,Annotation options for the view of the functional layout
+Results2DViewOptions,Viewing options for the view of the results
+Results2DAnnotateOptions,Annotation options for the view of the results
+Results2DColourOptions,Coloring options for the view of the results
+Board2DViewOptions,Viewing options for the view of the board
+Board2DAnnotateOptions,Annotation options for the view of the board
+Board2DColourOptions,Coloring options for the view of the board
+Board2DComponentOptions,Component options for the view of the board
+Compare2DViewOptions,Viewing options for the views of the results comparison
+Compare2DAnnotateOptions,Annotation options for the views of the results comparison
+Compare2DColourOptions,Coloring options for the views of the results comparison
+CompareTableOptions,Table options for the results comparison
+
+functionallayoutbutton,This is the functional layout button - clicking on this shows the functional layout view
+boardlayoutbutton,This is the board layout button - clicking on this shows the board layout view
+envlayoutbutton,This is the environment setup button - clicking on this shows the environment setup view
+resultsbutton,"This is the results view button - clicking on this shows the results view if results are available, or the solve dialog if not"
+
+HorizontalRuler,Horizontal Ruler
+VerticalRuler,Vertical Ruler
+
+Rotate Horizontal,Rotate view about horizontal axis
+Rotate Vertical,Rotate view about vertical axis
+Horizontal Pan,Pan view horizontally
+Vertical Pan,Pan view vertically
+
+Board3DViewer,3D View of the board
+Env3DViewer,3D view of the environment
+Results3DViewer,3D view of the results
+
+ENVtreeview,Tree view of components that can be conduction cooled
+EnvChildPropSheetView,Property sheet of currently selected components
+
+Report Configuration,Create new report types or edit existing report contents
+
+Solve,Solver Control Panel - shows model problems and allows a solution to be started
+
+
+Elec. Vias Plating Mat.,Electrical Vias Plating Material

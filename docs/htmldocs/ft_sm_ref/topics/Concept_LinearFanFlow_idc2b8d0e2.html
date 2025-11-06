@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="ConceptTopic" />
+<meta name="DC.Title" content="Linear Fan Flow" />
+<meta name="abstract" content="A linear fan flow specification is an attempt to model the fan according to a linear representation as close as possible to the manufacturer’s fan characteristic." />
+<meta name="description" content="A linear fan flow specification is an attempt to model the fan according to a linear representation as close as possible to the manufacturer’s fan characteristic." />
+<meta name="prodname" content="Simcenter Flotherm SmartParts Reference Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_sm_ref" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ SmartParts Reference Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="idc2b8d0e2-308e-442b-8dd1-5b74c1428796" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Linear Fan Flow</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Linear Fan Flow" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="idc2b8d0e2-308e-442b-8dd1-5b74c1428796">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Linear Fan Flow</h1>
+<div class="body conbody ConceptBody"><div class="abstract ConceptAbstract"><span class="shortdesc">A linear fan
+flow specification is an attempt to model the fan according to a
+linear representation as close as possible to the manufacturer’s
+fan characteristic.</span>
+</div>
+<div class="fig fignone" id="idc2b8d0e2-308e-442b-8dd1-5b74c1428796__idc865dfdb-55a4-4034-af7c-cf630baa3f22"><span class="figcap"><span class="fig--title-label">Figure 1. </span>Linear Approximation to a Fan Characteristic</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:100" src="../graphics/sm_fans16a.png" /></div><br /></div>
+<p class="p">When
+defining a linear fan characteristic, set the Open Volume Flow Rate
+and Pressure at Stagnation so that the resultant linear representation
+best describes the fan curve at the point where it is expected to
+operate, these values may be different from those supplied by the
+manufacturer.</p>
+<div class="p">After solution, check the flow characteristics
+of the fan to make sure that the fan is operating as anticipated.<br /><div class="imagecenter"><img class="image imagecenter fmdpi:96" src="../graphics/sm_FansOpRangeAnticipated.gif" /></div><br /></div>
+<div class="section Subsections"><div class="section Subsection" id="idc2b8d0e2-308e-442b-8dd1-5b74c1428796__idd17a11b3-a97f-468b-a865-ea85261d5352"><h2 class="title Subheading sectiontitle">Linear Relationship Between
+Volume Flow Rate and Fan Static Pressure</h2><p class="p">A
+Linear fan relates the volume flow linearly to the fan static pressure
+as shown in <a class="xref fm:Figure" href="#idc2b8d0e2-308e-442b-8dd1-5b74c1428796__idb0f56371-1bda-41a7-962d-952c4b3ab593">Figure 2</a>.</p>
+<div class="fig fignone" id="idc2b8d0e2-308e-442b-8dd1-5b74c1428796__idb0f56371-1bda-41a7-962d-952c4b3ab593"><span class="figcap"><span class="fig--title-label">Figure 2. </span>Volume Flow Rate vs Fan Static Pressure</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:100" src="../graphics/sm_fans18a.png" /></div><br /></div>
+<p class="p">The intercepts of this straight line with the
+axis are denoted <span class="ph FontProperty equationvariable">P</span><span class="ph FontProperty VariableSubScript">0</span> and <span class="ph FontProperty equationvariable">v</span><span class="ph FontProperty VariableSubScript">0</span>,
+which respectively signify the fan static pressure that causes zero
+flow through the fan, and the volume flow rate through the fan when
+the fan static pressure is zero (which pertains for a totally free
+standing fan, that is, not enclosed in any way).</p>
+</div>
+<div class="section Subsection" id="idc2b8d0e2-308e-442b-8dd1-5b74c1428796__id9a71025f-6f51-4dbc-8733-99ae9b9bc74b"><h2 class="title Subheading sectiontitle">Making a Best Fit</h2><p class="p">There are two ways of making a best fit of
+a linear characteristic to the actual characteristic.</p>
+<ul class="ul"><li class="li" id="idc2b8d0e2-308e-442b-8dd1-5b74c1428796__id6526c77d-7d95-436f-9bce-b738cfe66d19"><p class="p">The first method is
+to set <span class="ph FontProperty equationvariable">P</span><span class="ph FontProperty VariableSubScript">0</span> and <span class="ph FontProperty equationvariable">v</span><span class="ph FontProperty VariableSubScript">0</span> to
+those of the actual characteristic which gives a fit of the type
+shown in <a class="xref fm:Figure" href="#idc2b8d0e2-308e-442b-8dd1-5b74c1428796__id5044db89-a180-478b-a785-7927ca0505cd">Figure 3</a>.</p>
+<div class="fig fignone" id="idc2b8d0e2-308e-442b-8dd1-5b74c1428796__id5044db89-a180-478b-a785-7927ca0505cd"><span class="figcap"><span class="fig--title-label">Figure 3. </span>Best Linear Fit Method 1</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:100" src="../graphics/sm_fans19a.png" /></div><br /></div>
+</li>
+<li class="li" id="idc2b8d0e2-308e-442b-8dd1-5b74c1428796__id487f217a-26dc-4284-97e5-2c9b3127fa9e"><p class="p">The second method is to fit the line
+to cover the range over which you want the fan to operate as shown
+in <a class="xref fm:Figure" href="#idc2b8d0e2-308e-442b-8dd1-5b74c1428796__id8f6d72b1-0321-496e-85ae-bea90c7d5fa4">Figure 4</a>.</p>
+<div class="fig fignone" id="idc2b8d0e2-308e-442b-8dd1-5b74c1428796__id8f6d72b1-0321-496e-85ae-bea90c7d5fa4"><span class="figcap"><span class="fig--title-label">Figure 4. </span>Best Linear Fit Method 2</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:100" src="../graphics/sm_fans20a.png" /></div><br /></div>
+</li>
+</ul>
+<p class="p">If using the second method, the linear fan
+representation gives a good fit to the fan characteristic in the
+normal operating range but a poor fit elsewhere.</p>
+</div>
+<div class="section Subsection" id="idc2b8d0e2-308e-442b-8dd1-5b74c1428796__id823b3c42-7b4d-4571-a1b5-bb767c26e9d8"><h2 class="title Subheading sectiontitle">Equation of Linear
+Fan Characteristic</h2><p class="p">The equation of the linear fan characteristic
+is given by the following formula:</p>
+<div class="fig fignone Equation" id="idc2b8d0e2-308e-442b-8dd1-5b74c1428796__ide18b595d-8f33-43df-9341-c4cc3e67adc5"><img class="image fmdpi:100" src="../graphics/sm_fans21a.png" /></div>
+<p class="p">You set <span class="ph FontProperty equationvariable">v</span><span class="ph FontProperty VariableSubScript">0</span> and <span class="ph FontProperty equationvariable">P</span><span class="ph FontProperty VariableSubScript">0</span> as
+outlined in “<a class="xref fm:HeadingAndPage" href="#idc2b8d0e2-308e-442b-8dd1-5b74c1428796__id9a71025f-6f51-4dbc-8733-99ae9b9bc74b">Making a Best Fit</a>”. The fan
+static pressure (<span class="ph FontProperty equationvariable">P</span><span class="ph FontProperty VariableSubScript">fs</span>)
+is defined as the (area averaged) static pressure<img class="image fmdpi:100" src="../graphics/sm_fans22a.png" /> on
+the discharge side of the fan minus the (area averaged) stagnation
+pressure <img class="image fmdpi:100" src="../graphics/sm_fans23.png" /> on the intake side
+of the fan, that is:</p>
+<div class="fig fignone Equation" id="idc2b8d0e2-308e-442b-8dd1-5b74c1428796__id25f6fde5-1d5c-4d57-af8d-07e8e6c45396"><img class="image fmdpi:100" src="../graphics/sm_fans24.png" /></div>
+<div class="p">If
+the fan is on the solution domain or a cutout (whether blowing into
+or out of the domain) then the program calculates the pressure on
+one side of the fan (for example, for a fan blowing into the solution
+domain, this would be the stagnation pressure at discharge) while
+the other pressure will be derived from the relevant ambient setting
+(for example, fan blowing in solution domain — pressure on intake
+side).<br /><div class="imagecenter"><img class="image imagecenter fmdpi:96" src="../graphics/sm_FansPressonIntakeSide.gif" /></div><br /></div>
+</div>
+<div class="section Subsection" id="idc2b8d0e2-308e-442b-8dd1-5b74c1428796__id96612996-7569-4f2d-98b1-ffb8814f8673"><h2 class="title Subheading sectiontitle">Computed Operating Point</h2><p class="p">The program determines the
+operating point on the fan characteristic line specified. The accuracy
+of the computed fan flow rate is determined by the accuracy with
+which the program calculates the pressure head losses in the system.
+Therefore, for good results an accurate representation of the losses
+has to be present which will be achieved by a combination of judicious
+refinements of the grid and by correct settings of any loss factors
+for grilles, baffles, cabling, and so on. The computed operating
+point for each fan is given in the Tables application window, that
+is, it gives <img class="image fmdpi:100" src="../graphics/sm_fans26.png" /> and <span class="ph FontProperty equationvariable">P</span><span class="ph FontProperty VariableSubScript">fs</span> for
+each fan and also flags out-of-range operation.</p>
+</div>
+<div class="section Subsection" id="idc2b8d0e2-308e-442b-8dd1-5b74c1428796__ide6833e20-4a80-473b-bc76-cc62e5b40c22"><h2 class="title Subheading sectiontitle">Out-of-Range Operation</h2><p class="p">Out-of-Range operation occurs when the program
+finds that <span class="ph FontProperty emphasis">either</span> the
+fan static pressure is less than zero in which case the flow rate
+through the fan exceeds <img class="image fmdpi:100" src="../graphics/sm_fans27.png" /> <span class="ph FontProperty emphasis">or</span> the
+fan static pressure is greater than <span class="ph FontProperty equationvariable">P</span><span class="ph FontProperty VariableSubScript">0</span> in
+which case flow is forced back through the fan in the wrong direction. </p>
+<p class="p"><a class="xref fm:Figure" href="#idc2b8d0e2-308e-442b-8dd1-5b74c1428796__id55b8be2a-d631-4745-9c50-ffcf7cb6e9c5">Figure 5</a> is an example of where the mass flow
+rate can exceed <img class="image fmdpi:100" src="../graphics/sm_fans28.png" />.</p>
+<div class="fig fignone" id="idc2b8d0e2-308e-442b-8dd1-5b74c1428796__id55b8be2a-d631-4745-9c50-ffcf7cb6e9c5"><span class="figcap"><span class="fig--title-label">Figure 5. </span>Mixing Large and Small Fans</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:100" src="../graphics/sm_fans29.png" /></div><br /></div>
+<p class="p">In this enclosure, a large fan is used at the
+top of the enclosure and a small fan (for safety in case the large
+one fails) is used at the bottom. The small fan is driven well beyond
+its maximum flow rate <span class="ph FontProperty equationvariable">v</span><span class="ph FontProperty VariableSubScript">0</span>.
+Of course, fan manufacturers do not provide the characteristic beyond<span class="ph FontProperty equationvariable"> P</span><span class="ph FontProperty VariableSubScript">0</span> and <span class="ph FontProperty equationvariable">v</span><span class="ph FontProperty VariableSubScript">0</span>,
+but <span class="ph fmvar:Product">Simcenter Flotherm</span> assumes
+that the linear line continues indefinitely in each direction as
+shown in <a class="xref fm:Figure" href="#idc2b8d0e2-308e-442b-8dd1-5b74c1428796__id0578b4d0-8404-4431-95d8-225c6e67e5f0">Figure 6</a>.</p>
+<div class="fig fignone" id="idc2b8d0e2-308e-442b-8dd1-5b74c1428796__id0578b4d0-8404-4431-95d8-225c6e67e5f0"><span class="figcap"><span class="fig--title-label">Figure 6. </span>Assumed Continuation of Fan Characteristic</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:100" src="../graphics/sm_fans30.png" /></div><br /></div>
+</div>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/Contain_FlowSpecification_ided0760ca.html" title="Flow can be specified as fixed volume, or by linear or non-linear relationships of flow rate with pressure.">Flow Specification</a></div>
+</div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_sm_ref"
+                DocTitle = "Simcenter™ Flotherm™ SmartParts Reference Guide"
+                PageTitle = "Linear Fan Flow"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/Concept_LinearFanFlow_idc2b8d0e2.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ SmartParts Reference Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

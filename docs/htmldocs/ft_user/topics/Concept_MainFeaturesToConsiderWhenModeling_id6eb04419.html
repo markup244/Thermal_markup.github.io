@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="ConceptTopic" />
+<meta name="DC.Title" content="Main Features to Consider When Modeling" />
+<meta name="abstract" content="Important aspects of your model to consider before and during modeling." />
+<meta name="description" content="Important aspects of your model to consider before and during modeling." />
+<meta name="prodname" content="Simcenter Flotherm User Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_user" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ User Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="id6eb04419-4037-4900-a35c-27a88272124e" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Main Features to Consider When Modeling</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Main Features to Consider When Modeling" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="id6eb04419-4037-4900-a35c-27a88272124e">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Main
+Features to Consider When Modeling</h1>
+<div class="body conbody ConceptBody"><div class="abstract ConceptAbstract"><span class="shortdesc">Important
+aspects of your model to consider before and during modeling.</span>
+</div>
+<div class="section Subsections"><div class="section Subsection" id="id6eb04419-4037-4900-a35c-27a88272124e__idd9449325-a9a9-4305-8fd9-99b98cd906a4"><h2 class="title Subheading sectiontitle">Extent of the Solution Domain</h2><p class="p">The solution of the variables is calculated
+within a cube of fluid known as the solution domain. The size of
+this will depend on the case in question. Another consideration
+in setting the solution domain will be whether only the inside of
+a box is required or whether some of the environment around any
+box needs to be included. Indeed, it is not even necessary to model
+the whole of the box.</p>
+</div>
+<div class="section Subsection" id="id6eb04419-4037-4900-a35c-27a88272124e__idf2657d6a-2b9c-4e60-a3f6-6e088f816de5"><h2 class="title Subheading sectiontitle">Component or Board</h2><p class="p">Modeling a component or
+board will not generally require the model to be extended to a solid
+box surface. This type of simulation may well be investigating the
+methods of local heat removal and, therefore, a comparison can be
+made by siting the objects suspended in free air or by defining
+a particular airflow over the objects in question.</p>
+</div>
+<div class="section Subsection" id="id6eb04419-4037-4900-a35c-27a88272124e__id8847f78f-3632-47ea-b490-c02efcbcf3f0"><h2 class="title Subheading sectiontitle">Computer or Electronics
+Module</h2><p class="p">When modeling a whole system such as a computer
+or electronics module the casing itself will form an important part
+of the model and will need to be represented. Often the solution
+domain will end at the casing and you will need to define the outside
+temperature and how the heat is transmitted from the exterior of
+the box – ambient setting. This is normally acceptable for cases
+that have forced ventilation or are sited away from significant obstructions.</p>
+</div>
+<div class="section Subsection" id="id6eb04419-4037-4900-a35c-27a88272124e__id5c3a42de-64f2-42a7-932d-f202ade8f287"><h2 class="title Subheading sectiontitle">Heat Transfer on the
+Sides of the Box</h2><p class="p">If the outside of the box is designed to aid
+the heat transfer processes (for example fins) then it is difficult
+to define a heat transfer coefficient and the structure will have
+to be modeled explicitly. Hence the solution domain will have to
+be extended beyond the box.</p>
+</div>
+<div class="section Subsection" id="id6eb04419-4037-4900-a35c-27a88272124e__idb9c96d14-89e9-4596-acf3-a87bbe5b6a9e"><h2 class="title Subheading sectiontitle">Objects Near the Box</h2><p class="p">If there are local objects near the box in
+question, then the solution domain will need to be extended to include
+these. A good example of this would be tabletop electronics with
+vents in the bottom. Here the gap between the bottom of the box
+and the table will have a significant effect on airflow within the
+system and will have to be included in the solution domain.</p>
+</div>
+<div class="section Subsection" id="id6eb04419-4037-4900-a35c-27a88272124e__id21082d61-7caf-4dc7-9c89-b175be833ff4"><h2 class="title Subheading sectiontitle">Well Structured Data
+Tree</h2><p class="p">As well as considering what to model, it is
+also worth thinking at an early stage of how to structure the data
+tree. By starting with a well laid out structure the project will
+be much more manageable as it grows. This will again be of benefit
+in tracing the source of any problems. It will also allow the easy
+transfer of sub-assemblies between the project and libraries, making
+it easy to store often used components for use in future projects.</p>
+</div>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/MGCChap_DefiningTheRequirements_id32a91a43.html" title="The first step when creating a project in Simcenter Flotherm is to define the requirements. You need to determine what is to be achieved and identify the key features to be modeled.">Defining the Requirements</a></div>
+</div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_user"
+                DocTitle = "Simcenter™ Flotherm™ User Guide"
+                PageTitle = "Main Features to Consider When Modeling"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/Concept_MainFeaturesToConsiderWhenModeling_id6eb04419.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ User Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

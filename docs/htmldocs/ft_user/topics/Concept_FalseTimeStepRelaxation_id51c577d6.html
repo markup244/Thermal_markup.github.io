@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="ConceptTopic" />
+<meta name="DC.Title" content="False Time Step Relaxation" />
+<meta name="abstract" content="False time step under-relaxation is the principal means that you will use to control convergence of the iterative algorithm." />
+<meta name="description" content="False time step under-relaxation is the principal means that you will use to control convergence of the iterative algorithm." />
+<meta name="prodname" content="Simcenter Flotherm User Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_user" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ User Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="id51c577d6-9e40-40c7-8358-55480b9528b1" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>False Time Step Relaxation</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="False Time Step Relaxation" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="id51c577d6-9e40-40c7-8358-55480b9528b1">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">False Time
+Step Relaxation</h1>
+<div class="body conbody ConceptBody"><div class="abstract ConceptAbstract"><span class="shortdesc">False time
+step under-relaxation is the principal means that you will use to
+control convergence of the iterative algorithm.</span>
+</div>
+<p class="p">For a given variable, this under-relaxation
+provides an inertial effect which restrains the amount by which
+the value in each cell is permitted to change at each outer iteration.</p>
+<p class="p">The inertial effect is proportional to the
+mass in the cell and inversely proportional to the false time step,
+set for the variable. Consequently, the smaller the false time step,
+the larger the inertial effect, and so the less the variable is
+permitted to change.</p>
+<p class="p">By default, the program calculates an automatic
+false time-step which is used for all variables, the one exception
+being pressure, to which the method is not applied.</p>
+<p class="p">The program-calculated value is calculated
+from the expression:</p>
+<div class="fig fignone Equation" id="id51c577d6-9e40-40c7-8358-55480b9528b1__id6cfa95f8-8369-48e8-b915-86dc50676dde"><br /><div class="imagecenter"><img class="image imagecenter fmdpi:100" src="../graphics/ug_control18.png" /></div><br /></div>
+<p class="p">When there is no forced convection set (that
+is, no external or internal fans, or fixed flow set) the program-calculated
+value is determined from the expression:</p>
+<div class="fig fignone Equation" id="id51c577d6-9e40-40c7-8358-55480b9528b1__id5c19fce5-0acc-49ad-be3b-96245906fb5b"><br /><div class="imagecenter"><img class="image imagecenter fmdpi:100" src="../graphics/ug_control19.png" /></div><br /></div>
+<p class="p">Application of the
+false time step (dt<span class="ph FontProperty VariableSubScript">f</span>)
+relaxation involves adding a false transient term to the finite
+volume equations.</p>
+<p class="p">In general, the false time
+step should be set to a characteristic time scale for the problem
+in question. The automatic settings will set this in a sensible
+way, and any adjustments should normally be by factors (2-to-50
+is typical) which increase or decrease the automatic value. For the
+profiles identified in “<a class="xref fm:HeadingAndPage" href="Concept_PossibleSolutionScenarios_id9c2d5150.html#id9c2d5150-60e5-41c5-a26c-9ed460d74584__Concept_PossibleSolutionScenarios_id9c2d5150.xml#id9c2d5150-60e5-41c5-a26c-9ed460d74584" title="When the solution process is initiated, the most-likely scenario is that the solution will converge, however, there are other possibilities.">Possible Solution Scenarios</a>”, the
+actions described in <a class="xref fm:Table" href="#id51c577d6-9e40-40c7-8358-55480b9528b1__idbfd98925-b7f3-4c6e-8f2b-4270f0aafed9">Table 1</a> will work for the majority
+of cases.</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="id51c577d6-9e40-40c7-8358-55480b9528b1__idbfd98925-b7f3-4c6e-8f2b-4270f0aafed9" class="table" frame="border" border="1" rules="cols"><caption><span class="tablecap"><span class="table--title-label">Table 1. </span>False Time Step Relaxation</span></caption><colgroup><col style="width:1.400in" /><col style="width:1.170in" /><col style="width:3.929in" /></colgroup><tbody class="tbody"><tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;"><p class="p">Solution Profile</p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;"><p class="p">Example</p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;"><p class="p">Possible Action</p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;"><p class="p">Convergence</p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;"><p class="p"><a class="xref fm:FigureAndPage" href="Concept_PossibleSolutionScenarios_id9c2d5150.html#id9c2d5150-60e5-41c5-a26c-9ed460d74584__id798cd03a-d471-47d6-bad8-969df6695d28">Figure 1</a></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;"><p class="p">Increase
+dt<span class="ph FontProperty VariableSubScript">f</span> (reducing
+damping) to speed up convergence for velocities and temperature.</p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;"><p class="p">Divergence</p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;"><p class="p"><a class="xref fm:FigureAndPage" href="Concept_PossibleSolutionScenarios_id9c2d5150.html#id9c2d5150-60e5-41c5-a26c-9ed460d74584__idb9b586a2-8856-41a5-94b4-abdaf949727a">Figure 2</a></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;"><p class="p">Check
+problem setup and grid. Possibly decrease dt<span class="ph FontProperty VariableSubScript">f</span> (increased
+damping) to force extreme cases to converge.</p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;"><p class="p">High-Level Stable</p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;"><p class="p"><a class="xref fm:FigureAndPage" href="Concept_PossibleSolutionScenarios_id9c2d5150.html#id9c2d5150-60e5-41c5-a26c-9ed460d74584__id36182f9a-3fd3-4e6c-a98a-f33231a015a5">Figure 3</a></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;"><p class="p">Increase
+dt<span class="ph FontProperty VariableSubScript">f</span> (reduced
+damping) to try to force convergence for velocities and temperature.
+In this case, reducing dt<span class="ph FontProperty VariableSubScript">f</span> (increased
+damping) can also sometimes be beneficial, depending on the complexity
+of the system being analyzed.</p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;"><p class="p">Low-Level Stable</p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;"><p class="p"><a class="xref fm:FigureAndPage" href="Concept_PossibleSolutionScenarios_id9c2d5150.html#id9c2d5150-60e5-41c5-a26c-9ed460d74584__id680cedaa-d570-43cf-8836-917864d0ae0c">Figure 4</a></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;"><p class="p">No action. Base decision
+on convergence on monitor point and error field assessment.</p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;"><p class="p">High-Level Oscillation</p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;"><p class="p"><a class="xref fm:FigureAndPage" href="Concept_PossibleSolutionScenarios_id9c2d5150.html#id9c2d5150-60e5-41c5-a26c-9ed460d74584__id019f8b15-2aab-41d6-82de-15190ca8c01f">Figure 5</a></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;"><p class="p">Reduce
+dt<span class="ph FontProperty VariableSubScript">f</span> (increased
+damping) to try to stabilize the solution.</p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;"><p class="p">Low-Level Oscillation</p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;"><p class="p"><a class="xref fm:FigureAndPage" href="Concept_PossibleSolutionScenarios_id9c2d5150.html#id9c2d5150-60e5-41c5-a26c-9ed460d74584__id30dc98ec-d977-4701-ae92-db6635ab7df7">Figure 6</a></p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;"><p class="p">No action. Base decision
+on convergence on monitor point and error field assessment.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<ul class="ul"><li class="li" id="id51c577d6-9e40-40c7-8358-55480b9528b1__id52e0da53-76ba-4c1c-bb56-8fe95cc619a7"><p class="p">Velocities</p>
+<p class="p">Usually some amount of false time
+step under-relaxation is essential for the velocities. The program-calculated
+value is often sufficient to procure a convergent algorithm.</p>
+<p class="p">For some flows, the program-calculated false
+time step on the velocities may be insufficient to get convergence.
+You can reset under-relaxations for <span class="ph FontProperty equationvariable">u</span>, <span class="ph FontProperty equationvariable">v</span> and <span class="ph FontProperty equationvariable">w</span> to
+equal the smallest cell size divided by the largest anticipated
+velocity. </p>
+<p class="p">If convergence problems persist, consult “<a class="xref fm:HeadingAndPage" href="MGCChap_Troubleshooting_id4f97786e.html#id4f97786e-2fb2-4baa-9c98-27d8058c36e5__MGCChap_Troubleshooting_id4f97786e.xml#id4f97786e-2fb2-4baa-9c98-27d8058c36e5" title="Symptom-related advice for troubleshooting problems. Troubleshooting information is also available on Support Center in the form of TechNotes.">Troubleshooting</a>” (or contact Mentor
+Graphics customer support) for advice rather than increasing the
+under-relaxation still further.</p>
+</li>
+<li class="li" id="id51c577d6-9e40-40c7-8358-55480b9528b1__ida348511b-d609-4b7e-a5a1-2489c0eae5ac"><p class="p">Temperature</p>
+<p class="p">Temperature under-relaxation is typically
+needed for buoyant flows in which the temperature field feeds back
+into the momentum equations via the buoyancy force.</p>
+<p class="p">The program ‘plays safe’ by providing an
+automatic setting for the false time step which is equivalent to
+that determined for the velocities.</p>
+<p class="p">However, in flows where the temperature solution
+does not have a significant feedback in to the velocity calculation
+(that is, small temperature differences so gravitational effects
+are minimal), the program-calculated false time-step for temperature
+may over restrain the pass-to-pass changes of temperature. In this
+case, you can either increase the rate of convergence by setting
+a value 10 to 100 times larger than the automatic calculated value
+(use the slider bar) or remove the automatic under-relaxation entirely. You
+can do this by entering a user specified false-time step of 10<span class="ph FontProperty LiteralSuperScript">15</span> s.</p>
+</li>
+<li class="li" id="id51c577d6-9e40-40c7-8358-55480b9528b1__id7f34fdf0-2e19-49f2-bc74-1441d9092199"><p class="p">Very Low Reynolds Number Flows</p>
+<p class="p">In very slow flows which are dominated by diffusion
+(that is, the Reynolds number is very much less than unity), the
+fluid velocity is not the appropriate quantity from which to infer
+the false time step. In the case of very low Reynolds numbers (for
+example, less than unity), you should set the false time step from
+the following expression:</p>
+<div class="fig fignone Equation" id="id51c577d6-9e40-40c7-8358-55480b9528b1__id76963976-da2d-43b4-b901-7a8e9fee9bde"><br /><div class="imagecenter"><img class="image imagecenter fmdpi:100" src="../graphics/ug_control20.png" /></div><br /></div>
+</li>
+</ul>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/Contain_TechniquesForControllingTheSolution_idb59ed8b2.html" title="There are various advanced techniques, both automatic and manual, which can be used to optimize the solution process. In discussing their use, it is important to know that it is only possible to give general guidelines rather than hard and fast rules on how they should be altered for particular situations.">Techniques for Controlling the Solution</a></div>
+</div>
+
+<div class="linklist linklist relinfo"><strong>Related Topics</strong><br />
+
+<div><a class="link" href="../topics/GUIRefT_SolverControlTabVariableSolutionControlSection_idd2da4a45.html" title="Use this section of the Solver Control tab to control the solution of a field variable.">Solver Control Tab - Variable Solution Control Section</a></div>
+<div><a class="link" href="../topics/GUIRefT_SolverControlTab_ida0c1d66a.html" title="Use this tab to control the solution.">Solver Control Tab</a></div></div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_user"
+                DocTitle = "Simcenter™ Flotherm™ User Guide"
+                PageTitle = "False Time Step Relaxation"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/Concept_FalseTimeStepRelaxation_id51c577d6.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ User Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

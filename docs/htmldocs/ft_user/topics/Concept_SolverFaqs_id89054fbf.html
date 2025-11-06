@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="ConceptTopic" />
+<meta name="DC.Title" content="Solver FAQs" />
+<meta name="abstract" content="Answers to frequently asked questions (FAQs) about the solver and solving." />
+<meta name="description" content="Answers to frequently asked questions (FAQs) about the solver and solving." />
+<meta name="prodname" content="Simcenter Flotherm User Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_user" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ User Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="id89054fbf-808f-4760-9389-554e59e3943d" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Solver FAQs</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Solver FAQs" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="id89054fbf-808f-4760-9389-554e59e3943d">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Solver FAQs</h1>
+<div class="body conbody ConceptBody"><div class="abstract ConceptAbstract"><span class="shortdesc">Answers to
+frequently asked questions (FAQs) about the solver and solving.</span>
+</div>
+<ol class="ol"><li class="li" id="id89054fbf-808f-4760-9389-554e59e3943d__id3ff256d4-38aa-4a2a-9e76-65896d8eebf3"><p class="p">Q: How can I change the solution process priority (Windows
+Only)? </p>
+<p class="p">A: You can set a lower
+than normal priority for the solver by setting the FLO_SOLUTION_PRIORITY
+environment variable to 1.</p>
+<p class="p">FLO_SOLUTION_PRIORITY
+has four possible process priorities. In ascending order, they are
+Idle, Normal, High, and Real Time. The default is Normal, however
+you can change this by configuring the following environment variable:</p>
+<p class="p">set FLO_SOLUTION_PRIORITY = n</p>
+<p class="p">where n is an integer value from one to four
+as follows:</p>
+<p class="p">1 = Idle</p>
+<p class="p">2 = Normal (the default)</p>
+<p class="p">3 = High</p>
+<p class="p">4 = Real Time.</p>
+<p class="p">If zero or a non-valid number is assigned,
+the setting will default to Normal. Numbers greater than four will
+default to Real Time.</p>
+<p class="p">Alternatively, you can use the Windows Task
+Manager to change the processing priority. See “<a class="xref fm:HeadingAndPage" href="TaskTop_SettingSolutionProcessPriorityUsingTheTaskManager_id02f3ef7e.html#id02f3ef7e-af05-402b-ada8-1db46dafc3ca__TaskTop_SettingSolutionProcessPriorityUsingTheTaskManager_id02f3ef7e.xml#id02f3ef7e-af05-402b-ada8-1db46dafc3ca" title="On Microsoft Windows systems, you can change the solution process priority during a solve.">Setting Solution Process Priority Using the Task Manager</a>” for further
+information.</p>
+</li>
+<li class="li" id="id89054fbf-808f-4760-9389-554e59e3943d__id8c15595a-cc52-40a1-aab6-3b97218b8da4"><p class="p">Q: I have built a model but the simulation
+time seems extraordinarily long, what is wrong? </p>
+<p class="p">A: The most likely problem is the existence
+of a very small grid cell in the model which is causing an extremely
+small time-step to be required. The time-step is controlled by the
+smallest grid cell in the model and any single small grid cell will
+cause a very small time-step to be required. A quick check of the
+Grid Summary Dialog will show the smallest cell size existing in
+the model. If the smallest cell size in any one direction is significantly
+smaller than the rest, then this cell may be inadvertently caused
+by a slightly mis-aligned geometry and may be the cause of the long
+simulation time.</p>
+</li>
+<li class="li" id="id89054fbf-808f-4760-9389-554e59e3943d__id48ddfae3-9622-4b4d-9d1b-07db3a852d8e"><p class="p">Q: How can I use run <span class="ph fmvar:Product">Simcenter Flotherm</span> using more
+than one processor? </p>
+<p class="p">A: <span class="ph fmvar:Product">Simcenter Flotherm</span> can
+be run in a parallel mode to take advantage of the computational
+speed-up offered by multi-processor machines. To run <span class="ph fmvar:Product">Simcenter Flotherm</span> in the parallel mode,
+select Use Parallel Solver in the User Preferences dialog box and
+specify the number of processors you want <span class="ph fmvar:Product">Simcenter Flotherm</span> to
+use.</p>
+</li>
+<li class="li" id="id89054fbf-808f-4760-9389-554e59e3943d__id91d3f551-a3a7-4834-a9c7-b50a14811964"><p class="p">Q: How can I run batch files? </p>
+<p class="p">A: Refer to “<a class="xref fm:HeadingAndPage" href="TaskTop_SolvingInBatchMode_id74a9a25e.html#id74a9a25e-c880-417e-94ab-39266664be82__TaskTop_SolvingInBatchMode_id74a9a25e.xml#id74a9a25e-c880-417e-94ab-39266664be82" title="Batch mode solving is useful when runs take a long time, for example, overnight.">Solving in Batch Mode</a>”.</p>
+</li>
+<li class="li" id="id89054fbf-808f-4760-9389-554e59e3943d__id941820a2-4860-4540-8b82-967bd12cebaa"><p class="p">Q: What machine specification do I need to
+run <span class="ph fmvar:Product">Simcenter Flotherm</span>? </p>
+<p class="p">A: The minimum and recommended hardware requirements
+are listed in the <cite class="cite"><span class="ph fmvar:Product">Simcenter Flotherm</span> Detailed
+Installation Instructions</cite>.</p>
+</li>
+</ol>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/MGCChap_FrequentlyAskedQuestions_id5bb8bd64.html" title="Answers to FAQs about Simcenter Flotherm.">Frequently Asked Questions</a></div>
+</div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_user"
+                DocTitle = "Simcenter™ Flotherm™ User Guide"
+                PageTitle = "Solver FAQs"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/Concept_SolverFaqs_id89054fbf.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ User Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

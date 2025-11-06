@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="TaskTopic" />
+<meta name="DC.Title" content="Setting Up a Transient Analysis Time Grid" />
+<meta name="abstract" content="The transient analysis grid is a balance between accuracy and computational time." />
+<meta name="description" content="The transient analysis grid is a balance between accuracy and computational time." />
+<meta name="prodname" content="Simcenter Flotherm User Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_user" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ User Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="idb4eae4c9-d8a8-4395-bfac-28a6bdb7ac6a" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Setting Up a Transient Analysis Time Grid</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Setting Up a Transient Analysis Time Grid" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="idb4eae4c9-d8a8-4395-bfac-28a6bdb7ac6a">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Setting
+Up a Transient Analysis Time Grid</h1>
+<div class="body taskbody TaskBody"><div class="abstract TaskAbstract"><span class="shortdesc">The transient
+analysis grid is a balance between accuracy and computational time.</span>
+</div>
+<div class="tasklabel"><h2 class="sectiontitle tasklabel">Procedure</h2></div><ol class="ol steps"><li class="li step stepexpand" id="idb4eae4c9-d8a8-4395-bfac-28a6bdb7ac6a__id05b43019-7c09-400b-8aa3-cd888edf6144"><span class="ph cmd">Either
+choose <span class="ph menucascade"><span class="ph uicontrol">Model Setup</span><abbr title="and then"> &gt; </abbr><span class="ph uicontrol">Transient Solution</span></span> or,
+in the <span class="ph uicontrol">Model Setup</span> tab, check
+Transient Solution and click the <span class="ph uicontrol">Click to Edit</span> button.</span><div class="itemgroup info StepInfo"><p class="p">The Transient Solution dialog
+box is opened.</p>
+</div></li>
+<li class="li step stepexpand" id="idb4eae4c9-d8a8-4395-bfac-28a6bdb7ac6a__id378823e2-aeff-4719-bafa-bbf570920e7d"><span class="ph cmd">In the Overall Transient Time
+section:</span><ol type="a" class="ol substeps"><li class="li substep" id="idb4eae4c9-d8a8-4395-bfac-28a6bdb7ac6a__id81b4709f-8df1-4fef-87b1-4a9be539fe52"><span class="ph cmd">Set the Total End Time to
+set the duration during which you would like to obtain data.</span><div class="itemgroup info SubStepInfo"><p class="p">Later, the simulation can be
+extended and re-solved if more time is needed.</p>
+</div></li>
+<li class="li substep" id="idb4eae4c9-d8a8-4395-bfac-28a6bdb7ac6a__id42e8c534-6925-4c75-9157-9a13b2b95314"><span class="ph cmd">Set the Period Duration to
+the same time interval.</span></li>
+</ol>
+</li>
+<li class="li step stepexpand" id="idb4eae4c9-d8a8-4395-bfac-28a6bdb7ac6a__id476477c6-d090-4bd2-a653-d7d42ce96e37"><span class="ph cmd">Divide
+the time grid into time steps, as shown in “<a class="xref fm:HeadingAndPage" href="TaskTop_CreatingTimePatches_id2d4728b9.html#id2d4728b9-9f42-47db-82f7-ac2de31e6952__TaskTop_CreatingTimePatches_id2d4728b9.xml#id2d4728b9-9f42-47db-82f7-ac2de31e6952" title="Time steps are created by adding and defining time patches. A time patch is made up of one or more time steps.">Creating Time Patches</a>”:</span></li>
+</ol>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/Contain_TransientAnalysisProcedures_id7a9c2391.html" title="Setting up, solving, and viewing results of a transient analysis.">Transient Analysis Procedures</a></div>
+</div>
+
+<div class="linklist linklist relinfo"><strong>Related Topics</strong><br />
+
+<div><a class="link" href="../topics/Concept_TimeStepsAndTheTimeDistributionPlot_id3a497d15.html" title="Monitor Point variable values are calculated at the end of each Time Step.">Time Steps and the Time Distribution Plot</a></div>
+<div><a class="link" href="../topics/GUIRefT_TransientSolutionDialogBox_ide2e12725.html" title="Use this dialog box to configure a transient analysis.">Transient Solution Dialog Box</a></div></div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_user"
+                DocTitle = "Simcenter™ Flotherm™ User Guide"
+                PageTitle = "Setting Up a Transient Analysis Time Grid"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/TaskTop_SettingUpATransientAnalysisTimeGrid_idb4eae4c9.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ User Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

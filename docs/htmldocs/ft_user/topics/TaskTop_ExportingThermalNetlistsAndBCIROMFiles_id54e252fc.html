@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="TaskTopic" />
+<meta name="DC.Title" content="Exporting Thermal Netlists and BCI-ROM Files" />
+<meta name="abstract" content="You can export a thermal network representation in SPICE-Eldo or VHDL-AMS format, or a set of files for a BCI-ROM analysis of the model." />
+<meta name="description" content="You can export a thermal network representation in SPICE-Eldo or VHDL-AMS format, or a set of files for a BCI-ROM analysis of the model." />
+<meta name="prodname" content="Simcenter Flotherm User Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_user" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ User Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="id54e252fc-ed08-4bcf-8102-9b547ee85a3d" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Exporting Thermal Netlists and BCI-ROM Files</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Exporting Thermal Netlists and BCI-ROM Files" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Exporting Thermal Netlists and BCI-ROM Files</h1>
+<div class="body taskbody TaskBody"><div class="abstract TaskAbstract"><p class="shortdesc">You can export a thermal network representation in SPICE-Eldo or VHDL-AMS format, or a set
+of files for a BCI-ROM analysis of the model.</p>
+<p class="p">You can export BCI-ROM files as:</p>
+<ul class="ul"><li class="li" id="idc8a2aced-80f9-4a10-94c5-42715cb1be09"><p class="p">Matrices - Files exported in this format are compatible with mathematical programing tools such as MATLAB<sup>®</sup> and GNU Octave. </p>
+<p class="p">Files of this type can also be solved with the BCI-ROM Matrices solver included with <span class="ph fmvar:Product">Simcenter Flotherm</span>. </p>
+</li>
+<li class="li" id="idbeea38cb-3008-43d9-81e5-acdd18f53346"><p class="p">FMU (Co-Simulation) - Files exported in this format can be solved in FMI compliant tools such as Simcenter Flomaster™, Simcenter AMESim™, and Ansys Simplorer<sup>®</sup>.</p>
+</li>
+<li class="li" id="id3758393e-a49d-488b-947a-ec082c3e6e4f"><p class="p">VHDL-AMS - Files exported in this format can be solved in tools such as SystemVision<sup>®</sup> Cloud and Xpedition<sup>®</sup> AMS.</p>
+</li>
+</ul>
+<p class="p">The technology used by <span class="ph fmvar:Product">Simcenter Flotherm</span> to create thermal netlists and BCI-ROM files is based on the FANTASTIC method, generally
+described in the following publications:</p>
+<ol class="ol"><li class="li" id="ida29571bb-99a8-43fb-bff6-22c069bdc12f"><p class="p">L. Codecasa, D. D'Amore, and P. Maffezzoni, “Parameters for multi-point moment matching
+reduction of discretized thermal networks”, <cite class="cite">in Proc. IEEE THERMINIC, 2002, pp. 151-154</cite>.</p>
+</li>
+<li class="li" id="id37a89d45-aab3-4ffd-94b0-2615b4689b28"><p class="p">L Codecasa, V d'Alessandro, A Magnani, N Rinaldi, PJ Zampardi, “Fast novel thermal
+analysis simulation tool for integrated circuits (FANTASTIC)”, <cite class="cite">20th International Workshop on Thermal Investigations of ICs and Systems (THERMINIC)
+article 6972507 United Kingdom, 2014</cite>.</p>
+</li>
+<li class="li" id="id367b9685-2400-4e1b-b461-12360605cb06"><p class="p">Lorenzo Codecasa, Vincenzo d'Alessandro, Alessandro Magnani, Niccolò Rinaldi, “Matrix
+reduction tool for creating boundary condition independent dynamic compact thermal models”, <cite class="cite">Thermal Investigations of ICs and Systems (THERMINIC) 2015 21st International
+Workshop on, pp. 1-5, 2015</cite>.</p>
+</li>
+<li class="li" id="id508152e4-9f8b-4277-8c8d-3301039a875b"><p class="p">JHJ Janssen, L Codecasa, “Why matrix reduction is better than objective function
+based optimization in compact thermal model creation”, <cite class="cite">Thermal Investigations of ICs and Systems (THERMINIC) 2015 21st International
+Workshop on, pp. 1-6, 2015</cite>.</p>
+</li>
+</ol>
+</div>
+<div class="section Restrictions"><h2 class="title Subheading sectiontitle">Restrictions and Limitations</h2><ul class="ul"><li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id2d2bfd20-cd54-4d38-9986-d9280aacd2f2"><p class="p">Materials with temperature-dependent thermal conductivity are not supported.</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id480ef591-dfed-4e2b-bd4a-f2532401c9eb"><p class="p">Attached ambients must be uniquely identified.</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__idceea3e6c-3a52-44c1-83f2-7e4fc162874e"><p class="p">None of the following SmartParts are supported:</p>
+<p class="p">Resistance, Heat Sink, Fan, Network Assembly, Heat Pipe, TEC, Die, Power Map,
+Recirculation Device, Cooler, Rack, Fixed Flow, Compact Component, Perforated Plate, Controller.</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id7925c21d-fab5-4868-928b-3d3ae5339afb"><p class="p">Collapsed cuboids must not abut the solution domain boundary or cutout face.</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id85f11a0e-79bf-48e6-bccf-2cbffd49b6bf"><p class="p">Radiation, Solar Radiation, and Joule Heating (Model Setup) are not supported.</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id8aadb45c-53b9-4013-af4c-54f4dae3e816"><p class="p">Activate Plate Conduction (Solver Control) is not supported.</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id1cb58044-a456-45a4-9487-d525282df47a"><p class="p">The calculation time required for export depends on the following:</p>
+<ul class="ul"><li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__ide00ed683-48be-4c20-8b8b-432f30691d2a"><p class="p">Number of sources.</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id8097a860-987d-47c0-81a0-d8c8ff30e17d"><p class="p">Number of unique heat transfer coefficients in the model.</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id0e47ba75-ba34-4b0a-8f1d-78058ea2384d"><p class="p">Number of grid cells.</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id177c607b-8a7d-4ce2-ad52-fe7071fcf823"><p class="p">Range of heat transfer coefficients.</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id1ffa22e2-b422-4a32-a4a5-7b53849b3ddd"><p class="p">Acceptable relative error.</p>
+</li>
+</ul>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id28ce3058-ede0-4f45-b5fe-62c27649a4da"><p class="p">When specifying power, either using a Source or a Thermal attribute, specify
+a total value (Total Source or Total Power).</p>
+<div class="note caution"><span class="cautiontitle">CAUTION:</span> <p class="p">Although other types of power definition are allowed in the <span class="ph fmvar:Product">Simcenter Flotherm</span> model, they may not be handled consistently by Eldo<sup>®</sup>. Results may then not match and therefore verification may not be possible.</p>
+</div>
+</li>
+</ul>
+</div>
+<div class="section prereq Prerequisites p"><div class="tasklabel"><h2 class="sectiontitle tasklabel">Prerequisites</h2></div><ul class="ul"><li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__idd7a969de-4f6a-455f-be24-481af6cde20b"><p class="p">Access is controlled by license.</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__idaf4fc173-9e13-4122-a120-64bbc6b89147"><p class="p">When exporting the SPICE-Eldo format, names of thermal ports must conform to
+the node name conventions of Eldo, namely:</p>
+<p class="p"><span class="q">“The following characters are not allowed in node names: (), {}, ', =. Node
+names cannot begin with any of the following characters: *, +, -, &amp;, |, ". Do not use the period character
+(.) in a node name because it is reserved as a hierarchy separator.”</span></p>
+<p class="p">In the context of the <span class="ph fmvar:Product">Simcenter Flotherm</span> model, thermal ports are any objects to which either a Source or Thermal attribute is attached.</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id6d0658ee-2fd6-47ba-84e7-11c914b05253"><p class="p">When exporting the VHDL-AMS format, elements or identifiers contained in the
+file must conform to the VHDL name conventions:</p>
+<ul class="ul"><li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id1e094ad0-78b2-4a24-8407-429ab3a27c7e"><p class="p">The elements must consist only of letters, numbers, and underscores.</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id57a4677f-9a86-45ff-85b1-eb5f63ee0338"><p class="p">Elements and identifiers must start with a letter.</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__iddff19296-b264-401d-a6b7-bdfccf7ea6f4"><p class="p">Two consecutive underscores are not allowed.</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id983802ff-b76c-4576-80e7-fd73e33a3695"><p class="p">None of the VHDL reserved keywords can be used, for example, component, case, body, Package.</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id375593a0-e71c-4865-84c8-1bfba28ddadd"><p class="p">Commas and square brackets are removed and spaces are replaced with underscores
+in element/identifier names during VHDL-AMS export. Multiple consecutive spaces are replaced with single
+underscore. The model name is not affected.</p>
+<p class="p">Refer to the <cite class="cite">IEEE Standard for VHDL Language Reference Manual</cite> for a full list of keywords:</p>
+<p class="p Url"><a class="xref" href="https://standards.ieee.org/standard/1076-2019.html/" target="_blank">https://standards.ieee.org/standard/1076-2019.html/</a></p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__ida7a66a6e-105b-413c-a0e3-f738db15990f"><p class="p">In the context of the <span class="ph fmvar:Product">Simcenter Flotherm</span> model, elements/identifiers are:</p>
+<ul class="ul"><li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id45c1a56a-96c8-498c-b881-6bb2a2111556"><p class="p">Any objects to which either a Source or Thermal attribute is attached.</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id5a87b4e0-ec88-482b-ab3c-5a89bfa1147e"><p class="p">The name of the model. This limitation does not apply when exporting the SPICE-Eldo format.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id8a3f1ca1-c8f3-4da6-87c6-f919bfb539f1"><p class="p">Type of Solution (Model Setup) must be Conduction Only.</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id581c3b22-f8a6-495a-a25f-e78dbc9e2c7b"><p class="p">At least one powered non-collapsed Source object must be present.</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id14450ab5-c24d-4fc8-b954-7fa2f8d1295a"><p class="p">At least one non-zero Heat Transfer Coefficient must be attached to the solution
+domain (system boundary) or to cutouts, and at least one solid object must abut such a boundary
+face.</p>
+</li>
+</ul>
+</div>
+<div class="tasklabel"><h2 class="sectiontitle tasklabel">Procedure</h2></div><ol class="ol steps"><li class="li step stepexpand" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id604c9bbf-5494-4ed2-8c9f-86930c06ebf2"><span class="ph cmd">Ensure that the data tree hierarchy is appropriate and, if a verification is to be
+done, that Source powers match those derived from the electrical netlist.</span><div class="itemgroup info StepInfo"><p class="p">The hierarchical order of Sources in the data tree determines the order of thermal
+ports in the extracted thermal list.</p>
+</div></li>
+<li class="li step stepexpand" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__idcad4f456-c77f-4f3b-af40-a6f2237e4160"><span class="ph cmd">You have a choice.</span><div class="itemgroup info StepInfo">
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__idffece9c1-b8eb-4c7d-8450-2429cb0317c7" class="table" frame="border" border="1" rules="cols"><colgroup><col style="width:1.469in" /><col style="width:4.056in" /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry cellrowborder default-entry" style="vertical-align:top;" id="d64637e377"><p class="p">If you want to...</p>
+</th>
+<th class="entry cellrowborder default-entry" style="vertical-align:top;" id="d64637e380"><p class="p">Do the following:</p>
+</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d64637e377 "><p class="p">Export a thermal netlist in SPICE-Eldo or VHDL-AMS format.</p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d64637e380 "><ol class="ol"><li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id499481a6-8be5-4507-9315-f49043998f27"><p class="p">Either choose <span class="ph menucascade"><span class="ph uicontrol">Project</span><abbr title="and then"> &gt; </abbr><span class="ph uicontrol">Export Project</span><abbr title="and then"> &gt; </abbr><span class="ph uicontrol">Thermal Netlist</span></span>, or right-click the project node in the data tree and choose <span class="ph menucascade"><span class="ph uicontrol">Export Project</span><abbr title="and then"> &gt; </abbr><span class="ph uicontrol">Thermal Netlist</span></span>.</p>
+<p class="p">The Thermal Netlist Preferences dialog box is opened.</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__ida262aac1-5541-4bb4-84a9-06eff61ed9b4"><p class="p">Change, or leave as is, the default Acceptable Relative Error value and click <span class="ph uicontrol">OK</span>.</p>
+<p class="p">A file browser dialog box is opened.</p>
+<p class="p">The first time a file is exported, the given default
+format is SPICE-Eldo, and the default filename is <span class="ph filepath"><var class="keyword varname">project name</var>.sp</span>.</p>
+<p class="p">Optionally, use the file type dropdown list to select VHDL-AMS format with a default filename of <span class="ph filepath"><var class="keyword varname">project name</var>.vhd</span></p>
+<p class="p">At subsequent exports, a default filename is not provided.</p>
+</li>
+</ol>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d64637e377 "><p class="p">Export BCI-ROM files.</p>
+</td>
+<td class="entry cellrowborder default-entry" style="vertical-align:top;" headers="d64637e380 "><ol class="ol"><li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id005408d8-2211-437f-9b5a-4cd5832ef360"><p class="p">Either choose <span class="ph menucascade"><span class="ph uicontrol">Project</span><abbr title="and then"> &gt; </abbr><span class="ph uicontrol">Export Project</span><abbr title="and then"> &gt; </abbr><span class="ph uicontrol">BCI-ROM</span></span>, or right-click the project node in the data tree and choose <span class="ph menucascade"><span class="ph uicontrol">Export Project</span><abbr title="and then"> &gt; </abbr><span class="ph uicontrol">BCI-ROM</span></span>.</p>
+<p class="p">The BCI-ROM Preferences dialog box is opened.</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id9b454764-7903-4483-b049-c2d38b8c0170"><p class="p">Use the BCI-ROM Format dropdown list to specify the file format of the exported zip file.</p>
+<p class="p">Choose Matrices, FMU (Co-Simulation), or VHDL-AMS.</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__idd0f9ed3f-f7ce-4136-a4d9-5b24d36cb0b0"><p class="p">Change, or leave as is, the default Acceptable Relative
+Error, and Minimum and Maximum HTC values and click <span class="ph uicontrol">OK</span>.</p>
+<p class="p">A file browser dialog box is opened.</p>
+<div class="note note"><span class="notetitle">Note:</span> <p class="p">The ‘Save as type’ field is automatically set depending upon your selection in step <a class="xref fm:NumberOnly" href="#id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id9b454764-7903-4483-b049-c2d38b8c0170">2</a>.</p>
+</div>
+<p class="p">The default filename is <span class="ph filepath"><var class="keyword varname">project name</var>.zip</span>. </p>
+</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div></li>
+<li class="li step stepexpand" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id528d8650-9526-4654-aff8-be0feb3eb42c"><span class="ph cmd">Navigate to a folder and click <span class="ph uicontrol">Save</span>.</span><div class="itemgroup info StepInfo"><p class="p">The solver runs to create the export file(s). The Thermal Netlist/BCI-ROM Export
+Progress dialog box is displayed, showing a percentage progress bar.</p>
+<div class="note note"><span class="notetitle">Note:</span> <p class="p">A CFD solution is not created.</p>
+</div>
+</div></li>
+</ol>
+<div class="section result"><div class="tasklabel"><h2 class="sectiontitle tasklabel">Results</h2></div><p class="p">If successful, the following message is output:</p>
+<p class="p BlockIndent">INFO I/8016 - Thermal Netlist / BCI-ROM successfully exported</p>
+<ul class="ul"><li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__idf068ceaa-e843-4db2-922d-cd62c5bc7738"><p class="p">A netlist <span class="ph filepath">.sp</span> file contains an exported network is in the form of a SPICE netlist that can
+be used by Eldo as part of an electrothermal simulation. If equivalent power values are used in the <span class="ph fmvar:Product">Simcenter Flotherm</span> model and in the electrical netlist then temperatures calculated by <span class="ph fmvar:Product">Simcenter Flotherm</span> can be compared with those calculated by Eldo to verify the thermal network. </p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id3add29b7-2bb7-4fc8-3424-b77a2fd6fa"><p class="p">A netlist <span class="ph filepath">.vhd</span> file contains the exported network in VHDL-AMS format.</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id1021c1dd-c059-4543-9c42-ceaf27ede081"><p class="p">A BCI-ROM <span class="ph filepath">Matrices.zip</span> file contains a set of files:</p>
+<ul class="ul"><li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__idd8435ffd-3719-4db1-bf16-e373e2868de3"><p class="p"><span class="ph filepath">*.mtx</span> are matrices defining the ROM (Reduced Order Model).</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__idc6172a7d-5082-4b8c-8f73-c02708acf834"><p class="p"><span class="ph filepath">report.rom</span> gives a brief report of the result of the extraction process, containing:</p>
+<p class="p">The acceptable relative error achieved versus the value requested in
+the BCI-ROM Preferences dialog box, and the resultant ROM size.</p>
+<p class="p">The HTC range values as set in the BCI-ROM Preferences dialog box.</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id5d9b11d1-76ee-45dd-ab20-491c34f264fd"><p class="p"><span class="ph filepath">rom_parameters.m</span> is a script, compatible with mathematical programming tools (such as MATLAB<sup>®</sup> and GNU Octave), that provides a means to set variables of interest
+when solving the BCI-ROM in those tools. Specifically, it allows the definition of the following for
+a ROM solution:</p>
+<ul class="ul"><li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id5edb634c-d641-48f8-a782-a2238d8e9988"><p class="p">Heat transfer coefficients.</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id29225e3a-47b2-4a80-8c80-db85120c74ed"><p class="p">Ambient temperatures.</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id0e763c00-b870-4de5-bf1d-e49536af8678"><p class="p">Initial temperature.</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__idabeeee04-4f92-41b8-abb5-1dfaa107ae6e"><p class="p">Power as a function of time. Constant, piecewise linear, sinusoidal,
+and exponential options are supported.</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id464430bb-d9a9-4e1c-b63f-910aa2dd032f"><p class="p">Transient solution duration.</p>
+</li>
+</ul>
+<p class="p">Complete ROM solving harness examples are available from Support Center:</p>
+<p class="p Url"><a class="xref" href="https://support.sw.siemens.com" target="_blank">https://support.sw.siemens.com</a></p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id2f1d5a0e-aafd-3f94-3063-3257ba417a"><p class="p"><span class="ph filepath">xData.txt</span> provides a summary of the key parameters of the detailed model that
+was used to create the compact model.</p>
+</li>
+</ul>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id09d577cd-7c7e-442b-b91d-5e47d48fa8e9"><p class="p">FMU .zip file contains the extracted BCI-ROM in a .fmu format. Within the .fmu
+file these files can be found.</p>
+<ul class="ul"><li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id432720d7-cbf0-456c-be92-0169c29f98e7"><p class="p">Binaries - Contains the Co-Simulation FMU solver (in 32 and 64 bit Windows only solver)</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id83d74fbd-49bd-4e39-b880-308f6f973dbb"><p class="p">Resources - <span class="ph filepath">*.mtx</span> are matrices defining the ROM (Reduced Order Model).</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id64213d39-e4a7-44bc-aa74-88c739fa1a88"><p class="p"><span class="ph filepath">modelDescription.xml</span> - Contains the definition of the FMU connections and variables required
+by the importing tool. Default time step of 0.01 second is included with the FMU. This file adheres to
+the FMI standard.</p>
+</li>
+</ul>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__idd89494d1-f197-426b-aabd-c6d43049d9ae"><p class="p">VHDL .zip file contains:</p>
+<ul class="ul"><li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__id19a9649c-c546-4f84-b9d7-6ae78f2781b0"><p class="p"><span class="ph filepath">*.csv</span> -  Contains the information defining the extracted ROM. Each column
+in the csv file represents a matrix.</p>
+</li>
+<li class="li" id="id54e252fc-ed08-4bcf-8102-9b547ee85a3d__idacb42525-0a57-4789-b246-cb80594e7bf3"><p class="p"><span class="ph filepath">*.vhd</span> - Defines the connections of the ROM information included in the accompanying
+csv file and enables the ROM to be solved.</p>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/Contain_ProjectOperations_ide9456c2b.html" title="The following are operations carried out on the project as an entity, rather than modeling operations within an opened project.">Project Operations</a></div>
+</div>
+
+<div class="linklist linklist relinfo"><strong>Related Topics</strong><br />
+
+<div><a class="link" href="../topics/GUIRefT_ThermalNetlistPreferencesDialogBox_id4c23e9db.html" title="Use this dialog box to request an acceptable relative error value.">Thermal Netlist Preferences Dialog Box</a></div>
+<div><a class="link" href="../topics/GUIRefT_BciRomPreferencesDialogBox_id28164b5a.html" title="Use this dialog box to specify the format of the BCI-ROM files that you are exporting, request an acceptable relative error value, and to set a global HTC range.">BCI-ROM Preferences Dialog Box</a></div>
+<div><a class="link" href="../topics/GUIRefT_ThermalNetlistbciRomExportProgressDialogBox_idc847117d.html" title="This dialog box shows solver progress data during an export, and closes when the export of data has completed.">Thermal Netlist/BCI-ROM Export Progress Dialog Box</a></div></div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_user"
+                DocTitle = "Simcenter™ Flotherm™ User Guide"
+                PageTitle = "Exporting Thermal Netlists and BCI-ROM Files"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/TaskTop_ExportingThermalNetlistsAndBCIROMFiles_id54e252fc.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ User Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

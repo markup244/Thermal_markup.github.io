@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="TaskTopic" />
+<meta name="DC.Title" content="Assigning Heat Source Rates Across the Project (AHR)" />
+<meta name="abstract" content="To save time spent manually changing sources individually, you can de-rate and pro-rate multiple heat sources using the Assigned Heat Source Rating user variable." />
+<meta name="description" content="To save time spent manually changing sources individually, you can de-rate and pro-rate multiple heat sources using the Assigned Heat Source Rating user variable." />
+<meta name="DC.subject" content="De-rate Scenario Heat Sources, Assigned Heat Source Rating, Pro-rate Scenario Heat Sources" />
+<meta name="keywords" content="De-rate Scenario Heat Sources, Assigned Heat Source Rating, Pro-rate Scenario Heat Sources" />
+<meta name="prodname" content="Simcenter Flotherm Command Center User Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_cc_user" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ Command Center User Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="idde6b8c19-39ea-41d3-985e-04667642005c" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Assigning Heat Source Rates Across the Project (AHR)</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Assigning Heat Source Rates Across the Project (AHR)" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="idde6b8c19-39ea-41d3-985e-04667642005c">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Assigning Heat Source Rates Across the Project (AHR)</h1>
+<div class="body taskbody TaskBody"><div class="abstract TaskAbstract"><span class="shortdesc">To save time
+spent manually changing sources individually, you can de-rate and
+pro-rate multiple heat sources using the Assigned Heat Source Rating
+user variable.</span>
+</div>
+<div class="section Restrictions"><h2 class="title Subheading sectiontitle">Restrictions and Limitations</h2><ul class="ul"><li class="li" id="idde6b8c19-39ea-41d3-985e-04667642005c__id800d3467-3369-47d7-b67b-28e62f1ac964"><p class="p">When AHR is applied, the following
+variables are affected:</p>
+<ul class="ul"><li class="li" id="idde6b8c19-39ea-41d3-985e-04667642005c__idbdc92b71-185f-49dd-a1b0-6038e999cc39"><p class="p">Planar Sources (total or per
+unit area)</p>
+</li>
+<li class="li" id="idde6b8c19-39ea-41d3-985e-04667642005c__idca589bf1-9ee1-4ee8-b162-b50a25b91912"><p class="p">Volume Sources (total or per
+unit volume)</p>
+</li>
+<li class="li" id="idde6b8c19-39ea-41d3-985e-04667642005c__idd3d1c2b0-2815-442b-b215-9e0f5c49c745"><p class="p">Thermal attributes (total or
+unit area)</p>
+</li>
+<li class="li" id="idde6b8c19-39ea-41d3-985e-04667642005c__id7a171063-ecb5-48e8-8599-fabc0ba3d5a1"><p class="p">Assigned power
+to Die SmartParts</p>
+</li>
+<li class="li" id="idde6b8c19-39ea-41d3-985e-04667642005c__ida7fddcee-0961-4613-aadb-5f76b951520e"><p class="p">Assigned power
+to PCBs</p>
+</li>
+<li class="li" id="idde6b8c19-39ea-41d3-985e-04667642005c__id46840d4b-47b0-4e3f-90d8-32da7c53251b"><p class="p">Junction power
+in the Compact Component SmartPart</p>
+</li>
+</ul>
+<p class="p">The following objects and settings
+are <span class="ph FontProperty emphasis">not</span> affected
+by AHR:</p>
+<ul class="ul"><li class="li" id="idde6b8c19-39ea-41d3-985e-04667642005c__ideda99b7f-56ad-4189-95f6-4ea61de7e2e2"><p class="p">Fixed temperature and Joule
+Heating thermal attributes</p>
+</li>
+<li class="li" id="idde6b8c19-39ea-41d3-985e-04667642005c__id78ef9f21-1bba-4068-985f-a9bf1e8e7dbd"><p class="p">Linear and fixed-value heat
+sources</p>
+</li>
+<li class="li" id="idde6b8c19-39ea-41d3-985e-04667642005c__id665d0226-9885-48aa-8593-03c61d292b9c"><p class="p">Heat introduced through flow
+objects: Fans, Recirculation Devices, Fixed Flows, Racks, and Coolers.</p>
+</li>
+</ul>
+</li>
+<li class="li" id="idde6b8c19-39ea-41d3-985e-04667642005c__id9a558d55-191f-49f0-807d-7960811ba041"><p class="p">Generally, AHR is not applied
+to powers that have been explicitly set as input variables. An exception
+to this is when thermal or source attributes are used as input variables,
+that is, different attributes are used in different scenarios. In
+such cases, AHR is applied to the power values of the attributes.</p>
+</li>
+<li class="li" id="idde6b8c19-39ea-41d3-985e-04667642005c__id27ad798e-cc64-4e12-ba37-e05852d08275"><p class="p">Care is required when using
+AHR for <span class="ph FontProperty emphasis">transient</span> models.
+Some example behaviors are described:</p>
+<ul class="ul"><li class="li" id="idde6b8c19-39ea-41d3-985e-04667642005c__id6d7c5272-5c09-4f43-80a4-23003c51ec1c"><p class="p">AHR is the only variant:</p>
+<p class="p">Thermal and source attributes
+will have their base values AHR-applied but their transient attachments
+will remain attached and unchanged.</p>
+</li>
+<li class="li" id="idde6b8c19-39ea-41d3-985e-04667642005c__id2b687170-55d3-4035-ac3b-5f2ffa088d4e"><p class="p">AHR is varied in combination
+with other powered objects, except thermal and source attributes,
+as input variables:</p>
+<p class="p">Powered SmartParts do not have
+AHR applied while creating the scenarios. </p>
+</li>
+<li class="li" id="idde6b8c19-39ea-41d3-985e-04667642005c__id4c14be75-51de-46ff-a7b2-cf196ac6ba6a"><p class="p">AHR is varied along with
+thermal attributes and source attributes:</p>
+<p class="p">For thermal and source attribute
+values, AHR is, correctly, not applied to the base values of the
+attributes. However, the transient attachments will remain attached
+and will not be AHR-applied.</p>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="tasklabel"><h2 class="sectiontitle tasklabel">Procedure</h2></div><ol class="ol steps"><li class="li step stepexpand" id="idde6b8c19-39ea-41d3-985e-04667642005c__id91d6371d-0cbe-4bff-b04d-e2b3b39c42b2"><span class="ph cmd">Open the Input Variables view.</span></li>
+<li class="li step stepexpand" id="idde6b8c19-39ea-41d3-985e-04667642005c__idc16b87fd-7d52-4162-af42-46dbd38d33f0"><span class="ph cmd">Select
+the <span class="ph uicontrol">User Variables</span> tab.</span><div class="itemgroup info StepInfo"><p class="p">This is the rightmost tab. If it
+is not visible, click <span class="ph uicontrol">&gt;</span> to move the tabs
+to the left.</p>
+</div></li>
+<li class="li step stepexpand" id="idde6b8c19-39ea-41d3-985e-04667642005c__id4c740eef-e9b4-46f1-9a63-e4cbced49bed"><span class="ph cmd">Check the Assigned Heat Source
+Rating check box.</span><div class="itemgroup info StepInfo"><p class="p">The default value is 100 percent.</p>
+<p class="p">Assigned Heat Source Rating is added to the list of input variables.</p>
+</div></li>
+<li class="li step stepexpand" id="idde6b8c19-39ea-41d3-985e-04667642005c__idfbaf83b2-339d-4d45-855a-eca812280343"><span class="ph cmd">Add input variable values
+for different scenarios to represent percentage values of the original,
+for example, a value of 150 is 150% of the original.</span></li>
+</ol>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/Contain_WorkingWithInputVariables_id1ac2f6f8.html" title="You build scenarios parametrically by activating selected variable types (input variables) and defining sequences of values for those variable types.">Working With Input Variables</a></div>
+</div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_cc_user"
+                DocTitle = "Simcenter™ Flotherm™ Command Center User Guide"
+                PageTitle = "Assigning Heat Source Rates Across the Project (AHR)"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/TaskTop_AssigningHeatSourceRatesAcrossTheProjectAhr_idde6b8c19.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ Command Center User Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

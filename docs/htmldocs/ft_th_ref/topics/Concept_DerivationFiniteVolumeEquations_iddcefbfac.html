@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="ConceptTopic" />
+<meta name="DC.Title" content="Derivation of Finite-Volume Equations" />
+<meta name="abstract" content="Consider a transient, one-dimensional, uniform grid in the X-direction." />
+<meta name="description" content="Consider a transient, one-dimensional, uniform grid in the X-direction." />
+<meta name="prodname" content="Simcenter Flotherm Background Theory Reference Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_th_ref" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="ShowConditionIndicators" content="none" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="IncludeInInventory" content="Yes" />
+<meta name="IncludeDraftCommentsInChangeLog" content="none" />
+<meta name="HighlightColor" content="Pale%20Green" />
+<meta name="HighlightChanges" content="none" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="Draft" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ Background Theory Reference Guide" />
+<meta name="DocPackages" content="none" />
+<meta name="CSHelp" content="none" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="iddcefbfac-e55d-4468-84d6-10b72d07f28c" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Derivation of Finite-Volume Equations</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Derivation of Finite-Volume Equations" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="iddcefbfac-e55d-4468-84d6-10b72d07f28c">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Derivation of Finite-Volume
+Equations</h1>
+<div class="body conbody ConceptBody"><div class="abstract ConceptAbstract"><span class="shortdesc">Consider a
+transient, one-dimensional, uniform grid in the X-direction.</span>
+</div>
+<div class="fig fignone" id="iddcefbfac-e55d-4468-84d6-10b72d07f28c__idd8303760-4a17-4863-8909-b0554eec6147"><br /><div class="imagecenter"><img class="image imagecenter fmdpi:120" src="../graphics/1d_uniform_grid.png" /></div><br /></div>
+<p class="p">The finite volume-equations in differential
+form for:</p>
+<ul class="ul"><li class="li" id="iddcefbfac-e55d-4468-84d6-10b72d07f28c__idc9252d2f-957c-4681-b44a-139077db98a9"><p class="p">Continuity:</p>
+<div class="fig fignone Equation" id="iddcefbfac-e55d-4468-84d6-10b72d07f28c__id150bd798-4a08-4951-a8b4-5846ede8cc5e"><br /><div class="imagecenter"><img class="image imagecenter fmdpi:96" src="../graphics/th_finite02.png" /></div><br /></div>
+</li>
+<li class="li" id="iddcefbfac-e55d-4468-84d6-10b72d07f28c__id2416dd96-a870-4482-ba07-da79d47f7985"><p class="p">Temperature:</p>
+<div class="fig fignone Equation" id="iddcefbfac-e55d-4468-84d6-10b72d07f28c__ida6c46832-1ceb-41cd-9eb5-b3ced9f3dd37"><br /><div class="imagecenter"><img class="image imagecenter fmdpi:96" src="../graphics/th_finite03.png" /></div><br /></div>
+</li>
+</ul>
+<p class="p">Grid Cell Nomenclature:</p>
+<p class="p">Finite-volume equations are derived by volume
+integration over each grid cell:</p>
+<div class="fig fignone" id="iddcefbfac-e55d-4468-84d6-10b72d07f28c__id4821e44e-23fd-42a4-9c2c-3b6f37c5de01"><br /><div class="imagecenter"><img class="image imagecenter fmdpi:96" src="../graphics/th_finite04.png" /></div><br /></div>
+<p class="p">Cell volume:</p>
+<p class="p BlockIndent"><span class="ph FontProperty equationvariable">V</span><span class="ph FontProperty VariableSubScript">p</span> = δ<span class="ph FontProperty equationvariable">x</span> δ<span class="ph FontProperty equationvariable">y</span> δ<span class="ph FontProperty equationvariable">z</span> </p>
+<p class="p">x-direction face area:</p>
+<p class="p BlockIndent"><span class="ph FontProperty equationvariable">A</span><span class="ph FontProperty VariableSubScript">x</span> = δ<span class="ph FontProperty equationvariable">y</span> δ<span class="ph FontProperty equationvariable">z</span> </p>
+<div class="section Subsections"><div class="section Subsection" id="iddcefbfac-e55d-4468-84d6-10b72d07f28c__id3f02987e-f2b8-4ceb-9965-057ceac3a02f"><h2 class="title Subheading sectiontitle">Continuity Equation</h2><div class="fig fignone Equation" id="iddcefbfac-e55d-4468-84d6-10b72d07f28c__id202b7569-a030-4e43-89e4-d80d2c4010e8"><br /><div class="imagecenter"><img class="image imagecenter fmdpi:96" src="../graphics/th_finite05.png" /></div><br /></div>
+<div class="fig fignone Equation" id="iddcefbfac-e55d-4468-84d6-10b72d07f28c__id4321de10-dc8d-49ad-b7cd-3ac2e75eef17"><br /><div class="imagecenter"><img class="image imagecenter fmdpi:96" src="../graphics/th_finite06.png" /></div><br /></div>
+<div class="fig fignone Equation" id="iddcefbfac-e55d-4468-84d6-10b72d07f28c__idb7c7472a-598d-4db9-ac22-39f8af1ae4d9"><br /><div class="imagecenter"><img class="image imagecenter fmdpi:96" src="../graphics/th_finite07.png" /></div><br /></div>
+<div class="fig fignone Equation" id="iddcefbfac-e55d-4468-84d6-10b72d07f28c__id46484682-b66e-4b24-a5d8-e460f51a9d93"><br /><div class="imagecenter"><img class="image imagecenter fmdpi:96" src="../graphics/th_finite08.png" /></div><br /></div>
+<p class="p">So
+the full equation is:</p>
+<div class="fig fignone Equation" id="iddcefbfac-e55d-4468-84d6-10b72d07f28c__idb6979fc8-5a53-4eb5-ad36-513fa9afb718"><br /><div class="imagecenter"><img class="image imagecenter fmdpi:96" src="../graphics/th_finite09.png" /></div><br /></div>
+<p class="p">that is:</p>
+<p class="p BlockIndent"><span class="ph FontProperty equationvariable">Rate of increase of mass in cell</span> + <span class="ph FontProperty equationvariable">Difference between outflow and inflow</span> = 0</p>
+<p class="p">or, for steady state or constant density:</p>
+<p class="p BlockIndent"><span class="ph FontProperty equationvariable">Mass outflow</span> − <span class="ph FontProperty equationvariable">Mass inflow</span> =
+0</p>
+</div>
+<div class="section Subsection" id="iddcefbfac-e55d-4468-84d6-10b72d07f28c__id0185e29a-8c86-4e3e-8b50-d12c5f97210b"><h2 class="title Subheading sectiontitle">Temperature Equation</h2><p class="p">Transient
+term:</p>
+<div class="fig fignone Equation" id="iddcefbfac-e55d-4468-84d6-10b72d07f28c__id5da0109a-093b-431a-b80e-84fe8098200c"><br /><div class="imagecenter"><img class="image imagecenter fmdpi:96" src="../graphics/th_finite10.png" /></div><br /></div>
+<p class="p">(that is, rate of increase of heat content
+of cell)</p>
+<p class="p">Convection term: </p>
+<div class="fig fignone Equation" id="iddcefbfac-e55d-4468-84d6-10b72d07f28c__id8d3b54c5-3e40-4fa1-99d9-d26588c652d0"><br /><div class="imagecenter"><img class="image imagecenter fmdpi:96" src="../graphics/th_finite11.png" /></div><br /></div>
+<div class="fig fignone Equation" id="iddcefbfac-e55d-4468-84d6-10b72d07f28c__idef4762e4-4fff-44bf-a86d-1d3a5f096c05"><br /><div class="imagecenter"><img class="image imagecenter fmdpi:96" src="../graphics/th_finite12.png" /></div><br /></div>
+<p class="p">For u positive:</p>
+<p class="p BlockIndent"><span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">hxf</span> = <span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">p</span>, ρ<span class="ph FontProperty VariableSubScript">hxf</span> = ρ<span class="ph FontProperty VariableSubScript">p</span></p>
+<p class="p BlockIndent"><span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">lxf</span> = <span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">lx</span>, ρ<span class="ph FontProperty VariableSubScript">lxf</span> = ρ<span class="ph FontProperty VariableSubScript">lx</span></p>
+<p class="p">(and vice versa)</p>
+<p class="p">So convection term = [ρ<span class="ph FontProperty VariableSubScript">p</span><span class="ph FontProperty equationvariable">C</span><span class="ph FontProperty VariableSubScript">p</span><span class="ph FontProperty equationvariable">u</span><span class="ph FontProperty VariableSubScript">hxf</span><span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">p</span>A<span class="ph FontProperty VariableSubScript">x</span> − ρ<span class="ph FontProperty VariableSubScript">lx</span><span class="ph FontProperty equationvariable">C</span><span class="ph FontProperty VariableSubScript">p</span><span class="ph FontProperty equationvariable">u</span><span class="ph FontProperty VariableSubScript">lxf</span><span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">lx</span><span class="ph FontProperty equationvariable">A</span><span class="ph FontProperty VariableSubScript">x</span>]</p>
+<p class="p">(that is, outflow − inflow
+of heat by convection)</p>
+<p class="p">Conduction term:</p>
+<div class="fig fignone Equation" id="iddcefbfac-e55d-4468-84d6-10b72d07f28c__id28205215-a3c0-46e6-8458-7a2210440216"><br /><div class="imagecenter"><img class="image imagecenter fmdpi:96" src="../graphics/th_finite13.png" /></div><br /></div>
+<div class="fig fignone Equation" id="iddcefbfac-e55d-4468-84d6-10b72d07f28c__id82fceedd-00ca-4323-b9f4-0235fa918ac0"><br /><div class="imagecenter"><img class="image imagecenter fmdpi:96" src="../graphics/th_finite14.png" /></div><br /></div>
+<p class="p">(that is, outflow − inflow
+of heat by conduction)</p>
+<p class="p">Source term:</p>
+<div class="fig fignone Equation" id="iddcefbfac-e55d-4468-84d6-10b72d07f28c__id5b502a20-7332-478e-ac63-8a3403bfb4de"><br /><div class="imagecenter"><img class="image imagecenter fmdpi:96" src="../graphics/th_finite15.png" /></div><br /></div>
+<p class="p">The full equation is:</p>
+<div class="fig fignone Equation" id="iddcefbfac-e55d-4468-84d6-10b72d07f28c__id483964b6-a892-4904-aae4-5a5490ba623c"><br /><div class="imagecenter"><img class="image imagecenter fmdpi:96" src="../graphics/th_finite16.png" /></div><br /></div>
+<div class="fig fignone Equation" id="iddcefbfac-e55d-4468-84d6-10b72d07f28c__idfaf28958-9f45-4bf8-843f-a5b345a30654"><br /><div class="imagecenter"><img class="image imagecenter fmdpi:96" src="../graphics/th_finite17.png" /></div><br /></div>
+<p class="p">or:</p>
+<p class="p BlockIndent"><span class="ph FontProperty equationvariable">a</span><span class="ph FontProperty VariableSubScript">p</span><span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">p</span> = <span class="ph FontProperty equationvariable">a</span><span class="ph FontProperty VariableSubScript">t</span><span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">t</span> + <span class="ph FontProperty equationvariable">a</span><span class="ph FontProperty VariableSubScript">lx</span><span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">lx</span> + <span class="ph FontProperty equationvariable">a</span><span class="ph FontProperty VariableSubScript">hx</span><span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">hx</span> + <span class="ph FontProperty equationvariable">S</span> </p>
+<p class="p">Note that using continuity equation:</p>
+<p class="p BlockIndent"><span class="ph FontProperty equationvariable">a</span><span class="ph FontProperty VariableSubScript">p</span> = <span class="ph FontProperty equationvariable">a</span><span class="ph FontProperty VariableSubScript">t</span> + <span class="ph FontProperty equationvariable">a</span><span class="ph FontProperty VariableSubScript">lx</span> + <span class="ph FontProperty equationvariable">a</span><span class="ph FontProperty VariableSubScript">hx</span> </p>
+<p class="p">The temperature equation can be written as:</p>
+<p class="p BlockIndent"><span class="ph FontProperty equationvariable">a</span><span class="ph FontProperty VariableSubScript">p</span><span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">p</span> <span class="ph FontProperty SymbolFont">−</span> (<span class="ph FontProperty equationvariable">a</span><span class="ph FontProperty VariableSubScript">t</span><span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">t</span> + <span class="ph FontProperty equationvariable">a</span><span class="ph FontProperty VariableSubScript">lx</span><span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">lx</span> + <span class="ph FontProperty equationvariable">a</span><span class="ph FontProperty VariableSubScript">hx</span><span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">hx</span> + <span class="ph FontProperty equationvariable">S</span>)
+= 0 </p>
+<p class="p">(that is, outflow − inflow
+− source of heat = 0)</p>
+<p class="p">Extension to 3D leads to
+equation for general variable, φ, of the form:</p>
+<p class="p BlockIndent"><span class="ph FontProperty equationvariable">a</span><span class="ph FontProperty VariableSubScript">p</span>φ<span class="ph FontProperty VariableSubScript">p</span> = <span class="ph FontProperty equationvariable">a</span><span class="ph FontProperty VariableSubScript">lx</span>φ<span class="ph FontProperty VariableSubScript">lx</span> + <span class="ph FontProperty equationvariable">a</span><span class="ph FontProperty VariableSubScript">hx</span>φ<span class="ph FontProperty VariableSubScript">hx</span> + <span class="ph FontProperty equationvariable">a</span><span class="ph FontProperty VariableSubScript">ly</span>φ<span class="ph FontProperty VariableSubScript">ly</span> + <span class="ph FontProperty equationvariable">a</span><span class="ph FontProperty VariableSubScript">hy</span>φ<span class="ph FontProperty VariableSubScript">hy</span> + <span class="ph FontProperty equationvariable">a</span><span class="ph FontProperty VariableSubScript">lz</span>φ<span class="ph FontProperty VariableSubScript">lz</span> + <span class="ph FontProperty equationvariable">a</span><span class="ph FontProperty VariableSubScript">hz</span>φ<span class="ph FontProperty VariableSubScript">hz</span> + <span class="ph FontProperty equationvariable">a</span><span class="ph FontProperty VariableSubScript">lt</span>φ<span class="ph FontProperty VariableSubScript">lt</span> + <span class="ph FontProperty equationvariable">S</span> </p>
+</div>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/MGCChap_FiniteVolumeEquations_id3340830a.html" title="The derivation of the finite-volume equations used by Simcenter Flotherm to solve the flow variables. Both the continuity and temperature equations are covered.">Finite Volume Equations</a></div>
+</div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_th_ref"
+                DocTitle = "Simcenter™ Flotherm™ Background Theory Reference Guide"
+                PageTitle = "Derivation of Finite-Volume Equations"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/Concept_DerivationFiniteVolumeEquations_iddcefbfac.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ Background Theory Reference Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

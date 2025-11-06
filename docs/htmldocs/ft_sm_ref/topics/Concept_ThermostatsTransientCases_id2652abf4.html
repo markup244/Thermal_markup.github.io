@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="ConceptTopic" />
+<meta name="DC.Title" content="Thermostats for Transient Cases" />
+<meta name="abstract" content="When running a transient calculation, a thermostat can be activated to control the flow or heating/cooling from the recirculation device." />
+<meta name="description" content="When running a transient calculation, a thermostat can be activated to control the flow or heating/cooling from the recirculation device." />
+<meta name="prodname" content="Simcenter Flotherm SmartParts Reference Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_sm_ref" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ SmartParts Reference Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="id2652abf4-ebd6-49df-ba5d-edce502d942f" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Thermostats for Transient Cases</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Thermostats for Transient Cases" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="id2652abf4-ebd6-49df-ba5d-edce502d942f">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Thermostats for Transient Cases</h1>
+<div class="body conbody ConceptBody"><div class="abstract ConceptAbstract"><span class="shortdesc">When running
+a transient calculation, a thermostat can be activated to control
+the flow or heating/cooling from the recirculation device.</span>
+</div>
+<p class="p">The location of the sensor(s)
+is specified using the monitor point functionality. Mass flow on
+either side of the recirculation device can be switched on and off
+by the thermostat effectively activating and deactivating flow and
+heat transfer boundary conditions depending on whether the device
+is heating or cooling the side the thermostat is attached to.</p>
+<p class="p">The solution domain where the thermostat is
+placed and into which the recirculation device is supplying air
+is termed the control side, while the other side of the heat exchanger where
+no CFD solution is carried out is termed the secondary side.</p>
+<div class="section Subsections"><div class="section Subsection" id="id2652abf4-ebd6-49df-ba5d-edce502d942f__ide046be4d-693c-49e8-aecd-71231cd168d9"><h2 class="title Subheading sectiontitle">Thermostat
+Modeling Advice</h2><p class="p">Consider systems where:</p>
+<p class="p BlockIndent"><span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">sensor</span> represents
+the temperature at which the thermostat location.</p>
+<p class="p BlockIndent"><span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">on</span> is the
+temperature at which the heat exchanger switches on.</p>
+<p class="p BlockIndent"><span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">off</span> is the
+temperature at which the heat exchanger switches off.</p>
+<p class="p">For the heat exchanger providing cooling:</p>
+<ul class="ul"><li class="li" id="id2652abf4-ebd6-49df-ba5d-edce502d942f__id1fb376fc-fabe-4941-bc9d-32fc344b1bac"><p class="p">If <span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">sensor</span> &gt; <span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">on</span> the
+flows are on.</p>
+</li>
+<li class="li" id="id2652abf4-ebd6-49df-ba5d-edce502d942f__idcb8b8f17-6bc2-4967-9d74-9d8c297efffa"><p class="p">If <span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">sensor</span> &lt; <span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">off</span> flows
+are off.</p>
+</li>
+<li class="li" id="id2652abf4-ebd6-49df-ba5d-edce502d942f__iddcd95b1d-e7a1-42a8-a663-18df3f95117c"><p class="p">For <span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">off</span> &lt; <span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">sensor</span> &lt;<span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">on</span> then
+this is dead band and the device remains unchanged from previous
+state.</p>
+<p class="p">In this case, <span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">on</span> is
+always greater than <span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">off</span> where:</p>
+<p class="p"><span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">on</span> = <span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">control</span> + <span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">deadband</span>/2 </p>
+<p class="p"><span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">off</span> = <span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">control</span> <span class="ph FontProperty SymbolFont">−</span> <span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">deadband</span>/2 </p>
+<p class="p"><span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">deadband</span> is limited
+to a minimum of 1°C for stability.</p>
+</li>
+</ul>
+<p class="p">For the heat exchanger providing heating:</p>
+<ul class="ul"><li class="li" id="id2652abf4-ebd6-49df-ba5d-edce502d942f__id7f8593b5-c368-4cc7-98db-4299ed5e578a"><p class="p">If <span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">sensor</span> &lt; <span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">on</span> the
+flows are on.</p>
+</li>
+<li class="li" id="id2652abf4-ebd6-49df-ba5d-edce502d942f__id5a6cbfdb-9a7d-4a95-89b7-c4f8c94b5656"><p class="p">If <span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">sensor</span> &gt; <span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">off</span> flows
+are off.</p>
+</li>
+<li class="li" id="id2652abf4-ebd6-49df-ba5d-edce502d942f__id5d8a1b8f-c42b-41cc-9f69-a379b6910cd8"><p class="p">For <span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">off</span> &gt; <span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">sensor</span> &gt; <span class="ph FontProperty equationvariable">T</span>on
+then this is dead band and the device remains unchanged from the
+previous state.</p>
+<p class="p">In this case, <span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">off</span> is
+always greater than <span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">on</span> where:</p>
+<p class="p"><span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">on</span> = <span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">control</span> <span class="ph FontProperty SymbolFont">−</span> <span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">deadband</span>/2 </p>
+<p class="p"><span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">off</span> = <span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">control</span> + <span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">deadband</span>/2 </p>
+<p class="p"><span class="ph FontProperty equationvariable">T</span><span class="ph FontProperty VariableSubScript">deadband</span> is limited
+to a minimum of 1°C for stability.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/Contain_RecirculationDeviceProperties_idfaf91001.html" title="The properties of Recirculation Device SmartParts are described in the following subsections and in the property sheet description.">Recirculation Device Properties</a></div>
+</div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_sm_ref"
+                DocTitle = "Simcenter™ Flotherm™ SmartParts Reference Guide"
+                PageTitle = "Thermostats for Transient Cases"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/Concept_ThermostatsTransientCases_id2652abf4.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ SmartParts Reference Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

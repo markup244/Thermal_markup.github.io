@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="TaskTopic" />
+<meta name="DC.Title" content="Calibrating a Model Using Data From T3Ster" />
+<meta name="abstract" content="Use the Model Calibration dialog box to work through this procedure." />
+<meta name="description" content="Use the Model Calibration dialog box to work through this procedure." />
+<meta name="prodname" content="Simcenter Flotherm Command Center User Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_cc_user" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ Command Center User Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="id00c95a87-7d77-48b2-beeb-289b1e2c27f3" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Calibrating a Model Using Data From T3Ster</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Calibrating a Model Using Data From T3Ster" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Calibrating a Model
+Using Data From T3Ster</h1>
+<div class="body taskbody TaskBody"><div class="abstract TaskAbstract"><span class="shortdesc">Use the Model Calibration dialog box to
+work through this procedure.</span>
+</div>
+<div class="section prereq Prerequisites p"><div class="tasklabel"><h2 class="sectiontitle tasklabel">Prerequisites</h2></div><ul class="ul"><li class="li" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__idef123668-206d-4738-831d-ea806b4153bf"><p class="p">One or
+more <span class="ph filepath">flocalibration</span> files containing experimental
+data exported from T3Ster Master v2.4 or later.</p>
+</li>
+<li class="li" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__id4547b59f-59c5-413f-86cd-b9fefdd1ccfe"><p class="p">A <span class="ph fmvar:Product">Simcenter Flotherm</span> model for comparison which must:</p>
+<ul class="ul"><li class="li" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__id70c8d01c-8753-481d-958d-4d37f857f54a"><p class="p">Be a Transient
+analysis, and the transient duration must be greater than the experimental
+transient duration.</p>
+</li>
+<li class="li" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__id1e7ed4ab-3a65-479a-9f67-47df75595170"><p class="p">Not be a Flow
+Only type of solution.</p>
+</li>
+<li class="li" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__id16610500-c87a-4d62-be4d-f34d65aaab8a"><p class="p">Include a temperature
+response to be used for comparison with the experimental temperature
+response. This can be by either from a volume region or monitor
+point:</p>
+<ul class="ul"><li class="li" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__idfca90072-f09a-4e08-9a85-f16076e8c2de"><p class="p">In the
+majority of cases, T3Ster senses the average temperature in the
+active ‘surface’, typically a few microns thick. In these cases, use
+a volume region coincident with the heat source object. Applicable
+to power transistors, LEDs, and simple ICs.</p>
+</li>
+<li class="li" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__idc9146ec7-59f0-427f-b208-6a48a650b503"><p class="p">In some cases,
+T3Ster senses temperature at I/O pins of an IC. In these cases,
+use a monitor point at the correct location at the external band
+of the chip.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="tasklabel"><h2 class="sectiontitle tasklabel">Procedure</h2></div><ol class="ol steps"><li class="li step stepexpand" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__id319f522d-e671-4ed5-acc3-91b3e89a86ae"><span class="ph cmd">From <span class="ph fmvar:Product">Simcenter Flotherm</span>, start the
+Command Center and choose <span class="ph menucascade"><span class="ph uicontrol">Calibration</span><abbr title="and then"> &gt; </abbr><span class="ph uicontrol">Model Calibration</span></span> to open the
+Model Calibration dialog box.</span></li>
+<li class="li step stepexpand" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__id1c929b3d-689c-44ae-b461-58ad83b60574"><span class="ph cmd">Click Import
+T3Ster Measurement, select one or more <span class="ph filepath">flocalibration</span> files
+then click <span class="ph uicontrol">OK</span> to import experimental data
+from T3Ster.</span><div class="itemgroup info StepInfo"><p class="p">The T3Ster Zth and Structure Functions curves are displayed
+for comparison with the <span class="ph fmvar:Product">Simcenter Flotherm</span> model.</p>
+<div class="fig fignone" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__id22e81014-4bad-454a-aec1-5aa346721732"><span class="figcap"><span class="fig--title-label">Figure 1. </span>Comparison
+Curves</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:120" src="../graphics/detailed_model_calibration_curve_comparison.png" /></div><br /></div>
+<div class="note tip"><span class="tiptitle">Tip</span> <p class="p">You can zoom in and out of these curves, refer
+to the Usage Notes in the dialog box description, “<a class="xref fm:HeadingAndPage" href="GUIRefT_ModelCalibrationDialogBox_id36a12041.html#id36a12041-d316-4325-8d98-02350f18f91c__GUIRefT_ModelCalibrationDialogBox_id36a12041.xml#id36a12041-d316-4325-8d98-02350f18f91c" title="Use this dialog box to manage the Model Calibration process and to view comparison curves between model and experimental data.">Model Calibration Dialog Box</a>”.</p>
+</div>
+<p class="p">You can compare the effect of using T3Ster Master Square Root
+correction on the <span class="ph fmvar:Product">Simcenter Flotherm</span> curves
+by checking and unchecking the “Use T3M Correction Settings on FloTHERM
+data” check box in the Calibration section of the dialog box, see “<a class="xref fm:HeadingAndPage" href="Concept_T3SterMasterSimulationCorrection_ida754ab9e.html#ida754ab9e-bd60-49af-baf9-4b93e3577b3a__ide38f4614-ff05-48d0-abf7-c50ca0fd33a9">‘Square Root’ Correction</a>”.</p>
+</div></li>
+<li class="li step stepexpand" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__ida50083ac-36d8-42d5-bfc8-1843c821b459"><span class="ph cmd">Specify
+the <span class="ph fmvar:Product">Simcenter Flotherm</span> temperature response
+that is to be compared with the experimental data by selecting a
+monitor point or volume region from the Model Temperature combo
+box.</span><div class="itemgroup info StepInfo"><p class="p">The Zth and Structure Functions curves are displayed.</p>
+<div class="note note" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__id84cd8072-9090-4133-9ca6-8d9d9bc009c4"><span class="notetitle">Note:</span> <p class="p">The <span class="ph FontProperty emphasis">T3Ster power value</span> is
+used when calculating Zth and Structure Functions curves for the <span class="ph fmvar:Product">Simcenter Flotherm</span> base case
+and scenarios.</p>
+</div>
+</div></li>
+<li class="li step stepexpand" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__id8b269a76-9028-435d-9159-97a221057a07"><span class="ph cmd">Click <span class="ph uicontrol">Setup
+Check</span> to open the Model Calibration Setup Check dialog
+box and make sure the baseline model matches the experimental conditions
+before calibrating.</span><div class="itemgroup info StepInfo"><p class="p">The Power<a class="xref fm:Footnote" href="#id00c95a87-7d77-48b2-beeb-289b1e2c27f3__idfec06537-aef3-4426-9095-6d3089460aa5"><sup>1</sup></a>,
+Duration, and initial temperature (Tinitial) values are displayed
+for the imported experimental data (T3Ster) and the base <span class="ph fmvar:Product">Simcenter Flotherm</span> model.</p>
+</div><ol type="a" class="ol substeps"><li class="li substep" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__ided5da7f9-31a5-458a-b10a-e02a00926802"><span class="ph cmd">The
+transient duration must be at least as long as experimental. If
+it needs to be adjusted then make sure that the Regenerate Time Patches
+check box is checked.</span><div class="itemgroup info SubStepInfo"><p class="p">The <span class="ph fmvar:Product">Simcenter Flotherm</span> time
+grid patches are re-created, based on one time patch per decade,
+a minimum of ten time steps and with an increasing index of 1.5.</p>
+<p class="p">In addition, the Keypoint Tolerance value in the Project Manager
+Transient Solution dialog box is changed to 1e-09 s.</p>
+</div></li>
+<li class="li substep" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__idb6fbee71-1a0b-4c25-8062-20201de0cbc5"><span class="ph cmd">Click <span class="ph uicontrol">Adjust</span> to
+modify the <span class="ph fmvar:Product">Simcenter Flotherm</span> model
+to ensure the power, duration, and initial temperature match the
+imported T3Ster measurement settings.</span><div class="itemgroup info SubStepInfo"><p class="p">The Adjust command causes all
+scenarios to be re-built, therefore, it is recommended that it be
+used <span class="ph FontProperty emphasis">before</span> rather
+than <span class="ph FontProperty emphasis">after</span> solving scenarios.</p>
+</div><div class="itemgroup stepresult">If there is only one T3Ster measurement loaded, then
+all total power settings (as described above) are scaled in the
+base case to match the T3Ster power. If there is more than one T3Ster
+measurement loaded, then the <span class="ph fmvar:Product">Simcenter Flotherm</span> model
+power is not modified.</div></li>
+<li class="li substep" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__id548051fa-85c8-46c1-b531-a11204140f39"><span class="ph cmd">Click <span class="ph uicontrol">Close</span> to
+close the Model Calibration Setup Check dialog box.</span></li>
+</ol>
+</li>
+<li class="li step stepexpand" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__ide867f3e5-e5aa-4580-a875-ee7f11fc928d"><span class="ph cmd">Specify
+the parameters of the model you would like to calibrate in the calibration
+run. Typical input variables chosen are those whose precise values
+are uncertain, dimensions that are difficult to measure, or material
+properties, for example, TIM thicknesses, active area dimensions,
+and so on.</span><ol type="a" class="ol substeps"><li class="li substep" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__id3620553e-8ea9-40fb-87e0-8380abaa8cfc"><span class="ph cmd">Open
+the Input Variables view of the Command Center and select one or
+more input variables.</span></li>
+<li class="li substep" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__idfb5e1353-7954-47db-9c10-f579982fee08"><span class="ph cmd">For
+each variable, select the Design Parameter variance type.</span></li>
+<li class="li substep" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__idbefbef58-b015-4868-98be-c6c7cdeebce0"><span class="ph cmd">Specify
+the range but setting the Minimum and Maximum Values for the variable.</span></li>
+</ol>
+</li>
+<li class="li step stepexpand" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__id8ebc3c19-3f35-4611-abb0-c3086e35fc37"><span class="ph cmd">Calibration
+errors are automatically added as output variables when T3Ster measurements
+are loaded, and these are included in the cost function when a Model
+Temperature has been selected. Do not add any other output variables.
+If there are multiple calibration error output variables, you can
+change the Cost Weighting, which defaults to 1, to adjust the cost
+function contribution from each calibration error.</span><div class="itemgroup info StepInfo"><div class="note note"><span class="notetitle">Note:</span> <p class="p">If you set the cost weighting of a calibration
+error to 0, then the value of the calibration error is not calculated.
+Also, any measurements with a cost weighting of 0 are not included
+in R<span class="ph FontProperty LiteralSuperScript">2</span> calculations
+for the optimal scenario.</p>
+</div>
+</div></li>
+<li class="li step stepexpand" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__iddaa636fd-041a-43c2-a56a-bccc9e0fc45b"><span class="ph cmd">Return
+to the Model Calibration dialog box.</span><div class="itemgroup stepresult">The input variables and their ranges are displayed in
+the Design Limits section of the dialog box. Linear Function type
+input variables are fully considered in the optimization, but are
+not displayed in the dialog box.</div></li>
+<li class="li step stepexpand" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__idcda6cf0b-391a-4c6d-9f46-fa6ed2e248f5"><span class="ph cmd">Use the
+dialog box to create a Design of Experiments set of scenarios. In
+the Create Scenarios section, enter a Number of Experiments to Design
+(typically five times the number of input variables) and click <span class="ph uicontrol">Design Experiments</span>.</span><div class="itemgroup stepresult">The Command Center Scenario Table shows the scenarios
+that have been created.</div></li>
+<li class="li step stepexpand" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__id92794c4d-0636-46a6-95d2-1e6db4fc8a4c"><span class="ph cmd">In the
+Calibration section of the dialog box, use Calibration Extent to control
+the range of R<span class="ph FontProperty LiteralSubScript">th</span> that
+will be considered for calibration. </span><div class="itemgroup info StepInfo"><p class="p">Structure Functions represent the entire heat flow
+path, from die, through the package, and into the environment. Typically,
+you will be interested in calibrating the package, but not the environment.
+A value that represents Theta<span class="ph FontProperty LiteralSubScript">JC</span> should
+be used here. If the imported <span class="ph filepath">flocalibration</span> file
+was created from a T3Ster TDIM project then the value is set to
+Theta<span class="ph FontProperty LiteralSubScript">JC</span> upon
+import. Refer to “<a class="xref fm:HeadingAndPage" href="Concept_ModelCalibrationExtent_id94f2527e.html#id94f2527e-193a-420b-a5af-5da90fdb927c__Concept_ModelCalibrationExtent_id94f2527e.xml#id94f2527e-193a-420b-a5af-5da90fdb927c" title="It is recommended that you limit the calibration extent to the value of ThetaJC, if you, typically, only want to calibrate the package model, not the model of the package and testing environment together.">Model Calibration Extent</a>”.</p>
+</div><div class="itemgroup stepresult">The Calibration Extent value is shown as a black dashed
+line on the Zth and Structure Function charts.</div></li>
+<li class="li step stepexpand" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__idcb0c44f4-292c-4825-b6f9-f5f4a3721984"><span class="ph cmd">In the
+Calibration section of the dialog box, choose the Optimization Type.</span><div class="itemgroup info StepInfo"><p class="p">The Command Center supports both Response Surface and Sequential
+Optimization techniques and either can be utilized for the model calibration.</p>
+</div></li>
+<li class="li step stepexpand" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__id0ace250c-58e7-4af6-a4b4-ae368cb20315"><span class="ph cmd">Click <span class="ph uicontrol">Calibrate
+Model</span> and wait and for all solves to complete.</span><div class="itemgroup stepresult">After unsolved scenarios have been solved, the calibration
+cost function (the difference between the simulation and experimental
+ISFs) is calculated, and optimization is started. When using Response
+Surface Optimization, the optimal result is first predicted with
+Response Surface manipulation, and then fully solved.</div></li>
+</ol>
+<div class="section result"><div class="tasklabel"><h2 class="sectiontitle tasklabel">Results</h2></div><p class="p">As scenarios are solved, the Scenario Table will contain the
+following output variables:</p>
+<ul class="ul"><li class="li" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__idb1762f7b-a923-4158-83dc-70ae3e02ca9d"><p class="p">Calibration: <var class="keyword varname">T3Ster measurement</var> - Calibration
+Error</p>
+<p class="p">See “<a class="xref fm:HeadingAndPage" href="Concept_ModelCalibrationCurveComparison_id43bb3f7a.html#id43bb3f7a-5154-41b4-ae39-b3e5b4039962__Concept_ModelCalibrationCurveComparison_id43bb3f7a.xml#id43bb3f7a-5154-41b4-ae39-b3e5b4039962" title="The Calibration Error is used as an indicator of how close the Simcenter Flotherm model structure function curves are to those of the experimental model.">Model Calibration Curve Comparison</a>”.</p>
+</li>
+<li class="li" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__idd58a5dca-66ab-4e4e-a713-a187f9c331b0"><p class="p">Cost Function</p>
+<p class="p">The weighted sums of the T3ster project calibration errors. The
+optimization process drives this value towards zero, and drives
+the Accuracy figure towards 100.</p>
+</li>
+</ul>
+<p class="p">Selection from the Scenario dropdown list at the top of the chart
+section of the calibration dialog box displays the Z<span class="ph FontProperty LiteralSubScript">th</span> and
+Structure Function curves for each solved scenario.</p>
+<p class="p">When all solves are finished:</p>
+<ul class="ul"><li class="li" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__id64d49b51-4230-4f8f-b354-f5f36322ecf1"><p class="p">The calibration
+Accuracy is reported in the Calibration section of the dialog. </p>
+</li>
+<li class="li" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__id8dd1bbde-da56-41a3-a840-cffa7355a9fe"><p class="p">The chart area
+displays Z<span class="ph FontProperty LiteralSubScript">th</span> and
+Structure Functions for the optimal scenario.</p>
+</li>
+</ul>
+<p class="p">When the Response Surface method is utilized for optimization,
+examination of the response surfaces (<span class="ph menucascade"><span class="ph uicontrol">Chart</span><abbr title="and then"> &gt; </abbr><span class="ph uicontrol">Response Surface Viewer</span></span>) enables
+a better understanding of the design sensitivity.</p>
+<p class="p">The Cost Function response surface plot should have a well-defined
+minimum value within the range of input variable values, for example,
+see <a class="xref fm:Figure" href="#id00c95a87-7d77-48b2-beeb-289b1e2c27f3__id7a6aa9ba-34d4-4008-a146-e18d73b65d56">Figure 2</a>. Such a plot confirms
+that the range of input variable values was well chosen. If the
+minimum lies on the edge of the range, then there may be a better
+value beyond that range.</p>
+<div class="fig fignone" id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__id7a6aa9ba-34d4-4008-a146-e18d73b65d56"><span class="figcap"><span class="fig--title-label">Figure 2. </span>Response
+Surface Viewer 2D Plot Showing a Well-Defined Cost Function Minimum</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:200" src="../graphics/RSO_2D_well_defined_minimum.gif" /></div><br /></div>
+<p class="p">Also note the indicated accuracy of the Response Surface in the
+title of the chart. A large number here can be reduced by creating
+and solving additional scenarios, and re-running the Calibrate command.</p>
+</div>
+<div class="section Examples"><h2 class="title Subheading sectiontitle">Examples</h2><p class="p">A spreadsheet, <span class="ph filepath">IGBT_Creator.xlsm</span>, and calibration
+file, <span class="ph filepath">IGBT_experiment.flocalibration</span>, are supplied
+in the following folder:</p>
+<p class="p BlockIndent"><span class="ph filepath"><var class="keyword varname">install_dir</var>/flosuite_<var class="keyword varname">version</var>/flotherm/examples/Demonstration Models/Detailed Model Calibration</span></p>
+<p class="p">The spreadsheet contains a macro that creates a typical IGBT
+model. Inputs for the IGBT stack geometry, materials, power, and
+so on are used to created a transient model for use with the calibration
+feature.</p>
+<p class="p">The calibration file is a typical measurement associated with
+this type of module.</p>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/MGCChap_ModelCalibration_id132dc3df.html" title="Experimental data acquired from T3Ster can be used to calibrate a Simcenter Flotherm model to a high degree of accuracy.">Model Calibration</a></div>
+</div>
+
+<div class="linklist linklist relinfo"><strong>Related Topics</strong><br />
+
+<div><a class="link" href="../topics/GUIRefT_ModelCalibrationDialogBox_id36a12041.html" title="Use this dialog box to manage the Model Calibration process and to view comparison curves between model and experimental data.">Model Calibration Dialog Box</a></div>
+<div><a class="link" href="../topics/GUIRefT_ModelCalibrationSetupCheckDialogBox_id37aa5cc4.html" title="Use this dialog box to compare the parameter values of power, transient duration and initial temperature read from the T3Ster calibration file with those defined in the Simcenter Flotherm model, and make adjustments to the Simcenter Flotherm model.">Model Calibration Setup Check Dialog Box</a></div></div>
+</div></div>
+<div class="fn"><a id="id00c95a87-7d77-48b2-beeb-289b1e2c27f3__idfec06537-aef3-4426-9095-6d3089460aa5"><sup>1</sup></a>  The <span class="ph fmvar:Product">Simcenter Flotherm</span> power reported is the
+sum of any Total Power (that is, not Power/Volume or Power/Area)
+settings in the <span class="ph fmvar:Product">Simcenter Flotherm</span> model
+in Source attributes, Thermal attributes and Die SmartParts.</div></div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_cc_user"
+                DocTitle = "Simcenter™ Flotherm™ Command Center User Guide"
+                PageTitle = "Calibrating a Model Using Data From T3Ster"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/TaskTop_CalibratingAModelUsingDataFromT3Ster_id00c95a87.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ Command Center User Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

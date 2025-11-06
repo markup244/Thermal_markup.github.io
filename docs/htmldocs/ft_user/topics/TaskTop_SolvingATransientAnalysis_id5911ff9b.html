@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="TaskTopic" />
+<meta name="DC.Title" content="Solving a Transient Analysis" />
+<meta name="abstract" content="When have set up the time step distribution, you can start a transient analysis. In practice you may need to repeat the analysis, adjusting the transient grid to obtain improving results." />
+<meta name="description" content="When have set up the time step distribution, you can start a transient analysis. In practice you may need to repeat the analysis, adjusting the transient grid to obtain improving results." />
+<meta name="prodname" content="Simcenter Flotherm User Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_user" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ User Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="id5911ff9b-2c7b-489a-b53d-39e3d6c4a4aa" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Solving a Transient Analysis</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Solving a Transient Analysis" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="id5911ff9b-2c7b-489a-b53d-39e3d6c4a4aa">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Solving a Transient
+Analysis</h1>
+<div class="body taskbody TaskBody"><div class="abstract TaskAbstract"><span class="shortdesc">When have set
+up the time step distribution, you can start a transient analysis.
+In practice you may need to repeat the analysis, adjusting the transient
+grid to obtain improving results.</span>
+</div>
+<div class="section prereq Prerequisites p"><div class="tasklabel"><h2 class="sectiontitle tasklabel">Prerequisites</h2></div><ul class="ul"><li class="li" id="id5911ff9b-2c7b-489a-b53d-39e3d6c4a4aa__idee5e1561-47b6-4ef7-b741-6a238a20b7fd"><p class="p">Before
+running a transient analysis it is good practice to start with a previous
+solution for data at Time = 0.</p>
+</li>
+<li class="li" id="id5911ff9b-2c7b-489a-b53d-39e3d6c4a4aa__idb8730e24-a4f8-4f80-b5b3-f015fb3e9ccd"><p class="p">Ensure
+that monitor points are present in your model in all of the areas
+of interest.</p>
+</li>
+<li class="li" id="id5911ff9b-2c7b-489a-b53d-39e3d6c4a4aa__idda81ff49-8183-4169-8be8-3f817cd9099b"><p class="p">Ensure
+that Transient Solution is switched on and that the overall parameters
+and distribution of time steps are set up.</p>
+</li>
+<li class="li" id="id5911ff9b-2c7b-489a-b53d-39e3d6c4a4aa__id4fb909c0-d3b3-43cc-814d-f4dfb533a237"><p class="p">The
+density and specific heat capacity of each material used is important
+to allow heat to be stored within the cuboids and prisms.
+If you have defined any of your own materials check to see that
+you have provided this data, which is not needed for steady-state
+simulations. Similarly, an object will have to be uncollapsed in
+order to have any thermal mass, and to enable it to store heat over time.</p>
+</li>
+</ul>
+</div>
+<div class="tasklabel"><h2 class="sectiontitle tasklabel">Procedure</h2></div><ol class="ol steps"><li class="li step stepexpand" id="id5911ff9b-2c7b-489a-b53d-39e3d6c4a4aa__id38f2fee6-03c8-4f40-bf3e-9d77e6faa23b"><span class="ph cmd">Choose <span class="ph menucascade"><span class="ph uicontrol">Model Setup</span><abbr title="and then"> &gt; </abbr><span class="ph uicontrol">Transient Solution</span></span> and
+make sure that Transient Solution is set.</span><div class="itemgroup info StepInfo"><p class="p">If the previous solution was
+a steady-state solution then the Solution Type Changed dialog box
+will be displayed. Select the relevant option from the dialog box.</p>
+</div></li>
+<li class="li step stepexpand" id="id5911ff9b-2c7b-489a-b53d-39e3d6c4a4aa__id2285453f-c66e-4897-9471-d63b5104fe2d"><span class="ph cmd">Open the <span class="ph uicontrol">Solver Control</span> tab.</span></li>
+<li class="li step stepexpand" id="id5911ff9b-2c7b-489a-b53d-39e3d6c4a4aa__id7e22042f-159e-4ff1-a3dd-47b6411ad96f"><span class="ph cmd">In the Initial Variables section,
+select <span class="ph uicontrol">Initial Value</span> of Selected
+Solution Set.</span></li>
+<li class="li step stepexpand" id="id5911ff9b-2c7b-489a-b53d-39e3d6c4a4aa__id387b8afb-f363-4950-bc61-86107a3cf16c"><span class="ph cmd">Click <span class="ph uicontrol">Select</span> and
+select the project solution set created by a steady-state analysis.
+Click <span class="ph uicontrol">OK</span> to close the Solution
+Set dialog box.</span></li>
+<li class="li step stepexpand" id="id5911ff9b-2c7b-489a-b53d-39e3d6c4a4aa__id263e9d70-a614-4233-937f-033d8682af74"><span class="ph cmd">Choose <span class="ph menucascade"><span class="ph uicontrol">Solve</span><abbr title="and then"> &gt; </abbr><span class="ph uicontrol">Re-Initialize</span></span> to
+read in the data from the selected solution set as a start condition.</span></li>
+<li class="li step stepexpand" id="id5911ff9b-2c7b-489a-b53d-39e3d6c4a4aa__id5c7b887e-e9a2-4df6-8d19-00fde35daebc"><span class="ph cmd">Choose <span class="ph menucascade"><span class="ph uicontrol">Solve</span><abbr title="and then"> &gt; </abbr><span class="ph uicontrol">Solve</span></span>.</span></li>
+</ol>
+<div class="section result"><div class="tasklabel"><h2 class="sectiontitle tasklabel">Results</h2></div><p class="p">The transient solution will need
+to solve for each of the time-steps defined. After two time steps
+have completed, the monitor point graph will appear showing the
+response at each defined point over time. The solution will normally
+take much longer than a steady-state simulation.</p>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/Contain_TransientAnalysisProcedures_id7a9c2391.html" title="Setting up, solving, and viewing results of a transient analysis.">Transient Analysis Procedures</a></div>
+</div>
+
+<div class="linklist linklist relinfo"><strong>Related Topics</strong><br />
+
+<div><a class="link" href="../topics/TaskTop_ObtainingInitialDataFromSteadyStateAnalysis_idda02c171.html" title="It is advisable to run a steady-state analysis before running a transient analysis to obtain a good level of convergence. Errors can accumulate over a transient solution, and a non-convergent case will take significantly longer to solve when run in transient mode.">Obtaining Initial Data From Steady-State Analysis</a></div>
+<div><a class="link" href="../topics/TaskTop_SettingUpATransientAnalysisTimeGrid_idb4eae4c9.html" title="The transient analysis grid is a balance between accuracy and computational time.">Setting Up a Transient Analysis Time Grid</a></div>
+<div><a class="link" href="../topics/GUIRefT_SolutionTypeChangedDialogBox_id93b4fe40.html" title="Use this dialog box when changing the solution type from steady-state to transient, or vice versa, to continue using the same project or save as a new project.">Solution Type Changed Dialog Box</a></div>
+<div><a class="link" href="../topics/GUIRefT_TransientSolutionDialogBox_ide2e12725.html" title="Use this dialog box to configure a transient analysis.">Transient Solution Dialog Box</a></div></div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_user"
+                DocTitle = "Simcenter™ Flotherm™ User Guide"
+                PageTitle = "Solving a Transient Analysis"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/TaskTop_SolvingATransientAnalysis_id5911ff9b.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ User Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

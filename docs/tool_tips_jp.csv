@@ -1,0 +1,146 @@
+﻿LENGTH,長さ
+POWER,発熱量
+TEMPERATURE,温度
+POWERA,単位面積あたり発熱量
+VELOCITY,風速
+DELTAT,温度差
+,
+Small Process Icons,"有効にすると小さなプロセス／モードアイコンを表示をします
+無効にするとサマリ情報が合わせて表示されます"
+Show Functional Layout Mode,"有効にするとファンクションレイアウトモードの閲覧や定義が可能になります
+無効にするとアイコンが非表示になります"
+Maximum Number Of Recent Files,ファイルメニューに表示される最近保存またはロードしたファイルの数
+Number Of Ticks in Legend,"カラースケール分割数
+値を増やすとより細かい刻みで数値が表示されます"
+Legend Font Increment,カラースケールの相対的なフォントサイズ
+Use unrestricted Reference Designator naming,有効にすると命名の慣習（最低2文字，重複なし）の制限を解除します
+,
+Max. Manhattan Length,縦横移動のみで定まるオブジェクト中心間長さの最大許容値
+Max Height,"キープアウトリージョン内のコンポーネントの許容高さ
+0を設定した場合は全てのコンポーネントを配置できません"
+,
+Combine Parameters By,"以下のフィルターパラメータは""または""か""かつ""で結合されます"
+Side Less Than,"コンポーネントの横の長さがこの値よりも小さい場合はフィルターまたは削除されます
+0の場合は無視されます"
+Height Less Than,"コンポーネントの高さがこの値よりも小さい場合はフィルターまたは削除されます
+0の場合は無視されます"
+Power Less Than,"コンポーネントの発熱量がこの値よりも小さい場合はフィルターまたは削除されます
+0の場合は無視されます"
+Power Density Less Than,"コンポーネントの発熱密度がこの値よりも小さい場合はフィルターまたは削除されます
+0の場合は無視されます"
+Name Contains,"コンポーネントの部品名にこの文字列が含まれている場合はフィルターまたは削除されます
+例えば U と設定します U* といった書式は使えません"
+,
+Component Type,"シンプルモデル - パッケージの大きさ以外の情報はなし
+2抵抗モデル - ジャンクションとケース，基板とジャンクションの熱抵抗をそれぞれ規定"
+Component Material,シンプルモデルの場合はおおよその設定として支配的な材質を与えます
+Filtered,"有効である場合コンポーネントの発熱量は基板表面に設定されます
+これは小さなコンポーネントや計算時間の短縮に有効です"
+Deactivated,有効である場合コンポーネントは取り除かれて解析に影響を及ぼしません
+Board Side,コンポーネントの取り付け面
+Tc_max,最大許容ケース温度
+Tj_max,最大許容ジャンクション温度
+Junction To Case Resistance,ジャンクションとケーストップの間の熱抵抗
+Junction To Top Resistance,ジャンクションとケーストップの間の熱抵抗
+Junction To Board Resistance,ジャンクションと基板の間の熱抵抗
+Package Name,パッケージ名 例えば TO220，TSOP，TQFPなど
+Reference Designator,部品名 例えば U5
+Rotation,オブジェクト中心の（上から見て）反時計周り回転
+,
+Standoff,基板と子基板の間の距離
+,
+Function Name,いくつかのコンポーネントで構成される機能グループの名前
+,
+Type,プレートフィン - 押し出し成形ヒートシンク |ピンフィン - 個々の円柱ピン
+Centre Gap,フィンのセンターギャップ 例えばクリップ取り付けに用いる
+Specify Interface Resistance,材料名 - ライブラリからサーマルインターフェースマテリアルを選択 |値 - 熱抵抗値を直接設定
+,
+Total Power,機能グループ内の個々のコンポーネントを加味した総発熱量
+,
+Environment,簡易カードスロット - サブラック内の個別のスロットの基本定義環境 |標準自然空冷 - 一般的な静止空気環境 |標準強制空冷 - 一般的な風洞環境 |熱伝導冷却 - 基板やコンポーネントが温度固定されたシャシに接触した環境 |リフロー炉 - 一般的なリフロー炉環境
+Inlet Temperature,スロットに流入する空気温度
+Ambient Temperature,空気周囲温度
+Conveyor Speed,オーブンコンベヤの速度
+Air Speed,ファンによる空気速度
+Heating Zone Length,全ての加熱領域を合わせた長さ
+Cooling Zone Length,全ての冷却領域を合わせた長さ
+Flow Specification,速度 - 空気速度 例えば lfm |流量 - 体積流量 例えば cfm
+Slot Pitch,カード間の端から端までの距離
+Gravity Direction,PCBの上面に対する重力方向
+Air Temperature,筐体/システム内部の平均温度
+Nearest Solid Temperature,輻射計算に用いられる最も近い固体オブジェクトの平均温度
+,
+MaterialLibButton,ライブラリから物性をインポート
+NotesEditButton,オブジェクトの注釈の編集
+,
+Thermal Trend Prediction,"短い時間で計算できる簡易解析
+レイアウトの違いを確認するのに十分正確です"
+Accurate Thermal Prediction,"詳細解析
+簡易解析よりも時間がかかりますがジャンクションやケース温度の予測を高精度で行います"
+,
+MenuBar,FloTHERM PCBのメインウィンドウのメニューバー
+StandardToolBar,標準ツールバー
+AlignToolBar,位置合わせツールバー
+GUITree,基板とその構成要素のツリービュー
+layouttreeview,機能レイアウトとその構成要素のツリービュー
+BoardPaletteView,新しい形状を作成するためのパレット
+LayoutPaletteView,機能レイアウト内の新しいアイテムを作成するためのパレット
+ComponentTableView,モデル内の全てのコンポーネントテーブル
+ConnectorTableView,モデル内の全ての相互接続線テーブル
+Layout2DView,機能レイアウトのビュー
+View2DView,基板のビュー
+Env2DView,環境内の基板のビュー
+Results2DView,基板の熱解析結果のビュー
+LibraryView,"スマートパーツのライブラリ
+スマートパーツをダブルクリックするとツリーにロードされます"
+EnvLibraryView,"FloTHERM環境のライブラリ
+環境データをダブルクリックすると使用できます"
+ResultsTableView,結果テーブル
+SolutionProgressView,収束したコンポーネントのモニター値を示します
+PropSheetView,選択したオブジェクトのデータ編集が可能なプロパティシート
+EnvSheetView,環境データの編集が可能なプロパティシート
+LayoutPropSheetView,選択したオブジェクトのデータ編集が可能なプロパティシート
+CompareTable,選択したプロジェクトを比較するテーブル
+ResultsComparisonMDI,
+,
+Environment2DViewOptions,環境の視点オプションツールバー
+Layout2DViewOptions,機能レイアウトの視点オプションツールバー
+Layout2DAnnotateOptions,機能レイアウトの注釈オプションツールバー
+Results2DViewOptions,結果の視点オプションツールバー
+Results2DAnnotateOptions,結果の注釈オプションツールバー
+Results2DColourOptions,結果の色付けオプションツールバー
+Board2DViewOptions,基板の視点オプションツールバー
+Board2DAnnotateOptions,基板の注釈オプションツールバー
+Board2DColourOptions,基板の表示オプションツールバー
+Board2DComponentOptions,基板のコンポーネントオプションツールバー
+Compare2DViewOptions,結果比較の視点オプションツールバー
+Compare2DAnnotateOptions,結果比較の注釈オプションツールバー
+Compare2DColourOptions,結果比較の色付けオプションツールバー
+CompareTableOptions,結果比較のテーブルオプションツールバー
+,
+functionallayoutbutton,機能レイアウトボタン - 機能レイアウトを表示
+boardlayoutbutton,基板生成ボタン - 基板レイアウトを表示
+envlayoutbutton,周囲環境定義ボタン - 環境設定を表示
+resultsbutton,解析結果ボタン - 結果がある場合は結果表示，結果が無い場合は解析ダイアログを表示
+,
+HorizontalRuler,水平ルーラー
+VerticalRuler,垂直ルーラー
+,
+Rotate Horizontal,水平軸周りの回転
+Rotate Vertical,垂直軸周りの回転
+Horizontal Pan,水平に移動
+Vertical Pan,垂直に移動
+,
+Board3DViewer,基板の3Dビュー
+Env3DViewer,環境の3Dビュー
+Results3DViewer,結果の3Dビュー
+,
+ENVtreeview,静止空気のコンポーネントツリービュー
+EnvChildPropSheetView,選択したコンポーネントのプロパティシート
+,
+Report Configuration,新規レポートタイプの作成または既存のレポートコンテンツの編集
+,
+Solve,ソルバーコントロールパネル - モデルの問題をチェックして計算開始の準備をする
+,
+,
+Elec. Vias Plating Mat.,エレクトリカルビアのメッキ物性

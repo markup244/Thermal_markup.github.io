@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="ConceptTopic" />
+<meta name="DC.Title" content="Overlapping Intersecting Blocks or Prisms" />
+<meta name="abstract" content="To explain how heat transfer is treated by the program when two bodies overlap, we will look at two example cases." />
+<meta name="description" content="To explain how heat transfer is treated by the program when two bodies overlap, we will look at two example cases." />
+<meta name="prodname" content="Simcenter Flotherm User Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_user" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ User Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="id09b3394f-25a4-45f8-9010-27f6e6f0fa95" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Overlapping Intersecting Blocks or Prisms</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Overlapping Intersecting Blocks or Prisms" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="id09b3394f-25a4-45f8-9010-27f6e6f0fa95">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Overlapping
+Intersecting Blocks or Prisms</h1>
+<div class="body conbody ConceptBody"><div class="abstract ConceptAbstract"><span class="shortdesc">To explain
+how heat transfer is treated by the program when two bodies overlap,
+we will look at two example cases.</span>
+</div>
+<p class="p">Consider when two blocks overlap, and an overlapping
+block and prism.</p>
+<p class="p">The treatments for blocks or prisms in surface
+contact also apply to this configuration, however, the order in
+which the objects are specified is important.</p>
+<div class="fig fignone" id="id09b3394f-25a4-45f8-9010-27f6e6f0fa95__idebd05812-e329-4bea-b317-c87199a58c41"><span class="figcap"><span class="fig--title-label">Figure 1. </span>Overlapping Blocks</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:100" src="../graphics/ug_geometry___interface10a.png" /></div><br /></div>
+<p class="p">In the overlapping region, the thermal properties
+(that is, the conductivity, the density and the specific heat) of
+the second object in the hierarchy takes precedence over that of
+the first object. Therefore, the interface between the objects is
+defined by the perimeter of the second defined object. If Block
+A is entered before Block B (<a class="xref fm:Figure" href="#id09b3394f-25a4-45f8-9010-27f6e6f0fa95__idaf7565b2-da60-46e9-91fd-8420637e8713">Figure 2</a>) then the thermal properties
+of Block B apply in the region of intersection.</p>
+<div class="fig fignone" id="id09b3394f-25a4-45f8-9010-27f6e6f0fa95__idaf7565b2-da60-46e9-91fd-8420637e8713"><span class="figcap"><span class="fig--title-label">Figure 2. </span>Overlapping Blocks — Block B
+Specified Second</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:100" src="../graphics/ug_geometry___interface11a.png" /></div><br /></div>
+<ul class="ul"><li class="li" id="id09b3394f-25a4-45f8-9010-27f6e6f0fa95__id080bb3e1-4e2a-479e-98d2-f493604ca1d7"><p class="p">Block A conducting, Block B not conducting</p>
+<p class="p">The temperatures for Block A are not calculated
+in the region of intersection, but the power specified for Block
+A is applied in total to the non-intersecting portion of Block A
+(that is, no power is lost).</p>
+</li>
+<li class="li" id="id09b3394f-25a4-45f8-9010-27f6e6f0fa95__ide77e3940-fa2b-4c85-8d2d-90edcee3d0e4"><p class="p">Block B conducting, Block A not conducting</p>
+<p class="p">The temperature is calculated throughout
+Block B, including the region of intersection, with the total power
+uniformly applied over the whole of Block B.</p>
+</li>
+<li class="li" id="id09b3394f-25a4-45f8-9010-27f6e6f0fa95__id4f19ef47-c691-4697-a2d1-b5ccda71cc54"><p class="p">Blocks A and B both conducting</p>
+<p class="p">The temperatures are solved throughout and
+the power in the region of intersection is additive for the two
+cuboids, that is, the power for Block A and the power for Block
+B are added to one another in the region of intersection.</p>
+</li>
+</ul>
+<p class="p">If Block B is entered before Block A, the thermal
+properties of Block A apply in the region of intersection.</p>
+<div class="fig fignone" id="id09b3394f-25a4-45f8-9010-27f6e6f0fa95__id52323438-c6db-4e26-ad44-233b2fb3e1fe"><span class="figcap"><span class="fig--title-label">Figure 3. </span>Overlapping Blocks — Block A
+Specified Second</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:100" src="../graphics/ug_geometry___interface12a.png" /></div><br /></div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/Contain_ContextRulesForPrimitives_id1bd945d7.html" title="SmartParts are provided for the construction of common complex shapes, however, unusual shapes can be built up by the insertion of multiple overlapping cuboids, triangles, and collapsed cuboids. Heat transfer in complex shapes constructed in this way are subject to rules.">Context Rules for Primitives</a></div>
+</div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_user"
+                DocTitle = "Simcenter™ Flotherm™ User Guide"
+                PageTitle = "Overlapping Intersecting Blocks or Prisms"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/Concept_OverlappingIntersectingBlocksOrPrisms_id09b3394f.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ User Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

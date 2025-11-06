@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="ConceptTopic" />
+<meta name="DC.Title" content="Aisle Group CI Calculation" />
+<meta name="abstract" content="Calculations of capture index for cold and hot aisle groups." />
+<meta name="description" content="Calculations of capture index for cold and hot aisle groups." />
+<meta name="prodname" content="Simcenter Flotherm User Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_user" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ User Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="idb2918e37-88bb-475e-9d61-19681fb2188e" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Aisle Group CI Calculation</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Aisle Group CI Calculation" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="idb2918e37-88bb-475e-9d61-19681fb2188e">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Aisle Group CI Calculation</h1>
+<div class="body conbody ConceptBody"><div class="abstract ConceptAbstract"><span class="shortdesc">Calculations
+of capture index for cold and hot aisle groups. </span>
+</div>
+<div class="section Subsections"><div class="section Subsection" id="idb2918e37-88bb-475e-9d61-19681fb2188e__id5e0b8424-4900-4e08-af83-1dc549a11794"><h2 class="title Subheading sectiontitle">Cold Aisle Group Calculation</h2><p class="p">In this example, tiles and Rack flow devices
+are grouped together with a Cold Aisle Group name.</p>
+<div class="fig fignone" id="idb2918e37-88bb-475e-9d61-19681fb2188e__id457d4eb3-0187-4a73-82fe-39a6423d9a17"><span class="figcap"><span class="fig--title-label">Figure 1. </span>Example Cold Aisle Group</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:120" src="../graphics/ug_DomainCIColdProcedure.gif" /></div><br /></div>
+<p class="p">The CI calculation is performed as follows,
+refer to <a class="xref fm:Figure" href="#idb2918e37-88bb-475e-9d61-19681fb2188e__id457d4eb3-0187-4a73-82fe-39a6423d9a17">Figure 1</a>:</p>
+<ol class="ol"><li class="li" id="idb2918e37-88bb-475e-9d61-19681fb2188e__id3f355a42-7759-4f5f-b72a-698b7fbd611e"><p class="p">As a post-processing solution, the software
+assigns a single concentration value (for example, C<span class="ph FontProperty VariableSubScript">tiles</span> =
+1) to the local cooling airflow devices and solves for concentration only.</p>
+</li>
+<li class="li" id="idb2918e37-88bb-475e-9d61-19681fb2188e__ideafb39a3-469d-4974-a65c-7496f066f25f"><p class="p">The concentration is determined at each rack
+inlet in the group.</p>
+</li>
+<li class="li" id="idb2918e37-88bb-475e-9d61-19681fb2188e__idf10a7dd1-2fe0-4972-a186-12f6be6d866b"><p class="p">CI values are calculated from:</p>
+<div class="fig fignone Equation" id="idb2918e37-88bb-475e-9d61-19681fb2188e__idcae9fd8a-d18d-41af-8446-f97f7136f5cf"><br /><div class="imagecenter"><img class="image imagecenter fmdpi:100" src="../graphics/ug_domain32a.png" /></div><br /></div>
+<p class="p">where:</p>
+<p class="p"><span class="ph FontProperty equationvariable">CI</span><span class="ph FontProperty VariableSubScript">i</span> is
+the Capture Index of Rack <span class="ph FontProperty equationvariable">i</span>.</p>
+<p class="p"><span class="ph FontProperty equationvariable">C</span><span class="ph FontProperty VariableSubScript">i</span> is
+the concentration at the Rack <span class="ph FontProperty equationvariable">i</span> inlet.</p>
+</li>
+</ol>
+</div>
+<div class="section Subsection" id="idb2918e37-88bb-475e-9d61-19681fb2188e__id59709868-bf2f-47ab-8af3-a8f0e033078c"><h2 class="title Subheading sectiontitle">Hot Aisle Group Calculation</h2><p class="p">In this example, Coolers and Rack flow devices
+are grouped together with a Hot Aisle Group name.</p>
+<div class="fig fignone" id="idb2918e37-88bb-475e-9d61-19681fb2188e__idd6c8138e-6ca0-494f-8d7e-77596d178812"><span class="figcap"><span class="fig--title-label">Figure 2. </span>Example Hot Aisle Group</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:120" src="../graphics/ug_DomainCIHotProcedure.gif" /></div><br /></div>
+<p class="p">The CI calculation is performed as follows,
+refer to <a class="xref fm:Figure" href="#idb2918e37-88bb-475e-9d61-19681fb2188e__idd6c8138e-6ca0-494f-8d7e-77596d178812">Figure 2</a>:</p>
+<ol class="ol"><li class="li" id="idb2918e37-88bb-475e-9d61-19681fb2188e__id497b919a-6d3e-4f47-8fe3-10594e0a15a7"><p class="p">As a post-processing solution, the software
+assigns a unique concentration to each rack exhaust airflow (for
+example, <span class="ph FontProperty equationvariable">C</span><span class="ph FontProperty VariableSubScript">i</span> =
+1) and solves for concentration for each rack in sequence.</p>
+</li>
+<li class="li" id="idb2918e37-88bb-475e-9d61-19681fb2188e__id8ec93721-c55e-4f44-884a-c9c5e0e3ea91"><p class="p">The concentration of each species from each
+rack is determined at the defined cooler inlets in the group.</p>
+</li>
+<li class="li" id="idb2918e37-88bb-475e-9d61-19681fb2188e__id8a8b9288-9d0e-4046-92fc-1202e11ffe93"><p class="p">CI values are calculated from:</p>
+<div class="fig fignone Equation" id="idb2918e37-88bb-475e-9d61-19681fb2188e__id4161330f-09e9-4d0b-8d9d-896c48b0c880"><br /><div class="imagecenter"><img class="image imagecenter fmdpi:100" src="../graphics/ug_domain34a.png" /></div><br /></div>
+<p class="p">where:</p>
+<p class="p"><img class="image fmdpi:100" src="../graphics/ug_domain35a.png" /> is
+the concentration of species <span class="ph FontProperty equationvariable">i</span> computed
+at the inlet of Cooler (or return vent) <span class="ph FontProperty equationvariable">j</span>.</p>
+<p class="p"><span class="ph FontProperty equationvariable">Q</span><span class="ph FontProperty VariableSubScript">i</span> is
+the volumetric airflow rate through Rack <span class="ph FontProperty equationvariable">i</span>.</p>
+<p class="p"><span class="ph FontProperty equationvariable">Q</span><span class="ph FontProperty VariableSubScript">j</span> is
+the volumetric airflow rate through Cooler (or return vent) <span class="ph FontProperty equationvariable">j</span>.</p>
+<p class="p"><span class="ph FontProperty equationvariable">N</span> is
+the number of coolers (or return vents) in a defined hot aisle group.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/Contain_CaptureIndex_ida9b78ee7.html" title="The Capture Index (CI) can be used to assess the cooling performance in data centers involving discrete models of racks and cooling devices.">Capture Index</a></div>
+</div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_user"
+                DocTitle = "Simcenter™ Flotherm™ User Guide"
+                PageTitle = "Aisle Group CI Calculation"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/Concept_AisleGroupCiCalculation_idb2918e37.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ User Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

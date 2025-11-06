@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="TaskTopic" />
+<meta name="DC.Title" content="Generating Electrical Vias in Dielectric Layers From Images" />
+<meta name="abstract" content="Image files of PCB dielectric layers can be used to create a complex distribution of electrical vias." />
+<meta name="description" content="Image files of PCB dielectric layers can be used to create a complex distribution of electrical vias." />
+<meta name="prodname" content="Simcenter Flotherm EDA Bridge User Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="EDAur" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_eda_ur" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ EDA Bridge User Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="idf37d0808-d228-4ac1-87e0-7f7a094b4d87" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Generating Electrical Vias in Dielectric Layers From Images</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Generating Electrical Vias in Dielectric Layers From Images" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="idf37d0808-d228-4ac1-87e0-7f7a094b4d87">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Generating
+Electrical Vias in Dielectric Layers From Images</h1>
+<div class="body taskbody TaskBody"><div class="abstract TaskAbstract"><span class="shortdesc">Image files of PCB dielectric layers can
+be used to create a complex distribution of electrical vias.</span>
+</div>
+<div class="section Restrictions"><h2 class="title Subheading sectiontitle">Restrictions and Limitations</h2><ul class="ul"><li class="li" id="idf37d0808-d228-4ac1-87e0-7f7a094b4d87__idf02b99e7-2801-4c06-9d07-00496acd7885"><p class="p">You must
+have monochrome images of the dielectric layers, showing the vias.
+These may be embedded in an ODB++ file or may be separate image files.</p>
+</li>
+</ul>
+</div>
+<div class="tasklabel"><h2 class="sectiontitle tasklabel">Procedure</h2></div><ol class="ol steps"><li class="li step stepexpand" id="idf37d0808-d228-4ac1-87e0-7f7a094b4d87__id08015758-4c07-4ad3-a56b-39e012ac73ee"><span class="ph cmd">This step
+depends on how the board design has been loaded:</span><div class="itemgroup info StepInfo"><ul class="ul"><li class="li" id="idf37d0808-d228-4ac1-87e0-7f7a094b4d87__id8e13b588-5022-4a7a-a26d-7e9193714304"><p class="p">If the board design has been
+loaded by importing an ODB++ file, images representing the distribution
+of metal on metallic layers and the distribution of electrical vias
+on dielectric layers will be automatically attached to the appropriate
+layers in the data tree.</p>
+</li>
+<li class="li" id="idf37d0808-d228-4ac1-87e0-7f7a094b4d87__id6caa7fc9-7019-4002-9d6e-b0d677b74a47"><p class="p">If the board
+design has not originated from an ODB++ file, then add the appropriate
+Dielectric layers manually, see “<a class="xref fm:HeadingAndPage" href="Concept_Layers_id028a5179.html#id028a5179-a3a9-4e3f-b493-831b2c7298e0__Concept_Layers_id028a5179.xml#id028a5179-a3a9-4e3f-b493-831b2c7298e0" title="A group of four layers are provided by default with the Motherboard or a new Daughterboard. More layers can be added.">Layers</a>”.</p>
+</li>
+</ul>
+</div></li>
+<li class="li step stepexpand" id="idf37d0808-d228-4ac1-87e0-7f7a094b4d87__idd10e0014-bcf0-43d8-af6c-ac293e9d9f9e"><span class="ph cmd">Right-click
+a Dielectric layer in the data tree and choose <span class="ph uicontrol">Process
+Layer</span> from the popup menu.</span><div class="itemgroup info StepInfo"><p class="p">If
+File Name in the Layer property sheet has been set to the name of an
+image file, the Dielectric Layer Vias Processing dialog box is opened,
+otherwise a file browser is opened to select the image before the
+dialog box is opened.</p>
+</div></li>
+<li class="li step stepexpand" id="idf37d0808-d228-4ac1-87e0-7f7a094b4d87__id3c9e2db1-6bfa-4c8b-9c28-3efe5a5140c9"><span class="ph cmd">Use the
+dialog box to adjust the representation.</span><div class="itemgroup info StepInfo"><p class="p">Image colors can be optionally inverted when the range
+is processed into vias.</p>
+</div></li>
+<li class="li step stepexpand" id="idf37d0808-d228-4ac1-87e0-7f7a094b4d87__id50e6dfc8-5e8d-4402-afa7-fa4ca76eb4be"><span class="ph cmd">When finished,
+click <span class="ph uicontrol">Create Vias</span>.</span></li>
+</ol>
+<div class="section result"><div class="tasklabel"><h2 class="sectiontitle tasklabel">Results</h2></div><p class="p">Electrical Vias are created in the data tree under the respective
+dielectric layer.</p>
+<div class="fig fignone" id="idf37d0808-d228-4ac1-87e0-7f7a094b4d87__id24f6131d-7146-4f1f-99c3-82525f2df858"><span class="figcap"><span class="fig--title-label">Figure 1. </span>Electrical
+Vias Generated in a Dielectric Layer</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:120" src="../graphics/vias_processed_from_image.gif" /></div><br /></div>
+<p class="p">The Layer Type field in the Layer property sheet is not editable
+when vias are defined in the layer.</p>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/Contain_ElectricalViasPropertiesAndProcedures_idcbe5ee93.html" title="Use Electrical Vias to model the thermal effects of heat transfer down through the board when through-hole vias are present.">Electrical Vias Properties and Procedures</a></div>
+</div>
+
+<div class="linklist linklist relinfo"><strong>Related Topics</strong><br />
+
+<div><a class="link" href="../topics/GUIRefT_DielectricLayerViasProcessingDialogBox_id94179aba.html" title="Use this dialog box to adjust the number of vias to be generated.">Dielectric Layer Vias Processing Dialog Box</a></div>
+<div><a class="link" href="../topics/Concept_ElectricalVias_id0652fb19.html" title="Areas containing electrical vias can be individually specified in terms of number and average diameter, and so on, or according to percentage coverage in that area.">Electrical Vias</a></div></div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_eda_ur"
+                DocTitle = "Simcenter™ Flotherm™ EDA Bridge User Guide"
+                PageTitle = "Generating Electrical Vias in Dielectric Layers From Images"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/TaskTop_GeneratingElectricalViasInDielectricLayersFromImages_idf37d0808.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ EDA Bridge User Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>

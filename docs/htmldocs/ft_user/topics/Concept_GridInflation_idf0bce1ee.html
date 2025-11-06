@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2021" />
+<meta name="DC.rights.owner" content="(C) Copyright 2021" />
+<meta name="DC.Type" content="ConceptTopic" />
+<meta name="DC.Title" content="Grid Inflation" />
+<meta name="abstract" content="When localizing grid space, the localized grid space is the same size as the object. However, the grid space can be extended beyond an object by specifying an inflation layer." />
+<meta name="description" content="When localizing grid space, the localized grid space is the same size as the object. However, the grid space can be extended beyond an object by specifying an inflation layer." />
+<meta name="prodname" content="Simcenter Flotherm User Guide" />
+<meta name="version" content="2014.06" />
+<meta name="release" content="v2014.06" />
+<meta name="series" content="mgc_ih" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Creator" content="Mentor Graphics Corporation" />
+<meta name="DC.Publisher" content="Siemens Industry Software 10 24 2014 10 24 2014 Fresh off the boat." />
+<meta name="DC.Date.Created" content="0000-00-00" />
+<meta name="DC.Date.Modified" content="2021-02-05" />
+<meta name="Topline" content="none" />
+<meta name="VariantPrefix" content="FT" />
+<meta name="Tier" content="2" />
+<meta name="SubTitle" content="none" />
+<meta name="SourceHandle" content="ft_user" />
+<meta name="SoftwareVersionNum" content="2021.1" />
+<meta name="SoftwareRelease" content="2021.1" />
+<meta name="RevHist" content="none" />
+<meta name="PublicationDate" content="none" />
+<meta name="Platform" content="none" />
+<meta name="PartNumber" content="none" />
+<meta name="LicenseType" content="SIEMENS_OEM" />
+<meta name="InfoHubHandle" content="flotherm_ih" />
+<meta name="EclipsePluginName" content="none" />
+<meta name="DraftDate" content="2021-05-04" />
+<meta name="Draft" content="none" />
+<meta name="DocumentTitle" content="Simcenter™ Flotherm™ User Guide" />
+<meta name="CSHelp" content="yes" />
+<meta name="CSDSearchKeywords" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="Copyright" content="READONLY - Use: copyrfirst and copyrlast" />
+<meta name="ConditionFiltering" content="XML" />
+<meta name="ChecklinksRelease" content="mech_analysis_flotherm" />
+<meta name="BookcaseHandle" content="none" />
+<meta name="Beta" content="none" />
+<meta name="Alpha" content="none" />
+<meta name="ActiveStatus" content="Active" />
+<meta name="GenerateOnlyChangedTopics" content="none" />
+<meta name="HighlightChanges" content="none" />
+<meta name="HighlightColor" content="Pale Green" />
+<meta name="IncludeInInventory" content="yes" />
+<meta name="SourceEDDVersion" content="12.2.10" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="idf0bce1ee-4a14-4258-a55a-8ffae57b69e7" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Grid Inflation</title>
+<link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /><noscript><link rel="StyleSheet" href="../../MGC/styles-disw/body.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/catalog.css" type="text/css" /><link rel="StyleSheet" href="../../MGC/styles-disw/document.css" type="text/css" /><link rel="stylesheet" href="../../MGC/styles-disw/mgcdita-lang.css" type="text/css" /></noscript><meta name="mgc_html_doctitle" content="Grid Inflation" />
+<meta name="attributes" content="doc.type.documentation.ref,product.version.2021.1,product.id.P11501" />
+<meta name="TEMPLATEBASE" content="mgc_mgchelp_v4.3.001" />
+<script type="text/javascript" language="JavaScript1.2" src="../../MGC/js/page.js"></script><script type="text/javascript" language="JavaScript1.2">
+            if(DetectChromeForBasic()){
+            writeNoScriptStyles();
+            }
+
+        </script><script type="text/javascript" language="JavaScript1.2">
+            // Set reference to top level help frame
+            //
+            if(!DetectChromeForBasic()){
+            javascriptTopicRedirect();
+            }
+        </script></head>
+<body id="idf0bce1ee-4a14-4258-a55a-8ffae57b69e7">
+<div id="bodycontent" class="BodyContent">
+<script type="text/javascript" language="JavaScript1.2">
+              var BC = new Array("TODO: Breadcrumb Title","title1","naV","naV","naV","naV","2");
+          </script>
+<noscript><iframe framespacing="0" marginheight="2px" frameborder="no" scrolling="no" src="../../MGC/html/noscript_header.htm" width="100%" height="100px;">xxx</iframe></noscript>
+<script type="text/javascript" language="JavaScript1.2">
+              if(DetectChromeForBasic()){
+              if(!(top.inEclipse)){
+              writeBasicHeader();
+              }
+              }
+          </script>
+<div id="BodyContent"><h1 class="title topictitle1">Grid Inflation</h1>
+<div class="body conbody ConceptBody"><div class="abstract ConceptAbstract"><span class="shortdesc">When localizing
+grid space, the localized grid space is the same size as the object.
+However, the grid space can be extended beyond an object by specifying
+an inflation layer.</span>
+</div>
+<p class="p">Grid inflation can be added to
+all sides by choosing <span class="ph menucascade"><span class="ph uicontrol">Grid</span><abbr title="and then"> &gt; </abbr><span class="ph uicontrol">Inflated Grid</span></span>. To add inflation
+separately to high and low sides, specify Low Side and High Side
+Inflation within a grid constraint.</p>
+<div class="section Subsections" id="idf0bce1ee-4a14-4258-a55a-8ffae57b69e7__idcb50a9ac-9997-45c2-a682-3b8c2f38a7a3"><div class="section Subsection" id="idf0bce1ee-4a14-4258-a55a-8ffae57b69e7__idfbd1c6f4-d738-4ce6-b2ec-98ed7025da28"><h2 class="title Subheading sectiontitle">Default Grid Inflation</h2><p class="p">If inflation has not been applied to a side
+of the selected object, then, when adding uniform grid inflation (<span class="ph menucascade"><span class="ph uicontrol">Grid</span><abbr title="and then"> &gt; </abbr><span class="ph uicontrol">Inflated Grid</span></span>),
+a default inflation of 5% on the high and low coordinate side length,
+with a minimum number of one cell, is applied, see <a class="xref fm:Figure" href="#idf0bce1ee-4a14-4258-a55a-8ffae57b69e7__idd4584e71-c031-4378-be86-8dcca30174e4">Figure 1</a>. </p>
+<div class="fig fignone" id="idf0bce1ee-4a14-4258-a55a-8ffae57b69e7__idd4584e71-c031-4378-be86-8dcca30174e4"><span class="figcap"><span class="fig--title-label">Figure 1. </span>Default Grid Inflation</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:120" src="../graphics/ug_GridInflationDefault.gif" /></div><br /></div>
+<p class="p">New grid constraints are
+created by the program and attached to the x-, y- and z-coordinates
+in cases where:</p>
+<ul class="ul"><li class="li" id="idf0bce1ee-4a14-4258-a55a-8ffae57b69e7__id78e3d643-a6b3-4d51-a8c4-795e95c8ec68"><p class="p">No grid constraint is attached to the
+object being inflated, or </p>
+</li>
+<li class="li" id="idf0bce1ee-4a14-4258-a55a-8ffae57b69e7__idf5f825fb-3cc6-45b5-baa6-1482a0435f16"><p class="p">A grid constraint is attached but it
+is also attached to another object.</p>
+<p class="p">If a grid constraint is attached and not
+attached to another object then that grid constraint will be used.
+In this case undefined inflation settings will be replaced with
+the default settings.</p>
+</li>
+</ul>
+<p class="p">In such cases the new grid constraint is named:</p>
+<p class="p BlockIndent"><var class="keyword varname">object name</var>_<var class="keyword varname">letter</var></p>
+<p class="p">where <var class="keyword varname">letter</var> is a, b, or
+c. For example, Cuboid:1_a.</p>
+<p class="p">If the object you want to inflate has three
+different grid constraints attached in three different directions <span class="ph FontProperty emphasis">and</span> those
+three grid constraints are attached to other objects in the project,
+then the inflated attachments will contain the name pattern of <var class="keyword varname">object name</var>_a, <var class="keyword varname">object name</var>_b,
+and <var class="keyword varname">object name</var>_c for the X, Y and Z directions
+respectively.</p>
+</div>
+<div class="section Subsection" id="idf0bce1ee-4a14-4258-a55a-8ffae57b69e7__idf69955b7-0cac-4346-95cf-d5d9a1f3616b"><h2 class="title Subheading sectiontitle">Asymmetric Grid Inflation</h2><p class="p">You can specify different inflation on each
+side of an object. For example, in <a class="xref fm:Figure" href="#idf0bce1ee-4a14-4258-a55a-8ffae57b69e7__id14d62a61-9192-4e68-ba21-d08e9a8a939c">Figure 2</a>, a Grid Constraint attribute
+has been attached only to the Xo direction of a cuboid. On the Low
+Side, three cells have been added over an additional 10% of the
+cuboid. On the High Side, five cells have been added over an additional
+20% of the object.</p>
+<div class="fig fignone" id="idf0bce1ee-4a14-4258-a55a-8ffae57b69e7__id14d62a61-9192-4e68-ba21-d08e9a8a939c"><span class="figcap"><span class="fig--title-label">Figure 2. </span>Grid With Inflation Layers</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:120" src="../graphics/ug_GridInflationAsymmetric.gif" /></div><br /></div>
+</div>
+<div class="section Subsection" id="idf0bce1ee-4a14-4258-a55a-8ffae57b69e7__id3619bce3-1bdb-4384-9945-f448ab052df7"><h2 class="title Subheading sectiontitle">Grid Inflation and Localization</h2><p class="p">If grid constraints defining inflation layers
+are attached to an object, but the object has Localize Grid switched
+on, then the inflation box still generates extra grid lines beyond
+the extent of the object, see <a class="xref fm:Figure" href="#idf0bce1ee-4a14-4258-a55a-8ffae57b69e7__idcafc8fb8-7cb9-4b1d-8d69-2cb51f21d90a">Figure 3</a>. This is useful for some
+kinds of grid generation.</p>
+<div class="fig fignone" id="idf0bce1ee-4a14-4258-a55a-8ffae57b69e7__idcafc8fb8-7cb9-4b1d-8d69-2cb51f21d90a"><span class="figcap"><span class="fig--title-label">Figure 3. </span>Grid Inflation and Localization</span><br /><div class="imagecenter"><img class="image imagecenter fmdpi:120" src="../graphics/ug_GridInflationDefault_and_Localized.gif" /></div><br /></div>
+</div>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent Topic:</strong> <a class="link" href="../topics/MGCChap_SpatialSolutionGrid_id526aa9f5.html" title="Grid operations on the drawing board, where the grid can be optimized prior to solving.">Spatial Solution Grid</a></div>
+</div>
+
+<div class="linklist linklist relinfo"><strong>Related Topics</strong><br />
+
+<div><a class="link" href="../../ft_at_ref/nsmgchelp.htm" target="_top" onclick="oT('STD_FM11', 'Grid Constraint Property Sheet', 'ft_at_ref'); return false;">Grid Constraint Property Sheet [Simcenter Flotherm Project Attributes Reference Guide]</a></div>
+<div><a class="link" href="../topics/TaskTop_InflatingTheGridAroundAnObject_idacb0508c.html" title="Inflate the grid around an object to extend the grid in the vicinity of the object.">Inflating the Grid Around an Object</a></div>
+<div><a class="link" href="../topics/TaskTop_DeflatingTheGridAroundAnObject_id7ad6cf25.html" title="Deflate the grid around an object to remove the effect of grid inflation.">Deflating the Grid Around an Object</a></div>
+<div><a class="link" href="../topics/Contain_GridLocalization_id6fd0e6a3.html" title="By default, grid lines generated by an object, whether they are due to keypoints or constraint lines, extend to the edges of the solution domain, however, this may not be necessary and can be prevented by “localizing” the grid.">Grid Localization</a></div></div>
+</div></div>
+</div>
+<!--BeginFooterContent--><div class="BlankFooter" id="BlankFooter"> </div><div class="Footer" id="Footer"> </div><script type="text/javascript"><!--
+                PDFLinkTitle = "InfoHub.Help"
+                DocHandle = "ft_user"
+                DocTitle = "Simcenter™ Flotherm™ User Guide"
+                PageTitle = "Grid Inflation"
+                Copyright = "2021"
+                ThisTopic = "PointingtoaCommoncustomerjsFile";
+                CurrentFile = "topics/Concept_GridInflation_idf0bce1ee.html"
+                CurrentFileID = "3";
+                topicFooter();
+            --></script><noscript><p class="MGCFooter">Simcenter™ Flotherm™ User Guide, 2021.1<br />Unpublished work. © 2021 Siemens 
+                <br /><a href="../../mgc_html_help/nsmgchelp.htm" target="_blank">Browser Requirements</a></p></noscript></body>
+</html>
